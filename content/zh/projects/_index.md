@@ -13,6 +13,34 @@ sections:
       subtitle: ''
       text: |
 
+        ### SC GenAI Splunk — Supply Chain Alert Monitoring `2026/1 — 2026/4`
+
+        > **技术栈**: Python · FastAPI · LangGraph · LangChain · Azure OpenAI · LangSmith · PyYAML · OAuth2 · Webex Adaptive Card · Snowflake · SMTP · pytest · Docker · Jenkins · Conjur
+
+        供应链 GenAI Splunk 告警监控平台，基于 **FastAPI Webhook** 接收 Splunk 告警，
+        经应用识别、模式匹配与 **LangGraph AI Agent** 分析后，通过邮件 + Webex 双通道智能通知。
+
+        - 将 Control-M 及通用 Splunk 告警通知升级为 **Webex Adaptive Card**（作业详情、Oracle 异常、可折叠区块等结构化展示）
+        - 集成 **Confluence Wiki 故障排查** 摘要并渲染至卡片；修复 **OAuth2 精确匹配** 校验问题
+        - 通过 CronJob 定时从 **LangSmith** 读取 Run/Trace 数据，写入 **Snowflake** 支撑 AI 告警可观测性
+        - 在组件级 YAML 支持 `custom_fields`，从 Splunk `result` 动态提取业务字段，贯通全链路展示
+
+        ---
+
+        ### GenAI Self Service Hub Service `2026/2 — 2026/4`
+
+        > **技术栈**: Python 3.11+ · FastAPI · Pydantic · PyYAML · Alation REST API · boto3 · S3 · Poetry · pytest
+
+        Cisco GenAI 平台的 **Self Service Hub** 后端微服务，为业务团队提供知识库、文档、Agent Workflow、MCP Registry 等自助能力。
+        本人负责 **Semantic Layer（语义层）** 能力建设。
+
+        - 实现 **Alation Cloud REST Client**（Token 刷新、表检索、列级元数据拉取），映射为结构化规格
+        - 基于 **PyYAML** 实现语义模型文档组装与校验（维度/事实拆分、关系与 Verified Queries），通过 FastAPI `/generate` 接口一键生成 Semantic Model YAML
+        - 完成生成结果的校验与落盘，将 YAML **上传至 S3**（按组件/应用命名与版本化管理）
+        - 交付 `/generate`、`/validate`、`/save` 等 REST 端点及 Pydantic Schema；补充 **pytest** 单元测试
+
+        ---
+
         ### Cisco IT Supply Chain GenAI Platform `2025/6 — 2026/1`
 
         > **技术栈**: Python · Streamlit · Duo SSO · GPU (CUDA) · OpenStack · HTTPS/TLS · Poetry · CI/CD · Ansible
@@ -25,6 +53,21 @@ sections:
         - 在 **OpenStack** 上为 Dev/Stage/Prod 环境完成 HTTPS 与 TLS 证书配置
         - 将依赖管理从 pip 迁移至 **Poetry**，并完成 **CI/CD Pipeline** 搭建
         - 完成 **Ansible** 安装与配置，建立多 VM 自动化运维基础
+
+        ---
+
+        ### API Maestro — Cisco IT Hackathon 2025 `2025/5 — 2025/6`
+
+        > **技术栈**: Python 3.12 · LangChain · LangGraph · FastMCP · Streamlit · FastAPI · OpenAPI/Swagger · BridgeIT · Docker Compose · PyYAML · Requests · ReAct Agent
+
+        **Solo 独立完成** 的 Cisco IT Hackathon 2025 参赛作品，用自然语言驱动任意 OpenAPI 应用：
+        系统自动解析 OpenAPI/Swagger 规范，将用户的口语化指令翻译为精准的 HTTP API 调用。
+
+        - 从 0 到 1 独立交付：架构设计、核心编码、Demo 与容器化部署，约 2 个月完成完整作品
+        - 基于 **LangGraph ReAct Agent** 构建 NL → API 编排链路，动态将 OpenAPI 端点映射为 LangChain Tools
+        - 实现 OpenAPI 规范解析与端点工具化，支持运行时加载/切换 API Spec
+        - 将 Agent 能力重构为基于 **FastMCP** 的 MCP 服务，提供标准化 Tool，支持 Cursor/IDE 接入
+        - 交付 **Streamlit** 对话式 Web UI 与 **FastAPI HTTP Bridge**，配套 Mock API Server
 
         ---
 
@@ -73,67 +116,21 @@ sections:
 
         ---
 
-        ### RCE — Royalty Calculation Engine `2018/7 — 至今`
+        ### 早期项目 (2003 — 至今)
 
-        > **技术栈**: Java 21 · Spring Boot 4.0 · OAuth2 · JWT · Oracle · Redis · WebFlux · Angular 21 · Nx Monorepo · AG Grid · Docker · Jenkins · Spinnaker · OpenShift
-
-        Cisco 全公司用于计算外付供应商专利税的核心业务系统，覆盖 **30+ 业务模块**，
-        是部门内体量最大的业务系统。
-
-        - Tech Lead 带领 US/India/China 共 9 人团队，端到端负责设计、开发、上线与运维
-        - Cloud Native 架构 + **API-First (OpenAPI v3)** 代码生成
-        - 率先落地 **Blue-Green 部署** — 供应链 IT 部门首个具备此能力的项目
-        - 前端基于 **Nx Monorepo**，孵化可发布共享库 `@scf/common-lib`
-        - 通过 **OpenRewrite** 主导持续技术演进；接入 **Micrometer Tracing** 分布式追踪
-
-        ---
-
-        ### Self Service Model `2014/11 — 2018/1`
-
-        > **技术栈**: RedHat · Java · Shell
-
-        优化构建和部署流程，实现 Dev、QA 团队以 Self Service 方式完成上线，
-        实现一次构建多次部署。开发 Continuous Delivery Portal 提供实时数据和统计报表。
-
-        ---
-
-        ### Continuous Delivery Transformation `2013/11 — 2014/10`
-
-        > **技术栈**: Stash · Enterprise Jenkins · Artifactory Pro · SonarQube · IBM UrbanCode Deploy/Release
-
-        Cisco IT 部门 CDT 项目 — 迁移老旧 Git/Jenkins/Artifactory 到新平台，
-        利用 uDeploy 和 uRelease 完成自动化部署和上线管理。
-
-        ---
-
-        ### Data Center Migration `2012/7 — 2013/10`
-
-        > **技术栈**: RedHat · WebLogic · Oracle HTTP Server
-
-        将应用程序从老 WebEx Data Center 迁移到标准 Cisco Data Center。
-        编写整套 **WLST** 自动化脚本加速环境搭建。
-
-        ---
-
-        ### Git Migration `2011/7 — 2012/6`
-
-        > **技术栈**: RedHat · Clustered Tomcat · Git · Gitblit · gitolite · GitLab
-
-        主导团队从 CVS 到 Git 的迁移 — 完成 POC，制定技术方案和计划，培训开发人员，
-        带领 DevOps 成员完成迁移。
-
-        ---
-
-        ### 早期项目 (2003 — 2010)
-
-        | 时间 | 项目 | 亮点 |
+        | 时间 | 项目 | 角色与亮点 |
         |---|---|---|
-        | 2009/9 — 2010/10 | Continuous Integration | 重构 CruiseControl；主导迁移至 Hudson（Jenkins） |
-        | 2008/8 — 2009/8 | WebEx Elvis | 维护内部生命周期管理系统（PHP + MySQL） |
-        | 2008/7 — 2009/8 | Myify | PHP/Zend/Dojo 任务跟踪应用主开发（90%+ 代码） |
-        | 2007/10 — 2008/5 | Y!China NBS Platform | 雅虎站长天下建站平台前端主开发 |
-        | 2007/5 — 2007/7 | Y!China Blog UGC | 雅虎博客聚合前端架构设计 |
-        | 2006/2 — 2007/5 | Y!China Photo Service | 雅虎相册前端主开发，PV 从 <100 万提升至 2000 万+ |
+        | 2018/7 — 至今 | RCE — Royalty Calculation Engine | Tech Lead（9 人跨国团队）；Cisco 专利税核心业务系统（30+ 模块）；Cloud Native + API-First；部门首个 Blue-Green 零停机部署；Nx Monorepo 与 @scf/common-lib 共享库；OpenRewrite 演进至 Spring Boot 4/Java 21/Angular 21 |
+        | 2014/11 — 2018/1 | Self Service Model | 优化构建/部署流程，实现 Build-Once/Deploy-Many 与 Dev/QA Self Service 上线；开发 Continuous Delivery Portal |
+        | 2013/11 — 2014/10 | Continuous Delivery Transformation | Cisco IT CDT 统一交付平台；主导 Git/Jenkins/Artifactory 迁移至新平台；uDeploy/uRelease 可行性研究与美印平台团队协作 |
+        | 2012/7 — 2013/10 | Data Center Migration | WebEx DataCenter → Cisco DataCenter 应用迁移；赴美参与架构讨论与 POC；编写 WLST 自动化脚本 |
+        | 2011/7 — 2012/6 | Git Migration | CVS → Git 迁移；完成 POC 与技术方案；英语培训 Dev 团队 Git 技能；带领 DevOps 成员按计划完成迁移 |
+        | 2009/9 — 2010/10 | Continuous Integration | 重构 CruiseControl 脚本；主导从 CruiseControl 迁移至 Hudson（Jenkins） |
+        | 2008/8 — 2009/8 | WebEx Elvis | 维护内部生命周期管理系统（PHP + MySQL），完成 Bug 修复与功能开发 |
+        | 2008/7 — 2009/8 | Myify | PHP/Zend/Dojo 任务跟踪 Web 应用主开发，完成 90%+ 代码 |
+        | 2007/10 — 2008/5 | Y!China NBS Platform | 雅虎站长天下建站平台前端主开发，主导 symfony 框架落地与后台管理模块 |
+        | 2007/5 — 2007/7 | Y!China Blog UGC | 雅虎博客聚合前端架构设计与开发（PHP + PostgreSQL） |
+        | 2006/2 — 2007/5 | Y!China Photo Service | 雅虎相册前端主开发，配合运营将 PV 从 <100 万提升至 2000 万+ |
         | 2003/10 — 2004/2 | 国家外资年检系统 | 商务部联合 7 部委的 .NET 系统 |
   - block: markdown
     content:
@@ -166,6 +163,20 @@ sections:
         - 自构建并维护专用 Playwright Docker 镜像；通过 Jenkins Pipeline + 矩阵参数调度
         - 自建 Test Report Server（Express + Multer），DUO OIDC + OAuth2 JWT 保护
         - 作为可复用模板被团队多个项目采纳
+
+        ---
+
+        ### Video Downloader `2025/6 — 2025/7`
+
+        > **技术栈**: Python 3.12 · yt-dlp · PyYAML · Docker · Docker Compose · GitHub Actions · GHCR · Bash
+        > **开源仓库**: [github.com/zpkx/video-downloader](https://github.com/zpkx/video-downloader)
+
+        个人业余开源项目，解决多平台视频批量下载与归档痛点：手工维护 URL 列表、按类别分目录保存、避免触发限流，支持 NAS/容器环境改配置即自动下载。
+
+        - 基于 **yt-dlp** 封装 `VideoDownloader` 类，支持单 URL、多 URL、按类别批量下载及 info-only/dry-run 模式
+        - YAML 驱动配置：urls.yaml 定义分类与 URL 列表，config.yaml 集中管理 yt-dlp 选项
+        - 提供 **Dockerfile + docker-compose**（watcher/oneshot/manual 多服务模式），实现 urls.yaml 变更即触发下载
+        - 通过 **GitHub Actions** 构建并发布镜像至 **GHCR**，便于家庭 NAS 长期拉取运行
     design:
       columns: '1'
 ---

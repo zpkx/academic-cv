@@ -13,6 +13,35 @@ sections:
       subtitle: ''
       text: |
 
+        ### SC GenAI Splunk — Supply Chain Alert Monitoring `Jan 2026 — Apr 2026`
+
+        > **Stack**: Python · FastAPI · LangGraph · LangChain · Azure OpenAI · LangSmith · PyYAML · OAuth2 · Webex Adaptive Card · Snowflake · SMTP · pytest · Docker · Jenkins · Conjur
+
+        Supply Chain GenAI Splunk alert monitoring platform. Receives Splunk alerts via **FastAPI Webhook**,
+        applies app identification, pattern matching, and **LangGraph AI Agent** analysis, then sends intelligent
+        notifications through email + Webex dual channels.
+
+        - Upgraded Control-M and general Splunk alerts to **Webex Adaptive Cards** with structured display
+        - Integrated **Confluence Wiki** troubleshooting summaries into cards; fixed **OAuth2** validation issues
+        - Scheduled CronJob to read Run/Trace data from **LangSmith** and write to **Snowflake** for AI observability
+        - Added `custom_fields` support in component YAML, extracting business fields from Splunk `result` dynamically
+
+        ---
+
+        ### GenAI Self Service Hub Service `Feb 2026 — Apr 2026`
+
+        > **Stack**: Python 3.11+ · FastAPI · Pydantic · PyYAML · Alation REST API · boto3 · S3 · Poetry · pytest
+
+        Backend microservice for Cisco GenAI's **Self Service Hub**, providing business teams with self-service
+        capabilities for knowledge bases, documents, Agent Workflows, and MCP Registry. Owned the **Semantic Layer** build-out.
+
+        - Implemented **Alation Cloud REST Client** (token refresh, table retrieval, column-level metadata extraction)
+        - Built Semantic Model YAML generation with **PyYAML** (dimension/fact splitting, relationships, Verified Queries); exposed via FastAPI `/generate` endpoint
+        - Completed YAML validation and **S3 upload** with component/app naming and versioning
+        - Delivered `/generate`, `/validate`, `/save` REST endpoints with Pydantic Schemas; added **pytest** unit tests
+
+        ---
+
         ### Cisco IT Supply Chain GenAI Platform `Jun 2025 — Jan 2026`
 
         > **Stack**: Python · Streamlit · Duo SSO · GPU (CUDA) · OpenStack · HTTPS/TLS · Poetry · CI/CD · Ansible
@@ -25,6 +54,22 @@ sections:
         - Configured HTTPS and TLS certificates across Dev/Stage/Prod on **OpenStack**
         - Migrated dependency management from pip to **Poetry**; built CI/CD pipeline
         - Installed and configured **Ansible** for multi-VM automation foundation
+
+        ---
+
+        ### API Maestro — Cisco IT Hackathon 2025 `May 2025 — Jun 2025`
+
+        > **Stack**: Python 3.12 · LangChain · LangGraph · FastMCP · Streamlit · FastAPI · OpenAPI/Swagger · BridgeIT · Docker Compose · PyYAML · Requests · ReAct Agent
+
+        **Solo project** for Cisco IT Hackathon 2025. Drives any OpenAPI application with natural language:
+        automatically parses OpenAPI/Swagger specs, understands endpoints and workflows, and translates
+        conversational instructions into precise HTTP API calls.
+
+        - Independently delivered architecture, coding, demo, and containerized deployment in ~2 months
+        - Built NL → API orchestration chain with **LangGraph ReAct Agent**, dynamically mapping OpenAPI endpoints to LangChain Tools
+        - Implemented OpenAPI spec parsing and runtime endpoint tool generation, supporting live spec switching
+        - Evolved Agent capabilities into **FastMCP**-based MCP server with standardized Tools for Cursor/IDE integration
+        - Delivered **Streamlit** conversational Web UI and **FastAPI HTTP Bridge** with Mock API Server
 
         ---
 
@@ -73,61 +118,15 @@ sections:
 
         ---
 
-        ### RCE — Royalty Calculation Engine `Jul 2018 — Present`
-
-        > **Stack**: Java 21 · Spring Boot 4.0 · OAuth2 · JWT · Oracle · Redis · WebFlux · Angular 21 · Nx Monorepo · AG Grid · Docker · Jenkins · Spinnaker · OpenShift
-
-        Cisco's enterprise-wide system for calculating outbound royalty payments to suppliers,
-        covering **30+ business modules** — the largest business system in the department.
-
-        - Tech Lead for a 9-person team across US/India/China, owning end-to-end delivery
-        - Cloud Native architecture with **API-First (OpenAPI v3)** code generation
-        - Pioneered **Blue-Green Deployment** — first project in the department with this capability
-        - Frontend on **Nx Monorepo** with publishable shared library `@scf/common-lib`
-        - Drove continuous modernization through **OpenRewrite**; integrated **Micrometer Tracing**
-
-        ---
-
-        ### Self Service Model `Nov 2014 — Jan 2018`
-
-        > **Stack**: RedHat · Java · Shell
-
-        Streamlined build and deployment workflows enabling Dev/QA self-service releases with
-        Build-Once/Deploy-Many. Developed a Continuous Delivery Portal providing real-time pipeline metrics.
-
-        ---
-
-        ### Continuous Delivery Transformation `Nov 2013 — Oct 2014`
-
-        > **Stack**: Stash · Enterprise Jenkins · Artifactory Pro · SonarQube · IBM UrbanCode Deploy/Release
-
-        Cisco IT-wide CDT initiative — migrated legacy Git, Jenkins, and Artifactory to the new unified
-        platform; adopted uDeploy and uRelease for automated deployment and release management.
-
-        ---
-
-        ### Data Center Migration `Jul 2012 — Oct 2013`
-
-        > **Stack**: RedHat · WebLogic · Oracle HTTP Server
-
-        Migrated applications from legacy WebEx Data Center to standard Cisco Data Center.
-        Authored a complete suite of **WLST** automation scripts to accelerate environment setup.
-
-        ---
-
-        ### Git Migration `Jul 2011 — Jun 2012`
-
-        > **Stack**: RedHat · Clustered Tomcat · Git · Gitblit · gitolite · GitLab
-
-        Led team migration from CVS to Git — delivered POC, developed technical strategy and rollout plan,
-        trained developers on Git (in English), and led DevOps engineers through the migration.
-
-        ---
-
-        ### Earlier Projects (2003 — 2010)
+        ### Earlier Projects (2003 — Present)
 
         | Period | Project | Highlights |
         |---|---|---|
+        | 2018/7 — Present | RCE — Royalty Calculation Engine | Tech Lead (9-person cross-border team); Cisco's enterprise royalty calculation system (30+ modules); Cloud Native + API-First; first Blue-Green zero-downtime deployment in department; Nx Monorepo with @scf/common-lib; upgraded to Spring Boot 4/Java 21/Angular 21 via OpenRewrite |
+        | 2014/11 — 2018/1 | Self Service Model | Streamlined build/deploy workflows; Build-Once/Deploy-Many; Dev/QA self-service; Continuous Delivery Portal |
+        | 2013/11 — 2014/10 | Continuous Delivery Transformation | Cisco IT CDT unified platform; migrated Git/Jenkins/Artifactory; uDeploy/uRelease feasibility study |
+        | 2012/7 — 2013/10 | Data Center Migration | WebEx DC → Cisco DC app migration; US architecture discussions & POC; WLST automation scripts |
+        | 2011/7 — 2012/6 | Git Migration | CVS → Git migration; POC & technical planning; trained developers on Git (in English) |
         | 2009/9 — 2010/10 | Continuous Integration | Refactored CruiseControl; migrated to Hudson (Jenkins) |
         | 2008/8 — 2009/8 | WebEx Elvis | Maintained lifecycle management system (PHP + MySQL) |
         | 2008/7 — 2009/8 | Myify | Lead developer of PHP/Zend/Dojo task-tracking app (90%+ code) |
@@ -167,6 +166,22 @@ sections:
         - Built and maintain custom **Playwright Docker image**; CI orchestrated via **Jenkins parameter matrix**
         - Self-hosted **Test Report Server** (Express + Multer) with DUO OIDC + OAuth2 JWT protection
         - Adopted as reusable template by multiple team projects
+
+        ---
+
+        ### Video Downloader `Jun 2025 — Jul 2025`
+
+        > **Stack**: Python 3.12 · yt-dlp · PyYAML · Docker · Docker Compose · GitHub Actions · GHCR · Bash
+        > **Open Source**: [github.com/zpkx/video-downloader](https://github.com/zpkx/video-downloader)
+
+        Personal open-source project for multi-platform batch video downloading and archiving.
+        Supports YAML-driven URL management, category-based directory organization, rate-limit avoidance,
+        and auto-download on config change for NAS/container environments.
+
+        - Built `VideoDownloader` class on **yt-dlp** with single/multi-URL, category batch download, and info-only/dry-run modes
+        - YAML-driven config: urls.yaml for categories and URL lists, config.yaml for centralized yt-dlp options
+        - **Dockerfile + docker-compose** with watcher/oneshot/manual service modes; URL change triggers auto-download
+        - Published image to **GHCR** via **GitHub Actions** for home NAS deployment
     design:
       columns: '1'
 ---
