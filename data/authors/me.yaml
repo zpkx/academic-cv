@@ -2,115 +2,163 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: Peng Zhang
+  given: Peng
+  family: Zhang
+  alternate: 张鹏
+  pronunciation: ''
   pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+postnominals: []
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "💻"
+role: IT Software Engineering Technical Leader
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  I bring strong self-management, a proactive learning mindset, and solid hands-on capability.
+  A broad knowledge base and analytical thinking enable me to dive deep into complex technical
+  challenges. With 20+ years of experience in the IT and software industry, I have built rich
+  cross-domain project experience.
+
+  Within teams, I serve as a technical backbone and leader, driving the team to achieve shared
+  goals. Fluent in English, I excel at cross-functional communication and coordination.
+  I am highly self-driven and committed to continuous improvement, proactively exploring
+  frontier technologies and striving for excellence in every task.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Cisco Systems (China) R&D Co., Ltd.
+    url: https://www.cisco.com/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:zpkx@qq.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - AI & LLM (LangChain, RAG, MCP, AI Agent)
+  - Cloud Native Architecture (Docker, Kubernetes, OpenShift)
+  - Full-Stack Development (Java/Spring, Angular, React)
+  - DevSecOps & CI/CD Engineering
+  - Developer Productivity & AI Harness
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+  - degree: Bachelor's in Computer Applications
+    institution: Hefei University of Technology
+    start: 1999-09-01
+    end: 2003-07-01
+    summary: ''
     button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      text: ''
+      url: ''
+      icon: ''
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: IT Software Engineering Technical Leader
+    org: Cisco Systems (China) R&D Co., Ltd. — Hefei
+    start: 2008-07-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      **Supply Chain IT Source & Finance Team · Tech Lead**
+
+      - Lead cross-border India + China engineering team delivering cloud-based IT platforms for Cisco Supply Chain
+      - Drive Cloud Native architecture design and validation; establish microservices and cloud-native technical standards
+      - Build foundational frontend/backend frameworks and reference implementations for delivery consistency
+      - Lead technical and business training, mentor developers, resolve complex production and design issues
+      - Drive department-level technical decisions and standardization
+      - Drive AI adoption within the team, leveraging AI Harness, Coding Agents, and RAG
+
+      **Cloud Software Team · Tech Lead**
+
+      - Led team transformation from configuration management to DevOps; grew team from 3 to 15
+      - Architected, built, and operated the team's CI/CD platform; optimized build, test, and release workflows
+      - Defined and governed software development lifecycle processes
+      - Implemented automated environment provisioning and management
+      - Researched emerging technologies and industry best practices, driving their adoption
+  - role: Senior Software Engineer
+    org: Yahoo! China — Platform Technology Department
+    start: 2006-02-01
+    end: 2008-06-30
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Core member of the Platform Technology team, contributing to Yahoo! China's social product line
+      including new products (Zhanzhang Tianxia) and major enhancements to existing products (Yahoo Photos).
+      Mentored 2 junior engineers through their onboarding and ramp-up.
+  - role: Software QA Engineer
+    org: WebEx Communications (China) — Hefei
+    start: 2004-02-01
+    end: 2006-02-28
+    summary: |
+      Owned testing for multiple WebEx Meeting projects — test planning, case design, and execution —
+      collaborating closely with US-based PMs and engineers across global sites.
+  - role: Software Engineer
+    org: Anhui Baipeng Information Technology Co., Ltd.
+    start: 2003-02-01
+    end: 2004-02-28
+    summary: |
+      Developed, tested, and maintained B/S architecture applications.
+      Maintained internal network infrastructure and servers.
 
 skills:
-  - name: Technical Skills
+  - name: AI & Intelligence
     items:
+      - label: LangChain, RAG, MCP
+        level: 4
+      - label: AI Agent, AI Harness
+        level: 5
       - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
         level: 4
-  - name: Research & Communication
+  - name: Backend
     items:
-      - label: Academic Writing
+      - label: Java + Spring (Boot, Cloud)
         level: 5
-      - label: Conference Presentations
+      - label: Node.js
+        level: 3
+  - name: Frontend
+    items:
+      - label: Angular
+        level: 5
+      - label: React
         level: 4
-      - label: Grant Proposals
+  - name: Data
+    items:
+      - label: Oracle, MySQL, PostgreSQL
+        level: 5
+      - label: Redis, MongoDB
+        level: 4
+      - label: Kafka
+        level: 4
+  - name: Architecture & Cloud
+    items:
+      - label: Cloud Native / Microservices
+        level: 5
+      - label: Docker, Kubernetes
+        level: 4
+      - label: OpenShift
+        level: 4
+  - name: DevSecOps
+    items:
+      - label: CI/CD, Jenkins
+        level: 5
+      - label: SonarQube, SAST, Conjur
         level: 4
 
 languages:
   - name: English
     level: 5
+    label: Fluent (working language for 17+ years)
+  - name: Chinese
+    level: 5
     label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: AWS Certified Solutions Architect — Associate
+    awarder: Amazon Web Services
+    date: "2020-05-01"
+    summary: ''
+    icon: hero/trophy
+  - title: Certified Scrum Master (CSM)
+    awarder: Scrum Alliance
+    date: "2015-01-01"
+    summary: ''
+    icon: hero/trophy
+  - title: Oracle Certified Associate — WebLogic Server 11g System Administrator
+    awarder: Oracle
+    date: "2014-06-01"
+    summary: ''
     icon: hero/trophy
