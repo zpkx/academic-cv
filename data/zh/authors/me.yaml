@@ -1,0 +1,160 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: 张鹏
+  given: 鹏
+  family: 张
+  alternate: Peng Zhang
+  pronunciation: ''
+  pronouns: he/him
+postnominals: []
+status:
+  icon: "💻"
+role: IT 软件工程技术负责人
+bio: |
+  我具备较强的自我管理能力，积极的学习态度和出色的动手能力。广泛的知识面和善于思考的分析能力
+  使我能够深入探讨复杂的技术难题。在 IT 和软件行业拥有 20+ 年经验和技术积累，积累了丰富的
+  跨领域项目经验。
+
+  在团队中，我担任技术骨干和领头人，带领团队共同完成既定目标。英语听说读写流利，善于跨部门
+  沟通与协调。我高度自驱，致力于持续改进，积极主动地探索和钻研前沿技术，力求在每项任务中
+  做到精益求精。
+
+affiliations:
+  - name: 思科系统（中国）研发有限公司
+    url: https://www.cisco.com/
+
+links:
+  - icon: at-symbol
+    url: mailto:zpkx@qq.com
+    label: 电子邮件
+
+interests:
+  - AI 与智能化（LangChain, RAG, MCP, AI Agent）
+  - 云原生架构（Docker, Kubernetes, OpenShift）
+  - 全栈开发（Java/Spring, Angular, React）
+  - DevSecOps 与 CI/CD 工程
+  - 研发效能与 AI Harness
+
+education:
+  - degree: 计算机应用 本科
+    institution: 合肥工业大学
+    start: 1999-09-01
+    end: 2003-07-01
+    summary: ''
+    button:
+      text: ''
+      url: ''
+      icon: ''
+
+experience:
+  - role: IT 软件工程技术负责人
+    org: 思科系统（中国）研发有限公司 合肥分公司
+    start: 2008-07-01
+    summary: |
+      **供应链 IT Source & Finance 团队 · Tech Lead**
+
+      - 带领 India 和 China 跨国团队，为 Cisco 供应链交付多个云平台 IT 系统
+      - 主导 Cloud Native 架构设计与验证，确立团队微服务与云原生技术标准
+      - 建设前后端基础框架与示例代码，作为团队 reference implementation 提升交付一致性
+      - 主导技术与业务培训，指导开发人员，解决系统开发、运行中的复杂问题
+      - 参与并推动部门级技术决策与标准化，输出可复用的技术方案
+      - 推动 AI 在团队内的落地，结合 AI Harness、Coding Agent、RAG 等能力提升研发效率与代码质量
+
+      **云软件团队 · Tech Lead**
+
+      - 帮助团队从 CM 配置管理到 DevOps 转型，团队规模从 3 人扩展至 15 人
+      - 主导 CI/CD 平台的架构设计、搭建与实施，持续优化构建、测试与发布流程，显著缩短交付周期
+      - 定义并监管软件开发流程
+      - 以自动化方式完成应用环境的搭建与管理，协助开发团队 Debug 应用运行问题
+      - 跟踪研究新技术与行业最佳实践，并推动落地
+  - role: 高级软件工程师
+    org: 中国雅虎 — 平台技术开发部
+    start: 2006-02-01
+    end: 2008-06-30
+    summary: |
+      作为平台技术开发部的核心成员，参与中国雅虎社交产品线的开发，涉及新产品的开发（如"站长天下"）
+      以及老产品的新功能和运营需求（如"雅虎相册"）。指导 2 名初级工程师完成入职与成长。
+  - role: 软件 QA 工程师
+    org: 网迅（中国）软件有限公司 合肥分公司
+    start: 2004-02-01
+    end: 2006-02-28
+    summary: |
+      参与多个 WebEx Meeting 项目的测试工作，包括制定测试计划，编写测试用例，执行测试过程。
+      同时需要与美国的 PM 和其他 site 的 dev 进行沟通和协作。
+  - role: 软件工程师
+    org: 安徽百朋信息技术有限公司
+    start: 2003-02-01
+    end: 2004-02-28
+    summary: |
+      主要从事 B/S 结构的软件开发、测试和维护。维护公司内的网络和硬件，包括服务器的维护。
+
+skills:
+  - name: AI 与智能化
+    items:
+      - label: LangChain, RAG, MCP
+        level: 4
+      - label: AI Agent, AI Harness
+        level: 5
+      - label: Python
+        level: 4
+  - name: 后端开发
+    items:
+      - label: Java + Spring（Boot, Cloud）
+        level: 5
+      - label: Node.js
+        level: 3
+  - name: 前端开发
+    items:
+      - label: Angular
+        level: 5
+      - label: React
+        level: 4
+  - name: 数据存储
+    items:
+      - label: Oracle, MySQL, PostgreSQL
+        level: 5
+      - label: Redis, MongoDB
+        level: 4
+      - label: Kafka
+        level: 4
+  - name: 架构与云
+    items:
+      - label: Cloud Native / 微服务
+        level: 5
+      - label: Docker, Kubernetes
+        level: 4
+      - label: OpenShift
+        level: 4
+  - name: 研发效能
+    items:
+      - label: CI/CD, Jenkins
+        level: 5
+      - label: SonarQube, SAST, Conjur
+        level: 4
+
+languages:
+  - name: 英语
+    level: 5
+    label: 听说读写流利（17+ 年跨国工作语言）
+  - name: 中文
+    level: 5
+    label: 母语
+
+awards:
+  - title: AWS Certified Solutions Architect — Associate
+    awarder: Amazon Web Services
+    date: "2020-05-01"
+    summary: ''
+    icon: hero/trophy
+  - title: Certified Scrum Master (CSM)
+    awarder: Scrum Alliance
+    date: "2015-01-01"
+    summary: ''
+    icon: hero/trophy
+  - title: Oracle Certified Associate — WebLogic Server 11g System Administrator
+    awarder: Oracle
+    date: "2014-06-01"
+    summary: ''
+    icon: hero/trophy
