@@ -1,0 +1,197 @@
+/* Resume PDF stylesheet — A4, print-optimized */
+
+@page {
+  size: A4;
+  margin: 12mm 13mm 14mm 13mm;
+}
+
+:root {
+  --fg: #1f2937;
+  --muted: #4b5563;
+  --accent: #0b5cab;
+  --line: #e5e7eb;
+  --soft: #f5f7fb;
+  --code-bg: #f3f4f6;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--fg);
+  font-family:
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "Microsoft YaHei",
+    "Noto Sans CJK SC",
+    "Helvetica Neue",
+    Arial,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    sans-serif;
+  font-size: 10pt;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+main,
+article {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 22pt;
+  font-weight: 700;
+  color: var(--fg);
+  margin: 0 0 4pt 0;
+  letter-spacing: 0.5pt;
+}
+
+h1 + blockquote,
+#title-block-header + blockquote {
+  margin: 0 0 6pt 0;
+  padding: 0;
+  border: none;
+  color: var(--muted);
+  font-size: 11pt;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 12.5pt;
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 1pt solid var(--accent);
+  padding-bottom: 2pt;
+  margin: 11pt 0 6pt 0;
+  page-break-after: avoid;
+}
+
+h3 {
+  font-size: 11pt;
+  font-weight: 700;
+  color: var(--fg);
+  margin: 8pt 0 3pt 0;
+  page-break-after: avoid;
+}
+
+h4 {
+  font-size: 10pt;
+  font-weight: 700;
+  color: var(--fg);
+  margin: 5pt 0 2pt 0;
+  page-break-after: avoid;
+}
+
+p {
+  margin: 3pt 0;
+}
+
+ul,
+ol {
+  margin: 3pt 0 4pt 0;
+  padding-left: 16pt;
+}
+
+li {
+  margin: 1pt 0;
+}
+
+strong,
+b {
+  color: var(--fg);
+  font-weight: 700;
+}
+
+code {
+  background: var(--code-bg);
+  padding: 0.5pt 4pt;
+  border-radius: 3pt;
+  font-family: "SF Mono", "Menlo", "Consolas", monospace;
+  font-size: 9.5pt;
+  color: #b91c1c;
+}
+
+pre {
+  background: var(--code-bg);
+  padding: 6pt;
+  border-radius: 4pt;
+  overflow-x: hidden;
+  font-size: 9.5pt;
+  page-break-inside: avoid;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  color: var(--fg);
+}
+
+blockquote {
+  margin: 3pt 0 5pt 0;
+  padding: 4pt 8pt;
+  background: var(--soft);
+  border-left: 2pt solid var(--accent);
+  color: var(--muted);
+  font-size: 9.5pt;
+}
+
+blockquote p {
+  margin: 1pt 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 4pt 0 6pt 0;
+  font-size: 9.5pt;
+  page-break-inside: avoid;
+}
+
+th,
+td {
+  border: 0.4pt solid var(--line);
+  padding: 3pt 6pt;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: var(--soft);
+  font-weight: 700;
+  color: var(--fg);
+}
+
+tr:nth-child(even) td {
+  background: #fbfcfe;
+}
+
+hr {
+  border: none;
+  border-top: 0.5pt dashed var(--line);
+  margin: 8pt 0;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+h3,
+h4 {
+  break-after: avoid;
+}
+
+h3 + p,
+h3 + blockquote,
+h4 + p {
+  break-before: avoid;
+}
+
+h1 + p {
+  margin-top: 0;
+  color: var(--muted);
+  font-size: 10.5pt;
+}

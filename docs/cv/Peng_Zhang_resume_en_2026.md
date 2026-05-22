@@ -6,28 +6,35 @@
 
 ---
 
+## Personal Information
+
+| Name           | Peng Zhang        | Gender               | Male    |
+| -------------- | ----------------- | -------------------- | ------- |
+| **Date of Birth** | 1980 / 8 / 17     | **Residence / Hukou** | Hefei   |
+| **Years of Experience** | 20+               | **Marital Status**     | Married |
+
+---
+
 ## Professional Summary
 
-I bring strong self-management, a proactive learning mindset, and solid hands-on capability. A broad knowledge base and analytical thinking enable me to dive deep into complex technical challenges. With many years of experience and accumulated expertise in the IT and software industry, I have built rich cross-domain project experience.
+I bring strong self-management, a proactive learning mindset, and excellent hands-on capability. A broad knowledge base and analytical thinking enable me to dive deep into complex technical challenges. With years of experience and accumulated expertise in the IT and software industry, I have built rich cross-domain project experience.
 
-Within teams, I serve as a technical backbone and leader, driving the team to achieve shared goals. Fluent in English (reading, writing, speaking, and listening), I excel at cross-functional communication and coordination.
+Within teams, I serve as a technical backbone and leader, driving the team to achieve shared goals. Fluent in English across listening, speaking, reading, and writing, I excel at cross-functional communication and collaboration.
 
-I am highly self-driven and committed to continuous improvement. I proactively explore and research frontier technologies, striving for excellence in every task. With self-discipline and a goal-oriented approach, I ensure consistent delivery of high-quality results while fostering team innovation and growth.
+I am highly self-driven and committed to continuous improvement. I proactively explore and research frontier technologies, striving for excellence in every task. With self-discipline and a goal-oriented mindset, I consistently deliver high-quality outcomes while helping drive team innovation and growth.
 
 ---
 
 ## Technical Expertise
 
-
-| Category                 | Technologies                                                             |
-| ------------------------ | ------------------------------------------------------------------------ |
-| **AI & Intelligence**    | LangChain, RAG, MCP, AI Agent, AI Harness (Cursor, Claude Code, Copilot) |
-| **Backend**              | Java + Spring (Boot, Cloud), Python, Node.js                             |
-| **Frontend**             | Angular, React                                                           |
-| **Data**                 | SQL (Oracle, MySQL, PostgreSQL), NoSQL (Redis, MongoDB)                  |
-| **Architecture & Cloud** | Monolithic, Microservices, Cloud Native (OpenShift, Docker, Kubernetes)  |
-| **DevSecOps**            | CI/CD, Jenkins, SonarQube, Security Scanning, Ansible                    |
-
+| Category                 | Technologies                                                                       |
+| ------------------------ | ---------------------------------------------------------------------------------- |
+| **AI & Intelligence**    | LangChain, MCP, RAG, AI Agent, AI Harness (Cursor, Claude Code, Copilot)         |
+| **Backend Development**  | Java + Spring (Boot, Cloud), Python, Node.js                                      |
+| **Frontend Development** | Angular, React                                                                     |
+| **Data Storage**         | SQL (Oracle, MySQL, PostgreSQL), NoSQL (Redis, MongoDB)                           |
+| **Architecture & Cloud** | Monolithic, Microservice, Cloud Native (OpenShift, Docker, Kubernetes)            |
+| **Engineering Productivity** | DevSecOps (CI/CD, Jenkins, SonarQube, Security Scanning)                           |
 
 ---
 
@@ -39,42 +46,73 @@ I am highly self-driven and committed to continuous improvement. I proactively e
 
 **▸ Supply Chain IT Source & Finance Team · Tech Lead**
 
-1. **Team Leadership** — Lead a cross-border India + China engineering team to deliver multiple cloud-based IT platforms for Cisco Supply Chain;
-2. **Architecture Design** — Drive Cloud Native architecture design and validation; establish team-wide microservices and cloud-native technical standards;
-3. **Technical Stewardship** — Build foundational frontend / backend frameworks and reference implementations to ensure delivery consistency across the team;
-4. **People Development** — Lead technical and business training, mentor developers, and resolve complex production and design issues;
-5. **Technical Decision-Making** — Drive department-level technical decisions and standardization, producing reusable solutions for cross-team adoption;
-6. **AI Adoption** — Drive AI adoption within the team, leveraging AI Harness, Coding Agents, and RAG to improve developer productivity and code quality.
+1. **Team Leadership**: Lead a cross-border India and China engineering team to deliver multiple cloud IT systems for Cisco Supply Chain;
+2. **Architecture Design**: Drive Cloud Native architecture design and validation, and establish team-level microservice and cloud-native technical standards;
+3. **Technical Stewardship**: Build foundational frontend/backend frameworks and reference implementations to improve delivery consistency;
+4. **People Development**: Lead technical and business training, mentor engineers, and solve complex development and production issues;
+5. **Technical Decision-Making**: Participate in and drive department-level technical decisions and standardization, producing reusable solution patterns;
+6. **AI Adoption**: Drive AI adoption in the team by leveraging AI Harness, Coding Agents, and RAG to improve engineering productivity and code quality.
 
 **▸ Cloud Software Team · Tech Lead**
 
-1. **Team Building** — Led the team's transformation from configuration management to DevOps; grew team size from 3 (2009) to 15, aligning with department-level Business Goals;
-2. **Platform Architecture** — Architected, built, and operated the team's CI/CD platform; continuously **optimized build, test, and release workflows** to significantly shorten the delivery cycle; **upskilled developers** through training and mentorship to lift overall engineering productivity;
-3. **Process Governance** — Defined and governed software development lifecycle processes;
-4. **Automation** — Implemented automated environment provisioning and management; partnered with developers to debug runtime issues;
-5. **Innovation** — Researched emerging technologies and industry best practices, and drove their adoption.
+1. **Team Building**: Helped transform the team from CM (Configuration Management) to DevOps, growing from 3 people in 2009 to 15, and co-delivering business goals with the department manager;
+2. **Platform Architecture**: Led architecture, implementation, and operation of the CI/CD platform; continuously optimized build, test, and release workflows to significantly shorten delivery cycles; enabled engineers through training and mentoring to improve overall productivity;
+3. **Process Governance**: Defined and governed software development lifecycle processes;
+4. **Automation & Operations**: Automated environment provisioning and management, and supported developers in debugging runtime issues;
+5. **Technology Foresight**: Researched emerging technologies and industry best practices, and drove practical adoption.
 
 ### Yahoo! China
 
-**Senior Software Engineer · Platform Technology Department** ｜ Internet ｜ `Feb 2006 — Jun 2008`
+**Senior Software Engineer · Platform Technology Department** ｜ Internet / E-commerce ｜ `Feb 2006 — Jun 2008`
 
-Core member of the Platform Technology team, contributing to Yahoo! China's social product line — including new products (e.g., Zhanzhang Tianxia) and major enhancements to existing products (e.g., Yahoo Photos). Mentored 2 junior engineers throughout their onboarding and ramp-up.
+As a core member of the Platform Technology Department, I contributed to Yahoo! China's social product line, including new products such as "Zhanzhang Tianxia" and new feature / operation requirements for existing products such as Yahoo Photos.
 
 ### WebEx Communications (China) — Hefei
 
-**Software QA Engineer** ｜ Software ｜ `Feb 2004 — Feb 2006`
+**Software QA Engineer · QA Department** ｜ Software ｜ `Feb 2004 — Feb 2006`
 
-Owned testing for multiple WebEx Meeting projects — test planning, case design, and execution — collaborating closely with US-based PMs and engineers across global sites.
+Participated in testing for multiple WebEx Meeting projects, including test planning, test-case design, and execution. Collaborated closely with US-based PMs and developers from other global sites.
 
 ### Anhui Baipeng Information Technology Co., Ltd.
 
-**Software Engineer** ｜ Software ｜ `Feb 2003 — Feb 2004`
+**Software Engineer · Technology Department** ｜ Software ｜ `Feb 2003 — Feb 2004`
 
-Developed, tested, and maintained B/S architecture applications. Maintained internal network infrastructure and servers.
+Mainly responsible for B/S-architecture software development, testing, and maintenance. Also maintained internal network and hardware, including servers.
 
 ---
 
-## Selected Projects
+## Project Experience
+
+### SC GenAI Splunk — Supply Chain Alert Monitoring `Jan 2026 — Apr 2026`
+
+> **Role**: Contributor
+> **Stack**: Python · FastAPI · LangGraph · LangChain · Azure OpenAI · LangSmith · PyYAML · OAuth2 · Webex Adaptive Card · Snowflake · SMTP · pytest · Docker · Jenkins · Conjur
+
+**📌 Project Background**
+
+Supply Chain **GenAI Splunk Alert Monitoring Platform** (centrally operated by the platform team). It receives Splunk alerts via **FastAPI Webhook**, then performs app identification, pattern matching, and **LangGraph AI Agent** analysis, and finally sends intelligent notifications through **Email + Webex** dual channels.
+
+**🎯 My Contributions**
+
+- **Webex Adaptive Card and KB Analysis**: Upgraded **Control-M** and generic Splunk alert notifications to **Webex Adaptive Cards** (structured display for job details, Oracle exceptions, collapsible sections, etc.); integrated **Confluence Wiki troubleshooting summaries** into cards; fixed **OAuth2 exact-match** validation issue;
+- **AI Monitoring Metrics Integration**: Built a **CronJob** to periodically pull **Run/Trace** data from **LangSmith** and write into **Snowflake**, enabling observability and metric analytics for the AI alert pipeline;
+- **Splunk Alert Custom Fields**: Added `custom_fields` support in component-level YAML to dynamically extract business fields (e.g., `namespace`, `pod`) from Splunk `result`, and propagate them end-to-end across **Webhook → alert_analyzer → Webex / Email**.
+
+### GenAI Self Service Hub Service `Feb 2026 — Apr 2026`
+
+> **Role**: Contributor
+> **Stack**: Python 3.11+ · FastAPI · Pydantic · PyYAML · Alation REST API · boto3 · S3 · Poetry · pytest
+
+**📌 Project Background**
+
+Backend microservice of Cisco GenAI platform's **Self Service Hub**, providing self-service capabilities such as knowledge base, documents, Agent Workflow, and MCP Registry for business teams. I was responsible for building the **Semantic Layer** capability: integrating enterprise data catalog **Alation**, auto-generating **Semantic Model YAML** from selected component/app/table metadata, and persisting outputs into object storage for downstream GenAI consumption.
+
+**🎯 My Contributions**
+
+- **Alation Metadata Integration**: Implemented **Alation Cloud REST Client** (token refresh, table search, column-level metadata retrieval), and mapped Alation table/column descriptions, data types, and primary-key info into structured YAML generation specs;
+- **Semantic YAML Generation**: Built semantic-model assembly and validation with **PyYAML** (dimension/fact split, relations, Verified Queries, etc.), and exposed FastAPI `/generate` to one-click generate POC-aligned Semantic Model YAML from selected databases/tables;
+- **Persist YAML to S3**: Implemented validation and persistence pipeline, uploading generated YAML to **S3** with component/app naming and versioning strategy to support multi-environment deployment and downstream GenAI pipelines;
+- **API and Quality Assurance**: Delivered REST endpoints including `/generate`, `/validate`, and `/save` with Pydantic schemas; added **pytest** unit tests (Alation enrichment, YAML builder, route layer) to ensure stability of metadata ingestion and YAML generation.
 
 ### Cisco IT Supply Chain GenAI Platform `Jun 2025 — Jan 2026`
 
@@ -82,17 +120,35 @@ Developed, tested, and maintained B/S architecture applications. Maintained inte
 > **My Stack**: Python · Streamlit · Duo SSO · GPU (CUDA) · OpenStack · HTTPS / TLS · Poetry · CI/CD · Ansible · Linux VM
 > **Platform Stack (Team)**: Python · FastAPI · Streamlit · LangChain · LangGraph · Azure OpenAI · RAG · MCP
 
-**📌 Background**
+**📌 Project Background**
 
-The team built an internal AI Q&A and automation platform for Cisco Supply Chain based on **RAG + LangGraph**, integrated with multiple internal enterprise systems to deliver both intelligent Q&A and end-to-end business automation. As a contributor, I owned several foundational capabilities.
+The team built an internal AI Q&A and automation platform for Cisco Supply Chain based on **RAG + LangGraph**, integrating multiple internal enterprise systems to deliver "intelligent Q&A + business automation" capabilities. As a contributor, I took ownership of multiple foundational capabilities.
 
 **🎯 My Contributions**
 
-- **Enterprise SSO Integration** — Integrated **Duo SSO** with the Streamlit UI, filling a critical gap in unified user authentication and improving enterprise security compliance;
-- **GPU Enablement** — Installed and configured **NVIDIA GPU drivers** on production VMs, providing the compute foundation for **embedding-vectorization acceleration** and significantly improving knowledge-base retrieval performance;
-- **Multi-Environment HTTPS / Certificate Deployment** — Configured HTTPS and TLS certificates across **Dev / Stage / Prod** environments on **OpenStack**, unifying transport-layer encryption standards and meeting enterprise security requirements;
-- **Dependency Management & CI/CD** — Migrated dependency management from `pip` to **Poetry** (ensuring reproducible builds and dependency locking), and built the **CI/CD pipeline** to automate build, test, and deployment, shortening the delivery cycle;
-- **Ansible Foundation** — Installed and configured **Ansible** on the dev host to enable multi-VM automation, paving the way for the team to author reusable Playbooks for batch operations.
+- **Enterprise SSO Integration**: Integrated **Duo SSO** with Streamlit UI, filling the platform's previous gap in unified authentication and improving enterprise security compliance;
+- **GPU Enablement**: Installed and configured **NVIDIA GPU drivers** on production VMs to provide compute foundation for **embedding vectorization acceleration**, significantly improving KB retrieval performance;
+- **Multi-Environment HTTPS / Certificate Deployment**: Deployed HTTPS and TLS certificates across **Dev / Stage / Prod** environments on **OpenStack**, unifying transport encryption standards and meeting enterprise security requirements;
+- **Dependency Management and CI/CD**: Migrated project dependency management from pip to **Poetry** (ensuring reproducible builds and locked dependencies), and built **CI/CD pipelines** for automated build, test, and deployment to shorten delivery cycles;
+- **Ansible Automation Foundation**: Completed **Ansible** setup on dev hosts to establish automation capabilities across multiple VMs, paving the way for reusable batch operations through playbooks.
+
+### API Maestro — Cisco IT Hackathon 2025 `May 2025 — Jun 2025`
+
+> **Role**: Solo Developer (Cisco IT Hackathon 2025)
+> **Stack**: Python 3.12 · LangChain · LangGraph · FastMCP · Streamlit · FastAPI · OpenAPI / Swagger · BridgeIT · Docker Compose · PyYAML · Requests · ReAct Agent
+
+**📌 Project Background**
+
+**API Maestro** is my **solo-built** submission for Cisco IT Hackathon 2025, targeting the use case of "driving any OpenAPI application through natural language." The system automatically parses OpenAPI/Swagger specs, understands endpoints/parameters/workflows, and translates conversational commands (e.g., "query latest 10 orders", "send notifications to all active users") into precise HTTP API calls with readable responses, enabling non-technical users to operate API-driven systems with zero code.
+
+**🎯 Responsibilities**
+
+- **Solo Delivery from 0 to 1**: Independently completed architecture, core coding, demo, and containerized deployment, delivering a fully demoable system in about two months;
+- **Agent Core Architecture**: Built NL → API orchestration pipeline using **LangGraph ReAct Agent**, dynamically mapping OpenAPI endpoints into LangChain tools and using internal LLM via **BridgeIT** for parameter extraction and API execution;
+- **Dynamic OpenAPI Learning**: Implemented OpenAPI parsing and endpoint tooling, supporting runtime loading/switching of API specs without hand-writing integration code for each endpoint;
+- **MCP Server Evolution**: Refactored original agent capabilities into a **FastMCP**-based **Model Context Protocol** service exposing standardized tools such as `load_spec`, `execute_api`, and `process_request`, enabling integration with Cursor/IDE MCP clients;
+- **Multi-Channel Access**: Delivered **Streamlit** conversational UI (spec upload, session management, streaming interaction) and **FastAPI HTTP bridge**, plus a Mock API server for demo and integration testing;
+- **Engineering Delivery**: Completed **Docker Compose** one-command deployment, environment-variable security management (`dotenv`), CLI entry points (`api-maestro-server` / `api-maestro-ui`), and MCP stdio test scripts to support hackathon demo and future scaling.
 
 ### Supply Chain Finance Miscellaneous Tools `Sep 2023 — Present`
 
@@ -100,15 +156,15 @@ The team built an internal AI Q&A and automation platform for Cisco Supply Chain
 
 **📌 Project**
 
-A lightweight tools platform for the Supply Chain Finance team, hosting multiple high-frequency internal business tools (**Item Cost Download**, **Cost Tag Upload**, and more) — covering Excel / CSV bulk uploads, cost-data downloads, and email notifications. Authentication unified via **Cisco LDAP** with role-based access control (General User / Cost Manager, etc.).
+A lightweight tools platform for the Supply Chain Finance team, hosting multiple high-frequency internal business tools (**Item Cost Download**, **Cost Tag Upload**, etc.), covering Excel/CSV bulk uploads, cost-data download, and email notification scenarios. Unified authentication and fine-grained role-based access control (General User / Cost Manager, etc.) are implemented through Cisco LDAP.
 
 **🎯 Responsibilities**
 
-- **Monolithic Unified Architecture** — Angular SPA + Spring Boot in a single repo; orchestrated end-to-end frontend / backend build through **Gradle (Kotlin DSL)**, producing a single deployable Jar;
-- **Enterprise Security + Cisco Design System** — Implemented SSO and dual-layer RBAC (frontend guards + backend authorization) on **Spring Security + OAuth2 + Cisco LDAP**; aligned the frontend with Cisco Design System and delivered shared components (file uploader, session-expiry modal, etc.);
-- **API-First** — Maintained the OpenAPI v3 contract and code-generation pipeline (Spring server stubs + TypeScript SDK) to structurally eliminate frontend / backend contract drift;
-- **Continuous Modernization** — Drove **Spring Boot 2 → 3.5 → 4.0** and **Angular → 21** major version migrations via **OpenRewrite**, codifying a reusable upgrade pattern;
-- **DevSecOps** — Built **Jenkins + SonarQube Quality Gate + SAST + Spinnaker** automated delivery pipeline; migrated container images to **Chainguard** hardened base images; integrated **Conjur** for secret management; maintain 8 environment profiles and lead production credential rotation and vulnerability remediation.
+- **Monolithic Unified Architecture**: Co-developed Angular SPA + Spring Boot in one repo, orchestrated end-to-end frontend/backend build with **Gradle (Kotlin DSL)**, and produced a single executable Jar;
+- **Enterprise Security + Cisco Design System**: Implemented SSO and RBAC dual checks with **Spring Security + OAuth2 + Cisco LDAP**; aligned frontend with Cisco design standards and delivered common components (file uploader, session-expiry modal, etc.);
+- **API-First**: Maintained OpenAPI v3 contracts and code generation (Spring interfaces + TypeScript SDK) to structurally eliminate frontend-backend contract drift;
+- **Continuous Modernization**: Drove major upgrades such as **Spring Boot 2 → 3.5 → 4.0** and **Angular → 21** with **OpenRewrite**, and codified reusable migration patterns;
+- **DevSecOps**: Built **Jenkins + SonarQube Quality Gate + SAST + Spinnaker** automated delivery pipeline; migrated images to **Chainguard** secure base images; integrated **Conjur** secret management; maintained 8 environment profiles and led production credential rotation and vulnerability remediation.
 
 ### CART-Kafka — CBM Data Ingestion Microservice `Jul 2024 — Present`
 
@@ -116,16 +172,16 @@ A lightweight tools platform for the Supply Chain Finance team, hosting multiple
 
 **📌 Project**
 
-The upstream data-ingestion microservice for the CART platform, deployed independently from the CART main app. Consumes the **CBM (Component Business Model) Kafka stream** from Oracle Cloud and replicates component business data in near-real-time into the **XXCART schema** interface tables in the enterprise ESM system (10+ core finance tables: GL, AP, PO, RCV, Material Transactions, XLA, etc.) — providing the raw data foundation for CART's cost analysis and reconciliation.
+An upstream data-ingestion microservice for the CART platform, deployed independently from the CART main app. It consumes **CBM (Component Business Model) Kafka streams** from Oracle Cloud and replicates component business data into enterprise ESM **XXCART schema** interface tables in near real-time (10+ core finance tables including GL, AP, PO, RCV, Material Transactions, XLA, etc.), providing raw data foundation for CART cost analysis and reconciliation.
 
 **🎯 Responsibilities**
 
-- **Architecture & Leadership** — As Tech Lead, drove the project from inception, establishing the "independent microservice + **dual Oracle data sources (ESM / CG1)**" layered architecture that decouples data ingestion from business computation;
-- **Core Implementation** — Built the Kafka consumer framework, dual-datasource auto-configuration, CBM entity model and persistence layer, and the processing-log module — the foundational pieces of the service;
-- **Batch Insert Performance Optimization** — Combined Hibernate `jdbc.batch_size` + `order_inserts` / `order_updates` with a **batch-sliced `saveAll`** write strategy to make Hibernate batching actually take effect (eliminating per-row flush), materially improving throughput when writing large CBM payloads to Oracle;
-- **Continuous Modernization** — Drove **Spring Boot 2.x → 3.2 → 3.5 → 4.0** and **Java → 21** upgrades via **OpenRewrite** (aligned with Confluent Kafka 7.6), codifying a reusable upgrade pattern;
-- **DevSecOps** — Migrated from **Cert Auth to OAuth2**; integrated **Conjur** for secret management; enforced **SonarQube Quality Gate + SAST + Dependabot + PMD/CPD + JaCoCo** coverage gates; migrated the build to Cisco IT's **Golden Pipeline**, unifying build, scanning, image publishing, and **Spinnaker**-based deployment;
-- **Multi-Environment & Team Enablement** — Maintain 9 environment profiles; led production certificate rotation and vulnerability remediation (Qwiet / Tomcat CVEs, etc.); serve as primary PR reviewer to safeguard code quality and architectural consistency, mentoring team members through feature delivery.
+- **Architecture and Leadership**: As Tech Lead, drove the project from 0 to 1, establishing a layered design of "independent microservice + **dual Oracle data sources (ESM / CG1)**" to decouple data ingestion and business computation;
+- **Core Code Contribution**: Implemented Kafka Consumer framework, dual data-source auto-configuration, CBM entity model and persistence layer, and processing logs;
+- **Batch Insert Performance Optimization**: Combined Hibernate `jdbc.batch_size` + `order_inserts` / `order_updates` with **batch-sliced `saveAll`** strategy to ensure real Hibernate batching (avoiding row-by-row flush), significantly improving Oracle write throughput for large CBM payloads;
+- **Continuous Modernization**: Drove multi-round upgrades via **OpenRewrite** (**Spring Boot 2.x → 3.2 → 3.5 → 4.0**, **Java → 21**, with Confluent Kafka 7.6 compatibility), and codified reusable migration patterns;
+- **DevSecOps**: Completed **Cert Auth → OAuth2** migration and **Conjur** secret integration; implemented quality gates with **SonarQube Quality Gate + SAST + Dependabot + PMD/CPD + JaCoCo**; migrated build pipeline to Cisco IT **Golden Pipeline** for unified build, scanning, image publishing, and **Spinnaker** deployment;
+- **Multi-Environment and Team Enablement**: Maintained 9 environment profiles, led production certificate rotation and vulnerability remediation (Qwiet / Tomcat CVEs, etc.), acted as primary PR reviewer, and mentored team members on large feature delivery.
 
 ### CART — Cost Analysis and Reconciliation Tool `Sep 2020 — Present`
 
@@ -133,160 +189,114 @@ The upstream data-ingestion microservice for the CART platform, deployed indepen
 
 **📌 Project**
 
-A core Supply Chain Finance business system that automates the day-end close — **cost variance analysis** and **three-source reconciliation across Sub-Ledger (CG1) / General Ledger (CFN) / Cloud (CBM)** — pushing allocated / unallocated data to upstream management reporting systems (**DFA / ICPM**). Frontend and backend deployed independently (`cart-api` + `cart-ui` dual repos): **22 controllers / 43 services** on the backend and **17 business modules** on the frontend — one of the largest real-world business systems in the department.
+A core Supply Chain Finance system that automates day-end **cost variance analysis** and **three-source reconciliation across Sub-Ledger (CG1) / General Ledger (CFN) / Cloud (CBM)**, and pushes allocated/unallocated data to **DFA / ICPM** reporting systems. Frontend and backend are deployed independently (`cart-api` + `cart-ui` dual repos), with 22 controllers / 43 services in backend and 17 business modules in frontend, making it one of the largest real business systems in the department.
 
 **🎯 Responsibilities**
 
-- **Full-Stack Scaffolding & Architecture** — Bootstrapped the full-stack frontend / backend-separated scaffolding leveraging proven patterns from prior projects, evolving it into the reference implementation that several teammates build on;
-- **Enterprise Security** — Implemented SSO, RBAC, and service-to-service auth on **Spring Security + OAuth2 (Client + Resource Server) + Cisco LDAP**; integrated **OWASP ESAPI** for input-security hardening;
-- **Object Storage Design & Implementation** — Designed and built the **Cisco COS / AWS S3** integration with a unified object-storage abstraction (including bucket lifecycle-policy management), covering large-file uploads, archival, and downloads;
-- **Continuous Modernization** — Drove **Spring Boot upgrades through 4.0**, **Java → 21**, and **Angular upgrades through 21** via **OpenRewrite**; integrated **Micrometer Tracing + Brave** for distributed tracing;
-- **DevSecOps & Infrastructure** — Designed and built the **Jenkins + SonarQube Quality Gate + SAST + PMD + JaCoCo + Spinnaker** delivery pipeline and the **OpenShift** multi-data-center runtime environment; integrated **Conjur** for secret management; maintain multi-environment configurations and led production credential rotation and vulnerability remediation.
+- **Full-Stack Scaffolding and Architecture**: Led setup of a frontend/backend-separated full-stack scaffold based on successful patterns from previous projects, and evolved it into a shared reference implementation;
+- **Enterprise Security**: Implemented SSO, RBAC, and service-to-service authorization via **Spring Security + OAuth2 Client + Resource Server + Cisco LDAP**, and integrated **OWASP ESAPI** for input-security hardening;
+- **Object Storage Design and Implementation**: Designed and implemented **Cisco COS / AWS S3** integration with a unified object-storage abstraction (including bucket lifecycle policy management), covering large-file upload, archival, and download scenarios;
+- **Continuous Modernization**: Drove major upgrades via **OpenRewrite** (**Spring Boot to 4.0, Java to 21, Angular to 21**) and integrated **Micrometer Tracing + Brave** for distributed tracing;
+- **DevSecOps and Infrastructure**: Built **Jenkins + SonarQube Quality Gate + SAST + PMD + JaCoCo + Spinnaker** delivery pipeline and **OpenShift** multi-DC runtime setup; integrated **Conjur** for secret management; maintained multi-environment profiles and led production credential rotation and vulnerability fixes.
 
-### RCE — Royalty Calculation Engine `Jul 2018 — Present`
+### Earlier Projects (2003 — Present)
 
-> **Stack**: Java 21 · Spring Boot 4.0 · Spring Security · OAuth2 (Client + Resource Server) · JWT (RSA) · Cisco LDAP · Spring Data JPA · Spring WebFlux · Oracle · Redis · Micrometer Tracing · OpenAPI v3 · Apache POI · iText PDF · Gradle · OpenRewrite · Angular 21 · Nx Monorepo · AG Grid · ECharts · Highcharts · PrimeNG · Cisco UI · Docker (Chainguard) · Jenkins · SonarQube · Spinnaker · Conjur · OpenShift
-
-**📌 Project**
-
-Cisco's enterprise-wide business system for calculating **outbound royalty payments to suppliers**, integrated with Cisco Supply Chain, PLM, Finance, and Data Warehouse systems and supporting Cisco's multi-platform architecture. Frontend and backend deployed independently as dual repos (`rcecloud-api` + `rcecloud-ui` Nx Monorepo), covering **30+ business modules** — the largest real-world business system in the department.
-
-**🎯 Responsibilities**
-
-- **Tech Lead** for a 9-person team across **US / India / China**, owning **end-to-end design, development, release, and operations** of the web app; personally built the foundational architecture, application framework, and large portions of business modules while continuously mentoring the team;
-- **Cloud Native Architecture** — Full frontend / backend separation with **API-First (OpenAPI v3) code generation**; SSO, RBAC, and stateless auth on **OAuth2 (Client + Resource Server) + LDAP + JWT**; deployed on **OpenShift** private cloud with multi-data-center load balancing, auto-scaling, and self-healing;
-- **Zero-Downtime Deployment** — Pioneered **Blue-Green Deployment** — *the first project in the Supply Chain IT department to ship this capability*;
-- **Nx Monorepo & Shared Library** — Frontend on **Nx Monorepo** with a publishable shared library **`@scf/common-lib`** (distributed via Cisco Artifactory) that standardizes frontend components and services across the Supply Chain Finance portfolio;
-- **Continuous Modernization** — Drove **Spring Boot upgrades through 4.0**, **Java → 21**, and **Angular upgrades through 21** via **OpenRewrite**; integrated **Micrometer Tracing + Brave** for distributed tracing; introduced a **TA JWT (RSA-signed) authentication mechanism for test automation**, solving the long-standing pain of enterprise SSO blocking automated tests;
-- **DevSecOps** — Built the **Jenkins + SonarQube Quality Gate + SAST + SCA + PMD + JaCoCo + Dependabot + Spinnaker** delivery pipeline; migrated container images to **Chainguard** hardened base images; integrated **Conjur** for secret management.
-
-### Self Service Model `Nov 2014 — Jan 2018`
-
-> **Stack**: RedHat · Java · Shell
-
-**📌 Project**
-
-Streamlined build and deployment workflows so that Dev and QA teams could self-serve their releases — implementing **Build-Once / Deploy-Many**. Developed a **Continuous Delivery Portal** providing real-time data and statistics across each stage of the delivery pipeline.
-
-**🎯 Responsibilities**
-
-Defined the new process; led architecture design and technical selection; delivered the POC to validate feasibility; planned and tracked the rollout; trained Dev and QA teams on the new process and Portal usage.
-
-### Continuous Delivery Transformation `Nov 2013 — Oct 2014`
-
-> **Stack**: Stash · Enterprise Jenkins · Artifactory Pro · SonarQube · IBM UrbanCode Deploy / Release
-
-**📌 Project**
-
-A Cisco IT-wide CDT initiative providing a unified delivery platform. Migrated legacy Git, Jenkins, and Artifactory to the new platform; adopted **uDeploy** and **uRelease** for automated deployment and release management.
-
-**🎯 Responsibilities**
-
-Led migration planning, mentored team members through the platform transition, evaluated uDeploy / uRelease feasibility, and partnered with platform teams in the US and India.
-
-### Data Center Migration `Jul 2012 — Oct 2013`
-
-> **Stack**: RedHat · WebLogic · Oracle HTTP Server
-
-**📌 Project**
-
-Migrated a portion of applications from the legacy WebEx Data Center to the standard Cisco Data Center.
-
-**🎯 Responsibilities**
-
-Traveled to the US for early-stage architecture discussions and POC delivery. Authored a complete suite of **WLST (WebLogic Scripting Tool)** automation scripts to accelerate environment setup, improving reusability, efficiency, and reducing time / cost.
-
-### Git Migration `Jul 2011 — Jun 2012`
-
-> **Stack**: RedHat · Clustered Tomcat · CVS · Git · Gitblit · gitolite · GitLab
-
-**📌 Project**
-
-Led the team's migration from CVS to Git.
-
-**🎯 Responsibilities**
-
-Delivered the POC, developed the technical strategy and rollout plan, trained developers (in English) on Git, and led DevOps engineers through the migration on schedule.
-
-### Earlier Projects (2003 — 2010)
-
-
-| Period             | Project                                           | Role / Highlights                                                                                |
-| ------------------ | ------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| `2009/9 — 2010/10` | **Continuous Integration**                        | Refactored CruiseControl scripts; pioneered the migration from CruiseControl to Hudson (Jenkins) |
-| `2008/8 — 2009/8`  | **WebEx Elvis**                                   | Maintained internal lifecycle management system (PHP + MySQL); bug fixes and feature work        |
-| `2008/7 — 2009/8`  | **Myify**                                         | Lead developer of a PHP / Zend / Dojo task-tracking web app; delivered 90%+ of the codebase      |
-| `2007/10 — 2008/5` | **Y!China NBS Platform**                          | Lead frontend engineer for Yahoo's site-builder platform                                         |
-| `2007/5 — 2007/7`  | **Y!China Blog UGC**                              | Frontend architecture and development for Yahoo's blog aggregation (PHP + PostgreSQL)            |
-| `2006/2 — 2007/5`  | **Y!China Photo Service**                         | Lead frontend engineer for Yahoo Photos; helped grow PV from <1M to 20M+                         |
-| `2003/10 — 2004/2` | **National Foreign Investment Annual Inspection** | .NET-based system for the Ministry of Commerce + 7 ministries                                    |
-
+| Period                | Project                                | Role & Highlights                                                                                                                                                             |
+| --------------------- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Jul 2018 — Present`  | **RCE — Royalty Calculation Engine**  | **Tech Lead** (9-person global team); Cisco core royalty system (30+ modules); Cloud Native + API-First; **first Blue-Green zero-downtime deployment in department**; Nx Monorepo and **`@scf/common-lib`** shared library; modernized to Spring Boot 4 / Java 21 / Angular 21 via OpenRewrite |
+| `Nov 2014 — Jan 2018` | **Self Service Model**                 | Optimized build/deployment workflows and delivered **Build-Once / Deploy-Many** with Dev/QA self-service; built Continuous Delivery Portal; drove process design, architecture selection, POC, and team enablement |
+| `Nov 2013 — Oct 2014` | **Continuous Delivery Transformation** | Cisco IT CDT unified delivery platform; led migration of Git/Jenkins/Artifactory to new platform; conducted uDeploy/uRelease feasibility and collaborated with US/India platform teams |
+| `Jul 2012 — Oct 2013` | **Data Center Migration**              | Migrated applications from WebEx Data Center to Cisco Data Center; joined architecture discussions and POC in the US; wrote WLST automation scripts to improve environment setup efficiency and reusability |
+| `Jul 2011 — Jun 2012` | **Git Migration**                      | CVS to Git migration; completed POC and technical strategy; delivered English Git training to developers; led DevOps members to complete migration on schedule |
+| `Sep 2009 — Oct 2010` | **Continuous Integration**             | Refactored CruiseControl scripts; led migration from CruiseControl to Hudson (Jenkins)                                                                                      |
+| `Aug 2008 — Aug 2009` | **WebEx Elvis**                        | Maintained internal lifecycle management system (PHP + MySQL); bug fixes and feature development                                                                             |
+| `Jul 2008 — Aug 2009` | **Myify**                              | Lead developer of a PHP / Zend / Dojo task-tracking web app; delivered 90%+ of code                                                                                         |
+| `Oct 2007 — May 2008` | **Y!China NBS Platform**               | Lead frontend engineer for Yahoo's site-builder platform; drove Symfony adoption and backend admin modules                                                                   |
+| `May 2007 — Jul 2007` | **Y!China Blog UGC**                   | Frontend architecture and development for Yahoo's blog aggregation (PHP + PostgreSQL)                                                                                        |
+| `Feb 2006 — May 2007` | **Y!China Photo Service**              | Lead frontend engineer for Yahoo Photos; worked with operations to grow PV from <1M to 20M+                                                                                 |
+| `Oct 2003 — Feb 2004` | **National Foreign Investment Annual Inspection System** | .NET system jointly launched by China's Ministry of Commerce and 7 ministries                                                                                                |
 
 ---
 
 ## Side Projects
 
-### RCE UI Rewrite in React  `Apr 2026 — May 2026`
+### RCE UI Rewrite in React `Apr 2026 — May 2026`
 
 > **Stack**: React 19 · TypeScript 6 · Vite 8 · Vitest · Playwright · React Router 7 · TanStack Query v5 (with persistence) · AG Grid Enterprise · Orval (OpenAPI → React Query hooks) · OIDC Client / React OIDC Context · Cisco Atmosphere Elements React 4.0 · Harbor · Tailwind CSS · pnpm Monorepo · Docker · AI Harness (Cursor / Claude Code / Copilot)
 
 **📌 Background & Motivation**
 
-A personal exploration Initiative pursuing **multiple compounding goals**:
+This was a personally led exploratory initiative with **multiple compounding goals**:
 
-- **Validate the Vibe Coding paradigm & apply AI Harness methodology** — with the AI Coding Agent as the primary "hands-on" coder and the human acting as architect and quality gatekeeper, probe the feasibility and productivity boundary of this emerging human-AI collaboration model (**Vibe Coding**) in a high-complexity, end-to-end cross-stack rewrite; in parallel, **apply the AI Harness methodology in practice** (prompt design, context management, Skill orchestration, human-AI division of labor, quality verification), accumulating engineering experience the broader team can reuse;
-- **Align UI/UX with the latest Cisco Design System** — the original RCE frontend, built on an earlier Angular version, had drifted from current Cisco design standards; this rewrite delivered a full visual and interaction modernization (upgraded to **Atmosphere v4**);
-- **Lift code quality** — leveraged React 19 + strict TypeScript to refactor previously tightly-coupled code into cleaner module boundaries and component contracts;
-- **Performance optimization** — leveraged React 19 features (concurrent rendering, automatic batching) to materially improve first-paint and runtime performance.
+- **Validate Vibe Coding and apply AI Harness in practice**: Use AI Coding Agent as the primary "hands-on" implementer while the human acts as architect and quality gatekeeper, to validate feasibility and productivity boundaries of this emerging collaboration model in a high-complexity cross-stack rewrite; meanwhile, operationalize **AI Harness methodology** (prompt design, context management, skill orchestration, human-AI division of labor, quality checks) and accumulate reusable engineering know-how;
+- **Align UI/UX with latest standards**: The original RCE frontend was based on early Angular and no longer aligned with current Cisco Design System; this project modernized visual and interaction experience (upgraded to Atmosphere v4);
+- **Improve code quality**: Re-architected previously tightly coupled codebase with React 19 + strict TypeScript, establishing clearer module boundaries and component contracts;
+- **Optimize performance**: Leveraged React 19 capabilities (concurrent rendering, automatic batching, etc.) to improve initial load and runtime performance.
 
 **🎯 Impact**
 
-- **Full Business-Page Rewrite** — Single-handedly delivered within ~2 months what traditionally requires a team-level effort: **22 business pages rewritten**, validating Vibe Coding's viability for end-to-end architecture migration;
-- **Reusable Scaffold & Methodology** — Produced a reusable **pnpm Monorepo + React 19 + Vite + Orval + TanStack Query** modern frontend scaffold and reference implementation; authored engineering documentation (**React vs Angular diff analysis, branching strategy, release checklist**) to serve as a template for future React projects across the team;
-- **Production-Grade Enterprise Adaptation** — Landed **OIDC SSO**, **AG Grid Enterprise**, **runtime environment-config injection**, **Docker containerization**, and **Playwright E2E tests** — taking the rewrite from prototype to production-ready;
-- **AI Harness Engineering** — Harnessed AI Coding Agents with the **Superpowers plugin** and a set of **custom-built Skills** to form reusable Agent workflows (covering TDD, systematic debugging, code review, plan execution, etc.), significantly improving the controllability and output quality of AI on complex tasks.
+- **Full Rewrite**: Independently completed full rewrite of **22 business pages** in about two months, proving the feasibility of Vibe Coding for end-to-end architecture migration;
+- **Reusable Scaffold and Methodology**: Produced a modern frontend scaffold and reference implementation based on **pnpm Monorepo + React 19 + Vite + Orval + TanStack Query**; authored engineering docs such as **React vs Angular comparison, branching strategy, and release checklist**, providing templates for future React projects;
+- **Enterprise Capability Fit**: Implemented **OIDC SSO**, **AG Grid Enterprise**, **runtime multi-environment configuration injection**, **Dockerized deployment**, and **Playwright E2E tests**, bringing the rewrite to production-ready level;
+- **AI Harness Engineering**: Combined **Superpowers plugin** and **custom skills** to harness AI Coding Agents into reusable workflows (TDD, systematic debugging, code review, plan execution, etc.), significantly improving controllability and output quality for complex tasks.
 
-### Playwright Test Automation  `2025 — 2026`
+### Playwright Test Automation `2025 — 2026`
 
 > **Stack**: Playwright · TypeScript · Page Object Model · monocart-reporter · oracledb · TA JWT (RSA) · DUO OIDC · OAuth2 JWT · Express · Multer · Docker · Jenkins · Conjur · Node.js
 
 **📌 Background & Motivation**
 
-Multiple team projects (RCE, CART, Supply Chain Finance Tools) lacked E2E automation; quality relied heavily on manual regression, throttling release cadence and inflating regression cost. I initiated this effort to introduce a **modern, reusable, cross-project E2E automation system** for the team.
+Multiple team projects (RCE, CART, Supply Chain Finance Tools, etc.) lacked E2E automation for a long time. Quality assurance heavily relied on manual regression, which constrained release cadence and increased regression cost. I initiated this effort to introduce a **modern, reusable, cross-project** E2E automation system.
 
 **🎯 Impact**
 
-- **Cross-Project Framework** — Built a cross-application automation framework from scratch on **Playwright + TypeScript + Page Object Model**, covering **CART (E2E + API)** and **RCE (E2E / Regression / Smoke)** test matrices, with reusable utilities for **AG Grid automation, direct Oracle DB validation, and email notifications**;
-- **Enterprise Auth Integration** — Designed and implemented a **TA JWT (RSA-signed) authentication mechanism for test execution**, paired end-to-end with the production application (private key managed by **Conjur** and securely injected in CI) — fully solving the long-standing pain of enterprise SSO blocking unattended automation and enabling stable headless test runs;
-- **CI/CD Integration & Containerized Execution** — **Built and maintain a custom Playwright Docker image** (bundling Oracle Instant Client and other dependencies) for environment consistency; orchestrated by the **Jenkins pipeline with a parameter matrix (app / env / project / tag)** to automatically run regression on every PR / release — materially reducing manual regression cost and accelerating release cadence;
-- **Enterprise-Grade Test Report Service** — Built a self-hosted **Test Report Server** (Express + Multer) protected by **DUO OIDC** for report browsing and **OAuth2 JWT** for the upload API; deployed via **Docker** to centrally host historical reports for trend tracking and regression triage;
-- **Cross-Project Adoption** — Adopted as a reusable template by multiple team projects, standardizing the team's E2E testing practices.
+- **Cross-Project Test Framework**: Built a reusable cross-application test framework from scratch with **Playwright + TypeScript + Page Object Model**, covering **CART (E2E + API)** and **RCE (E2E / Regression / Smoke)** matrices, and delivered reusable utilities including AG Grid automation, direct Oracle DB validation, and email notifications;
+- **Enterprise Authentication Adaptation**: Designed and implemented **TA JWT (RSA-signed) test authentication** aligned with production apps (private key hosted in **Conjur** and securely injected in CI), fully solving enterprise SSO login blockers in unattended automation;
+- **CI/CD Integration and Containerized Execution**: **Built and maintained dedicated Playwright Docker images** (including Oracle Instant Client and dependencies) for deterministic runtime; orchestrated with **Jenkins pipeline + parameter matrix (app / env / project / tag)** to auto-run regressions on every PR/release, significantly reducing regression cost and accelerating release cycles;
+- **Enterprise Test Reporting Service**: Built a self-hosted **Test Report Server** (Express + Multer), protected report browsing with **DUO OIDC** and upload APIs with **OAuth2 JWT**, deployed via Docker, and centralized historical reports for trend tracking and regression analysis;
+- **Cross-Project Reuse and Standardization**: Adopted as a reusable template by multiple team projects and helped standardize E2E testing practices.
+
+### Video Downloader `Jun 2025 — Jul 2025`
+
+> **Stack**: Python 3.12 · yt-dlp · PyYAML · Docker · Docker Compose · GitHub Actions · GHCR · Bash
+> **Open Source Repo**: [github.com/zpkx/video-downloader](https://github.com/zpkx/video-downloader) (public personal GitHub)
+
+**📌 Background & Motivation**
+
+A personal side project, **fully open-sourced on my personal GitHub**, designed to solve multi-platform bulk video download and archival pain points: manually maintaining URL lists, organizing outputs by category, avoiding rate limits, and enabling "configure once, auto-download" workflows on NAS / container environments without repeated manual commands.
+
+**🎯 Impact**
+
+- **Core Download Engine**: Encapsulated yt-dlp into a `VideoDownloader` class supporting single URL, multiple URLs, and category-based bulk download, plus non-destructive modes such as **info-only / dry-run**;
+- **YAML-Driven Configuration**: Used `urls.yaml` for category folders, quality, delay ranges, and URL lists; used `config.yaml` for centralized yt-dlp options (subtitles, merge format, retry strategy, etc.), with auto-discovery loading from `config/`;
+- **Dockerization and Automation**: Delivered **Dockerfile + docker-compose** with watcher/oneshot/manual service modes to trigger downloads automatically when `urls.yaml` changes; supports configurable **UID/GID** to avoid mounted-volume permission issues;
+- **Ops and Release**: Added helper scripts such as `docker-run.sh`, layered logging (`logs/video_download.log`), and automatic cookie detection; used **GitHub Actions** to build and publish images to **GHCR** (`ghcr.io/zpkx/video-downloader`) for long-running NAS deployments.
 
 ---
 
 ## Education
 
-
-| Period            | School                             | Major                 | Degree     |
-| ----------------- | ---------------------------------- | --------------------- | ---------- |
-| `1999/9 — 2003/7` | **Hefei University of Technology** | Computer Applications | Bachelor's |
-
+| Period            | School                          | Major                  | Degree      |
+| ----------------- | ------------------------------- | ---------------------- | ----------- |
+| `1999/9 — 2003/7` | Hefei University of Technology  | Computer Applications  | Bachelor's  |
+| `1996/9 — 1999/7` | No.2 High School of Anqing, Anhui | —                    | High School |
 
 ---
 
 ## Certifications
 
-
-| Year     | Certification                                                                    |
-| -------- | -------------------------------------------------------------------------------- |
-| `2020/5` | **AWS Certified Solutions Architect — Associate**                                |
-| `2015/1` | **Certified Scrum Master** (CSM)                                                 |
-| `2014/6` | **Oracle Certified Associate** — Oracle WebLogic Server 11g System Administrator |
-
+| Year     | Certification                                                                    | Note |
+| -------- | -------------------------------------------------------------------------------- | ---- |
+| `2020/5` | AWS Certified Solutions Architect – Associate                                    | 977  |
+| `2015/1` | Certified Scrum Master                                                           | —    |
+| `2014/6` | Oracle Certified Associate, Oracle WebLogic Server 11g System Administrator      | —    |
+| `2003/1` | CET-4 (College English Test Band 4)                                              | —    |
 
 ---
 
 ## Languages
 
-- **English** — Fluent (working language for 17+ years across US / India / China collaboration)
+| Language    | Proficiency                     |
+| ----------- | ------------------------------- |
+| **English** | Listening, Speaking, Reading, Writing (Fluent) |
 

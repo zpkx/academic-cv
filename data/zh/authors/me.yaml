@@ -31,11 +31,10 @@ links:
     label: 电子邮件
 
 interests:
-  - AI 与智能化（LangChain, RAG, MCP, AI Agent）
-  - 云原生架构（Docker, Kubernetes, OpenShift）
-  - 全栈开发（Java/Spring, Angular, React）
-  - DevSecOps 与 CI/CD 工程
-  - 研发效能与 AI Harness
+  - AI应用与工程化
+  - 全栈开发
+  - 手工创造
+  - 健康管理
 
 education:
   - degree: 计算机应用 本科
