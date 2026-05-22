@@ -35,8 +35,8 @@ sections:
 
         I lead cross-border teams (US / India / China) to deliver core Supply Chain Finance business
         systems, with deep expertise in cutting-edge technology exploration, cloud native architecture
-        design, and full-stack development. I drive AI adoption (AI Harness, Coding Agents, RAG) to
-        reduce costs and boost efficiency across the engineering lifecycle.
+        design, and full-stack development. I champion AI technology adoption, leveraging
+        Coding Agents to optimize R&D efficiency and delivery quality.
 
         Feel free to reach out to collaborate.
     design:
