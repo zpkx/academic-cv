@@ -34,8 +34,9 @@ sections:
         My work spans full-stack development, cloud native architecture, and DevSecOps engineering.
 
         I lead cross-border teams (US / India / China) to deliver core Supply Chain Finance business
-        systems. I'm passionate about driving AI adoption in software engineering through AI Harness,
-        Coding Agents, and RAG — improving both developer productivity and code quality.
+        systems, with deep expertise in cutting-edge technology exploration, cloud native architecture
+        design, and full-stack development. I drive AI adoption (AI Harness, Coding Agents, RAG) to
+        reduce costs and boost efficiency across the engineering lifecycle.
 
         Feel free to reach out to collaborate.
     design:
