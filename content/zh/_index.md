@@ -1,0 +1,43 @@
+---
+title: ''
+summary: ''
+date: 2022-10-24
+type: landing
+
+sections:
+  - block: resume-biography-3
+    content:
+      username: me
+      text: ''
+      button:
+        text: 下载简历
+        url: uploads/resume.pdf
+      headings:
+        about: ''
+        education: ''
+        interests: ''
+    design:
+      background:
+        gradient_mesh:
+          enable: true
+      name:
+        size: md
+      avatar:
+        size: medium
+        shape: circle
+  - block: markdown
+    content:
+      title: '关于我的工作'
+      subtitle: ''
+      text: |-
+        我是思科系统（Cisco Systems）的 IT 软件工程技术负责人，拥有 20+ 年经验。
+        我的工作涵盖全栈开发、云原生架构和 DevSecOps 工程。
+
+        我带领跨国团队（美国 / 印度 / 中国）交付核心供应链财务业务系统。我热衷于通过
+        AI Harness、Coding Agents 和 RAG 推动软件工程中的 AI 落地应用，
+        提升研发效率和代码质量。
+
+        欢迎联系交流。
+    design:
+      columns: '1'
+---
