@@ -11,7 +11,7 @@ name:
 postnominals: []
 status:
   icon: "💻"
-role: IT 软件工程技术负责人
+role: IT 软件工程技术主管
 bio: |
   我具备较强的自我管理能力，积极的学习态度和出色的动手能力。广泛的知识面和善于思考的分析能力
   使我能够深入探讨复杂的技术难题。在 IT 和软件行业拥有 20+ 年经验和技术积累，积累了丰富的
@@ -110,33 +110,33 @@ skills:
       - label: Angular
         level: 5
       - label: React
-        level: 4
+        level: 3
   - name: 数据存储
     items:
       - label: Oracle, MySQL, PostgreSQL
-        level: 5
+        level: 4
       - label: Redis, MongoDB
         level: 4
       - label: Kafka
-        level: 4
+        level: 5
   - name: 架构与云
     items:
       - label: Cloud Native / 微服务
         level: 5
       - label: Docker, Kubernetes
-        level: 4
+        level: 5
       - label: OpenShift
-        level: 4
+        level: 5
   - name: 研发效能
     items:
       - label: CI/CD, Jenkins
         level: 5
       - label: SonarQube, SAST, Conjur
-        level: 4
+        level: 5
 
 languages:
   - name: 英语
-    level: 5
+    level: 4
     label: 听说读写流利（17+ 年跨国工作语言）
   - name: 中文
     level: 5
