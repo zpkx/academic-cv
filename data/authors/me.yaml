@@ -1,163 +1,177 @@
-schema: hugoblox/author/v1
-slug: me
+schema: "hugoblox/author/v1"
+slug: "me"
 is_owner: true
 name:
-  display: Peng Zhang
-  given: Peng
-  family: Zhang
-  alternate: 张鹏
-  pronunciation: ''
-  pronouns: he/him
+  display: "Peng Zhang"
+  given: "Peng"
+  family: "Zhang"
+  alternate: "张鹏"
+  pronunciation: ""
+  pronouns: "he/him"
 postnominals: []
 status:
-  icon: "💻"
-role: IT Software Engineering Technical Leader
-bio: |
-  I bring strong self-management, a proactive learning mindset, and solid hands-on capability.
+  icon: "☕"
+role: "IT Software Engineering Technical Leader"
+bio: "I bring strong self-management, a proactive learning mindset, and solid hands-on capability.
+
   A broad knowledge base and analytical thinking enable me to dive deep into complex technical
+
   challenges. With 20+ years of experience in the IT and software industry, I have built rich
+
   cross-domain project experience.
 
+
   Within teams, I serve as a technical backbone and leader, driving the team to achieve shared
+
   goals. Fluent in English, I excel at cross-functional communication and coordination.
+
   I am highly self-driven and committed to continuous improvement, proactively exploring
-  frontier technologies and striving for excellence in every task.
 
+  frontier technologies and striving for excellence in every task.\n"
 affiliations:
-  - name: Cisco Systems (China) R&D Co., Ltd.
-    url: https://www.cisco.com/
-
+  - name: "Cisco Systems (China) R&D Co., Ltd."
+    url: "https://www.cisco.com/"
 links:
-  - icon: at-symbol
-    url: mailto:zpkx@qq.com
-    label: E-mail Me
-
+  - icon: "at-symbol"
+    url: "mailto:zpkx@qq.com"
+    label: "E-mail Me"
+  - icon: "brands/github"
+    url: "https://github.com/zpkx"
+    label: "GitHub"
 interests:
-  - AI applications and engineering
-  - Full-stack development
-  - Hands-on making
-  - Health management
-
+  - "AI applications and engineering"
+  - "Full-stack development"
+  - "Hands-on making"
+  - "Health management"
+  - "Coffee enthusiast"
 education:
-  - degree: Bachelor's in Computer Applications
-    institution: Hefei University of Technology
-    start: 1999-09-01
-    end: 2003-07-01
-    summary: ''
+  - degree: "Bachelor's in Computer Applications"
+    institution: "Hefei University of Technology"
+    start: "1999-09-01"
+    end: "2003-07-01"
+    summary: ""
     button:
-      text: ''
-      url: ''
-      icon: ''
-
+      text: ""
+      url: ""
+      icon: ""
 experience:
-  - role: IT Software Engineering Technical Leader
-    org: Cisco Systems (China) R&D Co., Ltd. — Hefei
-    start: 2008-07-01
-    summary: |
-      **Supply Chain IT Source & Finance Team · Tech Lead**
+  - role: "IT Software Engineering Technical Leader"
+    org: "Cisco Systems (China) R&D Co., Ltd. — Hefei"
+    start: "2008-07-01"
+    summary: "**Supply Chain IT Source & Finance Team · Tech Lead**
+
 
       - Lead cross-border India + China engineering team delivering cloud-based IT platforms for Cisco Supply Chain
+
       - Drive Cloud Native architecture design and validation; establish microservices and cloud-native technical standards
+
       - Build foundational frontend/backend frameworks and reference implementations for delivery consistency
+
       - Lead technical and business training, mentor developers, resolve complex production and design issues
+
       - Drive department-level technical decisions and standardization
+
       - Drive AI adoption within the team, leveraging AI Harness, Coding Agents, and RAG
+
 
       **Cloud Software Team · Tech Lead**
 
+
       - Led team transformation from configuration management to DevOps; grew team from 3 to 15
+
       - Architected, built, and operated the team's CI/CD platform; optimized build, test, and release workflows
+
       - Defined and governed software development lifecycle processes
+
       - Implemented automated environment provisioning and management
-      - Researched emerging technologies and industry best practices, driving their adoption
-  - role: Senior Software Engineer
-    org: Yahoo! China — Platform Technology Department
-    start: 2006-02-01
-    end: 2008-06-30
-    summary: |
-      Core member of the Platform Technology team, contributing to Yahoo! China's social product line
+
+      - Researched emerging technologies and industry best practices, driving their adoption\n"
+  - role: "Senior Software Engineer"
+    org: "Yahoo! China — Platform Technology Department"
+    start: "2006-02-01"
+    end: "2008-06-30"
+    summary: "Core member of the Platform Technology team, contributing to Yahoo! China's social product line
+
       including new products (Zhanzhang Tianxia) and major enhancements to existing products (Yahoo Photos).
-      Mentored 2 junior engineers through their onboarding and ramp-up.
-  - role: Software QA Engineer
-    org: WebEx Communications (China) — Hefei
-    start: 2004-02-01
-    end: 2006-02-28
-    summary: |
-      Owned testing for multiple WebEx Meeting projects — test planning, case design, and execution —
-      collaborating closely with US-based PMs and engineers across global sites.
-  - role: Software Engineer
-    org: Anhui Baipeng Information Technology Co., Ltd.
-    start: 2003-02-01
-    end: 2004-02-28
-    summary: |
-      Developed, tested, and maintained B/S architecture applications.
-      Maintained internal network infrastructure and servers.
 
+      Mentored 2 junior engineers through their onboarding and ramp-up.\n"
+  - role: "Software QA Engineer"
+    org: "WebEx Communications (China) — Hefei"
+    start: "2004-02-01"
+    end: "2006-02-28"
+    summary: "Owned testing for multiple WebEx Meeting projects — test planning, case design, and execution —
+
+      collaborating closely with US-based PMs and engineers across global sites.\n"
+  - role: "Software Engineer"
+    org: "Anhui Baipeng Information Technology Co., Ltd."
+    start: "2003-02-01"
+    end: "2004-02-28"
+    summary: "Developed, tested, and maintained B/S architecture applications.
+
+      Maintained internal network infrastructure and servers.\n"
 skills:
-  - name: AI & Intelligence
+  - name: "AI & Intelligence"
     items:
-      - label: LangChain, RAG, MCP
+      - label: "LangChain, RAG, MCP"
         level: 4
-      - label: AI Agent, AI Harness
+      - label: "AI Agent, AI Harness"
         level: 5
-      - label: Python
+      - label: "Python"
         level: 4
-  - name: Backend
+  - name: "Backend"
     items:
-      - label: Java + Spring (Boot, Cloud)
+      - label: "Java + Spring (Boot, Cloud)"
         level: 5
-      - label: Node.js
+      - label: "Node.js"
         level: 3
-  - name: Frontend
+  - name: "Frontend"
     items:
-      - label: Angular
+      - label: "Angular"
         level: 5
-      - label: React
+      - label: "React"
         level: 4
-  - name: Data
+  - name: "Data"
     items:
-      - label: Oracle, MySQL, PostgreSQL
+      - label: "Oracle, MySQL, PostgreSQL"
         level: 5
-      - label: Redis, MongoDB
+      - label: "Redis, MongoDB"
         level: 4
-      - label: Kafka
+      - label: "Kafka"
         level: 4
-  - name: Architecture & Cloud
+  - name: "Architecture & Cloud"
     items:
-      - label: Cloud Native / Microservices
+      - label: "Cloud Native / Microservices"
         level: 5
-      - label: Docker, Kubernetes
+      - label: "Docker, Kubernetes"
         level: 4
-      - label: OpenShift
+      - label: "OpenShift"
         level: 4
-  - name: DevSecOps
+  - name: "DevSecOps"
     items:
-      - label: CI/CD, Jenkins
+      - label: "CI/CD, Jenkins"
         level: 5
-      - label: SonarQube, SAST, Conjur
+      - label: "SonarQube, SAST, Conjur"
         level: 4
-
 languages:
-  - name: English
+  - name: "English"
     level: 5
-    label: Fluent (working language for 17+ years)
-  - name: Chinese
+    label: "Fluent (working language for 17+ years)"
+  - name: "Chinese"
     level: 5
-    label: Native
-
+    label: "Native"
 awards:
-  - title: AWS Certified Solutions Architect — Associate
-    awarder: Amazon Web Services
+  - title: "AWS Certified Solutions Architect — Associate"
+    awarder: "Amazon Web Services"
     date: "2020-05-01"
-    summary: ''
-    icon: hero/trophy
-  - title: Certified Scrum Master (CSM)
-    awarder: Scrum Alliance
+    summary: ""
+    icon: "hero/trophy"
+  - title: "Certified Scrum Master (CSM)"
+    awarder: "Scrum Alliance"
     date: "2015-01-01"
-    summary: ''
-    icon: hero/trophy
-  - title: Oracle Certified Associate — WebLogic Server 11g System Administrator
-    awarder: Oracle
+    summary: ""
+    icon: "hero/trophy"
+  - title: "Oracle Certified Associate — WebLogic Server 11g System Administrator"
+    awarder: "Oracle"
     date: "2014-06-01"
-    summary: ''
-    icon: hero/trophy
+    summary: ""
+    icon: "hero/trophy"
