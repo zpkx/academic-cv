@@ -5,18 +5,24 @@
 # Default language
 en:
   locale: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
+  title: Peng Zhang
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  locale: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+# Chinese language
+zh:
+  locale: zh-Hans
+  contentDir: content/zh
+  title: 张鹏
+  params:
+    description: 张鹏的个人简历网站 — IT 软件工程技术负责人，20+ 年经验
+  menu:
+    main:
+      - name: 简介
+        url: /
+        weight: 10
+      - name: 经历
+        url: experience/
+        weight: 20
+      - name: 项目
+        url: projects/
+        weight: 30
