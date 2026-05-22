@@ -11,7 +11,7 @@ sections:
       text: ''
       button:
         text: 下载简历
-        url: uploads/resume.pdf
+        url: uploads/Peng_Zhang_resume_cn_2026.pdf
       headings:
         about: ''
         education: ''
