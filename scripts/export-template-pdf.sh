@@ -3,7 +3,7 @@ set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 TEMPLATES_DIR="${ROOT_DIR}/resume-data/templates"
-UPLOADS_DIR="${ROOT_DIR}/public/uploads"
+UPLOADS_DIR="${ROOT_DIR}/static/uploads"
 
 CN_HTML="${TEMPLATES_DIR}/resume_template_cn.html"
 EN_HTML="${TEMPLATES_DIR}/resume_template_en.html"

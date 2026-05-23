@@ -2,7 +2,7 @@
 
 main:
   - name: Bio
-    url: /
+    url: ''
     weight: 10
   - name: Experience
     url: experience/

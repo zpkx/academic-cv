@@ -14,11 +14,14 @@ zh:
   contentDir: content/zh
   title: 张鹏
   params:
+    hugoblox:
+      identity:
+        name: 张鹏
     description: 张鹏的个人简历网站 — IT 软件工程技术负责人，20+ 年经验
   menu:
     main:
       - name: 简介
-        url: /
+        url: ''
         weight: 10
       - name: 经历
         url: experience/
