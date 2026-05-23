@@ -1,5 +1,7 @@
 # Peng Zhang
 
+<img src="avatar.png" class="resume-avatar" alt="avatar" />
+
 > **IT Software Engineering Technical Leader** ｜ 20+ Years of Experience ｜ Hefei, China
 
 📱 +86 189-5519-9945 ｜ ✉️ [zpkx@qq.com](mailto:zpkx@qq.com)
@@ -42,7 +44,7 @@ I am highly self-driven and committed to continuous improvement. I proactively e
 
 ### Cisco Systems (China) Research & Development Co., Ltd. — Hefei
 
-**IT Software Engineering Technical Leader** ｜ Telecom / Networking ｜ `Jul 2008 — Present`
+**IT Software Engineering Technical Leader** ｜ Telecom / Networking ｜ `Jul 2008 — Jun 2026`
 
 **▸ Supply Chain IT Source & Finance Team · Tech Lead**
 
@@ -150,7 +152,7 @@ The team built an internal AI Q&A and automation platform for Cisco Supply Chain
 - **Multi-Channel Access**: Delivered **Streamlit** conversational UI (spec upload, session management, streaming interaction) and **FastAPI HTTP bridge**, plus a Mock API server for demo and integration testing;
 - **Engineering Delivery**: Completed **Docker Compose** one-command deployment, environment-variable security management (`dotenv`), CLI entry points (`api-maestro-server` / `api-maestro-ui`), and MCP stdio test scripts to support hackathon demo and future scaling.
 
-### Supply Chain Finance Miscellaneous Tools `Sep 2023 — Present`
+### Supply Chain Finance Miscellaneous Tools `Sep 2023 — Apr 2026`
 
 > **Stack**: Java 21 · Spring Boot 4.0 · Spring Security · OAuth2 · Cisco LDAP · OpenAPI v3 · Angular 21 · Nx · Cisco Design System · Gradle (Kotlin DSL) · OpenRewrite · Docker (Chainguard) · Jenkins · SonarQube · Spinnaker · Conjur
 
@@ -166,7 +168,7 @@ A lightweight tools platform for the Supply Chain Finance team, hosting multiple
 - **Continuous Modernization**: Drove major upgrades such as **Spring Boot 2 → 3.5 → 4.0** and **Angular → 21** with **OpenRewrite**, and codified reusable migration patterns;
 - **DevSecOps**: Built **Jenkins + SonarQube Quality Gate + SAST + Spinnaker** automated delivery pipeline; migrated images to **Chainguard** secure base images; integrated **Conjur** secret management; maintained 8 environment profiles and led production credential rotation and vulnerability remediation.
 
-### CART-Kafka — CBM Data Ingestion Microservice `Jul 2024 — Present`
+### CART-Kafka — CBM Data Ingestion Microservice `Jul 2024 — Apr 2026`
 
 > **Stack**: Java 21 · Spring Boot 4.0 · Spring Kafka · Spring Data JPA · Oracle · OAuth2 · Conjur · Maven · OpenRewrite · Docker · Jenkins (Golden Pipeline) · SonarQube · Spinnaker · OpenShift
 
@@ -183,7 +185,7 @@ An upstream data-ingestion microservice for the CART platform, deployed independ
 - **DevSecOps**: Completed **Cert Auth → OAuth2** migration and **Conjur** secret integration; implemented quality gates with **SonarQube Quality Gate + SAST + Dependabot + PMD/CPD + JaCoCo**; migrated build pipeline to Cisco IT **Golden Pipeline** for unified build, scanning, image publishing, and **Spinnaker** deployment;
 - **Multi-Environment and Team Enablement**: Maintained 9 environment profiles, led production certificate rotation and vulnerability remediation (Qwiet / Tomcat CVEs, etc.), acted as primary PR reviewer, and mentored team members on large feature delivery.
 
-### CART — Cost Analysis and Reconciliation Tool `Sep 2020 — Present`
+### CART — Cost Analysis and Reconciliation Tool `Sep 2020 — Apr 2026`
 
 > **Stack**: Java 21 · Spring Boot 4.0 · Spring Security · OAuth2 · Cisco LDAP · Spring Data JPA · Oracle · Redis · OpenAPI v3 · Apache POI · AWS S3 / Cisco COS · Micrometer Tracing · OWASP ESAPI · Gradle · OpenRewrite · Angular 21 · AG Grid · Highcharts · Cisco CUI · Docker (Nginx) · Jenkins · SonarQube · Spinnaker · Conjur · OpenShift
 
@@ -199,22 +201,82 @@ A core Supply Chain Finance system that automates day-end **cost variance analys
 - **Continuous Modernization**: Drove major upgrades via **OpenRewrite** (**Spring Boot to 4.0, Java to 21, Angular to 21**) and integrated **Micrometer Tracing + Brave** for distributed tracing;
 - **DevSecOps and Infrastructure**: Built **Jenkins + SonarQube Quality Gate + SAST + PMD + JaCoCo + Spinnaker** delivery pipeline and **OpenShift** multi-DC runtime setup; integrated **Conjur** for secret management; maintained multi-environment profiles and led production credential rotation and vulnerability fixes.
 
-### Earlier Projects (2003 — Present)
+### RCE — Royalty Calculation Engine `Jul 2018 — Apr 2026`
 
-| Period                | Project                                | Role & Highlights                                                                                                                                                             |
-| --------------------- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Jul 2018 — Present`  | **RCE — Royalty Calculation Engine**  | **Tech Lead** (9-person global team); Cisco core royalty system (30+ modules); Cloud Native + API-First; **first Blue-Green zero-downtime deployment in department**; Nx Monorepo and **`@scf/common-lib`** shared library; modernized to Spring Boot 4 / Java 21 / Angular 21 via OpenRewrite |
-| `Nov 2014 — Jan 2018` | **Self Service Model**                 | Optimized build/deployment workflows and delivered **Build-Once / Deploy-Many** with Dev/QA self-service; built Continuous Delivery Portal; drove process design, architecture selection, POC, and team enablement |
-| `Nov 2013 — Oct 2014` | **Continuous Delivery Transformation** | Cisco IT CDT unified delivery platform; led migration of Git/Jenkins/Artifactory to new platform; conducted uDeploy/uRelease feasibility and collaborated with US/India platform teams |
-| `Jul 2012 — Oct 2013` | **Data Center Migration**              | Migrated applications from WebEx Data Center to Cisco Data Center; joined architecture discussions and POC in the US; wrote WLST automation scripts to improve environment setup efficiency and reusability |
-| `Jul 2011 — Jun 2012` | **Git Migration**                      | CVS to Git migration; completed POC and technical strategy; delivered English Git training to developers; led DevOps members to complete migration on schedule |
-| `Sep 2009 — Oct 2010` | **Continuous Integration**             | Refactored CruiseControl scripts; led migration from CruiseControl to Hudson (Jenkins)                                                                                      |
-| `Aug 2008 — Aug 2009` | **WebEx Elvis**                        | Maintained internal lifecycle management system (PHP + MySQL); bug fixes and feature development                                                                             |
-| `Jul 2008 — Aug 2009` | **Myify**                              | Lead developer of a PHP / Zend / Dojo task-tracking web app; delivered 90%+ of code                                                                                         |
-| `Oct 2007 — May 2008` | **Y!China NBS Platform**               | Lead frontend engineer for Yahoo's site-builder platform; drove Symfony adoption and backend admin modules                                                                   |
-| `May 2007 — Jul 2007` | **Y!China Blog UGC**                   | Frontend architecture and development for Yahoo's blog aggregation (PHP + PostgreSQL)                                                                                        |
-| `Feb 2006 — May 2007` | **Y!China Photo Service**              | Lead frontend engineer for Yahoo Photos; worked with operations to grow PV from <1M to 20M+                                                                                 |
-| `Oct 2003 — Feb 2004` | **National Foreign Investment Annual Inspection System** | .NET system jointly launched by China's Ministry of Commerce and 7 ministries                                                                                                |
+> **Stack**: Java 21 · Spring Boot 4.0 · Spring Security · OAuth2 (Client + Resource Server) · JWT (RSA) · Cisco LDAP · Spring Data JPA · Spring WebFlux · Oracle · Redis · Micrometer Tracing · OpenAPI v3 · Apache POI · iText PDF · Gradle · OpenRewrite · Angular 21 · Nx Monorepo · AG Grid · ECharts · Highcharts · PrimeNG · Cisco UI · Docker (Chainguard) · Jenkins · SonarQube · Spinnaker · Conjur · OpenShift
+
+**📌 Project**
+
+Cisco's enterprise-wide business system for calculating **outbound royalty payments to suppliers**, integrated with Cisco Supply Chain, PLM, Finance, and Data Warehouse systems and supporting Cisco's multi-platform architecture. Frontend and backend deployed independently as dual repos (`rcecloud-api` + `rcecloud-ui` Nx Monorepo), covering **30+ business modules** — the largest real-world business system in the department.
+
+**🎯 Responsibilities**
+
+- **Tech Lead** for a 9-person team across **US / India / China**, owning **end-to-end design, development, release, and operations** of the web app; personally built the foundational architecture, application framework, and large portions of business modules while continuously mentoring the team;
+- **Cloud Native Architecture** — Full frontend / backend separation with **API-First (OpenAPI v3) code generation**; SSO, RBAC, and stateless auth on **OAuth2 (Client + Resource Server) + LDAP + JWT**; deployed on **OpenShift** private cloud with multi-data-center load balancing, auto-scaling, and self-healing;
+- **Zero-Downtime Deployment** — Pioneered **Blue-Green Deployment** — *the first project in the Supply Chain IT department to ship this capability*;
+- **Nx Monorepo & Shared Library** — Frontend on **Nx Monorepo** with a publishable shared library **`@scf/common-lib`** (distributed via Cisco Artifactory) that standardizes frontend components and services across the Supply Chain Finance portfolio;
+- **Continuous Modernization** — Drove **Spring Boot upgrades through 4.0**, **Java → 21**, and **Angular upgrades through 21** via **OpenRewrite**; integrated **Micrometer Tracing + Brave** for distributed tracing; introduced a **TA JWT (RSA-signed) authentication mechanism for test automation**, solving the long-standing pain of enterprise SSO blocking automated tests;
+- **DevSecOps** — Built the **Jenkins + SonarQube Quality Gate + SAST + SCA + PMD + JaCoCo + Dependabot + Spinnaker** delivery pipeline; migrated container images to **Chainguard** hardened base images; integrated **Conjur** for secret management.
+
+### Self Service Model `Nov 2014 — Jan 2018`
+
+> **Stack**: RedHat · Java · Shell
+
+**📌 Project**
+
+Streamlined build and deployment workflows so that Dev and QA teams could self-serve their releases — implementing **Build-Once / Deploy-Many**. Developed a **Continuous Delivery Portal** providing real-time data and statistics across each stage of the delivery pipeline.
+
+**🎯 Responsibilities**
+
+Defined the new process; led architecture design and technical selection; delivered the POC to validate feasibility; planned and tracked the rollout; trained Dev and QA teams on the new process and Portal usage.
+
+### Continuous Delivery Transformation `Nov 2013 — Oct 2014`
+
+> **Stack**: Stash · Enterprise Jenkins · Artifactory Pro · SonarQube · IBM UrbanCode Deploy / Release
+
+**📌 Project**
+
+A Cisco IT-wide CDT initiative providing a unified delivery platform. Migrated legacy Git, Jenkins, and Artifactory to the new platform; adopted **uDeploy** and **uRelease** for automated deployment and release management.
+
+**🎯 Responsibilities**
+
+Led migration planning, mentored team members through the platform transition, evaluated uDeploy / uRelease feasibility, and partnered with platform teams in the US and India.
+
+### Data Center Migration `Jul 2012 — Oct 2013`
+
+> **Stack**: RedHat · WebLogic · Oracle HTTP Server
+
+**📌 Project**
+
+Migrated a portion of applications from the legacy WebEx Data Center to the standard Cisco Data Center.
+
+**🎯 Responsibilities**
+
+Traveled to the US for early-stage architecture discussions and POC delivery. Authored a complete suite of **WLST (WebLogic Scripting Tool)** automation scripts to accelerate environment setup, improving reusability, efficiency, and reducing time / cost.
+
+### Git Migration `Jul 2011 — Jun 2012`
+
+> **Stack**: RedHat · Clustered Tomcat · CVS · Git · Gitblit · gitolite · GitLab
+
+**📌 Project**
+
+Led the team's migration from CVS to Git.
+
+**🎯 Responsibilities**
+
+Delivered the POC, developed the technical strategy and rollout plan, trained developers (in English) on Git, and led DevOps engineers through the migration on schedule.
+
+### Earlier Projects (2003 — 2010)
+
+| Period             | Project                                           | Role / Highlights                                                                                |
+| ------------------ | ------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| `Sep 2009 — Oct 2010` | **Continuous Integration**                        | Refactored CruiseControl scripts; pioneered the migration from CruiseControl to Hudson (Jenkins) |
+| `Aug 2008 — Aug 2009`  | **WebEx Elvis**                                   | Maintained internal lifecycle management system (PHP + MySQL); bug fixes and feature work        |
+| `Jul 2008 — Aug 2009`  | **Myify**                                         | Lead developer of a PHP / Zend / Dojo task-tracking web app; delivered 90%+ of the codebase      |
+| `Oct 2007 — May 2008` | **Y!China NBS Platform**                          | Lead frontend engineer for Yahoo's site-builder platform; drove Symfony adoption and backend admin modules |
+| `May 2007 — Jul 2007`  | **Y!China Blog UGC**                              | Frontend architecture and development for Yahoo's blog aggregation (PHP + PostgreSQL)            |
+| `Feb 2006 — May 2007`  | **Y!China Photo Service**                         | Lead frontend engineer for Yahoo Photos; helped grow PV from <1M to 20M+                         |
+| `Oct 2003 — Feb 2004` | **National Foreign Investment Annual Inspection** | .NET-based system for the Ministry of Commerce + 7 ministries                                    |
 
 ---
 
@@ -240,7 +302,7 @@ This was a personally led exploratory initiative with **multiple compounding goa
 - **Enterprise Capability Fit**: Implemented **OIDC SSO**, **AG Grid Enterprise**, **runtime multi-environment configuration injection**, **Dockerized deployment**, and **Playwright E2E tests**, bringing the rewrite to production-ready level;
 - **AI Harness Engineering**: Combined **Superpowers plugin** and **custom skills** to harness AI Coding Agents into reusable workflows (TDD, systematic debugging, code review, plan execution, etc.), significantly improving controllability and output quality for complex tasks.
 
-### Playwright Test Automation `2025 — 2026`
+### Playwright Test Automation `Feb 2025 — Sep 2025`
 
 > **Stack**: Playwright · TypeScript · Page Object Model · monocart-reporter · oracledb · TA JWT (RSA) · DUO OIDC · OAuth2 JWT · Express · Multer · Docker · Jenkins · Conjur · Node.js
 

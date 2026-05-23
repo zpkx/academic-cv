@@ -1,0 +1,83 @@
+schema_version: "1.0"
+metadata:
+  source: "split_from_full_yaml"
+  description: "Work experience only"
+
+work_experience:
+  - company:
+      zh: "思科系统（中国）研发有限公司 合肥分公司"
+      en: "Cisco Systems (China) R&D Co., Ltd. — Hefei"
+    industry:
+      zh: "通信/电信/网络设备"
+      en: "Telecom / Networking"
+    period: "2008/7 — 2026/6"
+    role:
+      zh: "IT软件工程技术负责人"
+      en: "IT Software Engineering Technical Leader"
+    teams:
+      - name:
+          zh: "供应链 IT Source & Finance 团队"
+          en: "Supply Chain IT Source & Finance Team"
+        role: "Tech Lead"
+        responsibilities:
+          - zh: "带领India & China跨国团队，为Cisco供应链交付多个云平台IT系统，主导Cloud Native架构设计与验证。"
+            en: "Led a cross-country India and China team to deliver multiple cloud IT systems for Cisco Supply Chain, and drove cloud-native architecture design and validation."
+          - zh: "确立微服务与云原生技术标准，建设前后端基础框架与参考实现，提升交付一致性。"
+            en: "Established microservice and cloud-native technology standards, and built frontend/backend foundational frameworks and reference implementations to improve delivery consistency."
+          - zh: "主导技术与业务培训，指导开发人员解决系统疑难，参与部门级技术决策与标准化。"
+            en: "Led technical and business training, coached developers to resolve complex system issues, and contributed to department-level technical decisions and standardization."
+          - zh: "推动AI在团队落地：AI Harness (Cursor, Claude Code)、Coding Agent、RAG提升研发效率与代码质量。"
+            en: "Drove practical AI adoption through AI Harness (Cursor, Claude Code), coding agents, and RAG to improve engineering efficiency and code quality."
+      - name:
+          zh: "云软件团队"
+          en: "Cloud Software Team"
+        role: "Tech Lead"
+        responsibilities:
+          - zh: "帮助团队从CM配置管理转型DevOps，规模从3人扩展至15人，协同部门经理达成业务目标。"
+            en: "Helped the team transition from CM (configuration management) to DevOps, scaling from 3 to 15 engineers and partnering with the department manager to meet business goals."
+          - zh: "主导CI/CD平台架构设计与实施，优化构建/测试/发布流程，显著缩短交付周期；通过培训赋能开发。"
+            en: "Led CI/CD platform architecture and implementation, optimized build/test/release pipelines, significantly shortened delivery cycles, and enabled developers through training."
+          - zh: "定义软件开发流程并监管自动化运维，协助Debug应用运行问题，跟踪行业最佳实践并推动落地。"
+            en: "Defined software development processes and oversaw automated operations, supported debugging of runtime application issues, and tracked and applied industry best practices."
+
+  - company:
+      zh: "中国雅虎"
+      en: "Yahoo! China"
+    industry:
+      zh: "互联网/电子商务"
+      en: "Internet / E-commerce"
+    period: "2006/2 — 2008/6"
+    role:
+      zh: "平台技术开发部 · 高级软件工程师"
+      en: "Senior Software Engineer, Platform Technology Department"
+    summary:
+      zh: "作为平台技术开发部核心成员，参与中国雅虎社交产品线开发，包括新产品“站长天下”以及老产品（如雅虎相册）的新功能和运营需求。"
+      en: "Core member of the Platform Technology Department, involved in Yahoo! China's social product line, including new product 'Zhanzhang Tianxia' and feature/ops work for existing products like Yahoo Photos."
+
+  - company:
+      zh: "网迅（中国）软件有限公司 合肥分公司"
+      en: "WebEx Communications (China) — Hefei"
+    industry:
+      zh: "计算机软件"
+      en: "Software"
+    period: "2004/2 — 2006/2"
+    role:
+      zh: "QA部 · 软件QA工程师"
+      en: "Software QA Engineer, QA Department"
+    summary:
+      zh: "参与多个WebEx Meeting项目的测试工作，包括制定测试计划、编写测试用例、执行测试。与美国PM和其他站点开发人员密切协作。"
+      en: "Participated in testing for WebEx Meeting projects: test planning, case writing, execution. Worked closely with US PMs and developers from other sites."
+
+  - company:
+      zh: "安徽百朋信息技术有限公司"
+      en: "Anhui Baipeng Information Technology Co., Ltd."
+    industry:
+      zh: "计算机软件"
+      en: "Software"
+    period: "2003/2 — 2004/2"
+    role:
+      zh: "技术部 · 软件工程师"
+      en: "Software Engineer, Technology Department"
+    summary:
+      zh: "负责B/S架构软件开发、测试和维护，同时维护公司网络和服务器硬件。"
+      en: "Developed, tested, and maintained B/S software; also maintained company network and server hardware."

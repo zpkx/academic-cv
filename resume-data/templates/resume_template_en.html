@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Peng Zhang · Senior Software Engineering Expert Resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #eef2f5;
+      font-family: 'Segoe UI', 'Roboto', 'Inter', system-ui, -apple-system, sans-serif;
+      line-height: 1.45;
+      color: #1e2a3e;
+      padding: 2rem 1rem;
+    }
+
+    .resume {
+      max-width: 1100px;
+      margin: 0 auto;
+      background: white;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+        margin: 0;
+      }
+
+      .resume {
+        box-shadow: none;
+        max-width: 100%;
+        margin: 0;
+        border-radius: 0;
+      }
+
+      .section-block,
+      .job-block,
+      .project-item,
+      .team-item,
+      .side-item {
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+
+      h2 {
+        break-after: avoid;
+      }
+
+      .grid-2 {
+        break-inside: avoid;
+      }
+
+      @page {
+        size: A4;
+        margin: 0.6cm 0.5cm;
+      }
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 32% 68%;
+    }
+
+    .left-panel {
+      background-color: #f7f9fc;
+      border-right: 1px solid #e2e8f0;
+      padding: 1.8rem 1.4rem;
+    }
+
+    .right-panel {
+      background: white;
+      padding: 1.8rem 2rem;
+    }
+
+    .photo-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1.2rem;
+    }
+
+    .avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      background-color: #e2edf7;
+      border: 3px solid white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      display: block;
+    }
+
+    .name {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+      color: #0f2b3d;
+      margin-bottom: 0.3rem;
+      text-align: center;
+    }
+
+    .title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #2c5f8a;
+      border-left: 3px solid #2c5f8a;
+      padding-left: 0.7rem;
+      margin: 0.5rem 0 1rem 0;
+    }
+
+    .contact-info {
+      margin: 1rem 0 1.2rem 0;
+    }
+
+    .contact-line {
+      font-size: 0.8rem;
+      color: #1e293b;
+      margin-bottom: 0.4rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .contact-line strong {
+      min-width: 56px;
+      font-weight: 700;
+      color: #0f2b3d;
+    }
+
+    .divider-light {
+      height: 1px;
+      background: #dce3ec;
+      margin: 1rem 0;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #1e4663;
+      border-bottom: 2px solid #2c5f8a;
+      padding-bottom: 0.3rem;
+      margin: 1rem 0 0.9rem 0;
+      width: 100%;
+    }
+
+    .left-panel h2 {
+      border-bottom-color: #9aaebf;
+    }
+
+    .skill-category {
+      margin-bottom: 1rem;
+    }
+
+    .skill-category h3 {
+      font-size: 0.8rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: #2c3e50;
+      margin-bottom: 0.3rem;
+      letter-spacing: 0.3px;
+    }
+
+    .skill-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .skill-tag {
+      background: white;
+      border: 1px solid #cbd5e1;
+      padding: 0.2rem 0.7rem;
+      font-size: 0.7rem;
+      border-radius: 20px;
+      color: #1f4662;
+      font-weight: 500;
+    }
+
+    .edu-item,
+    .lang-item,
+    .cert-item {
+      font-size: 0.8rem;
+      margin-bottom: 0.7rem;
+    }
+
+    .edu-degree {
+      font-weight: 700;
+    }
+
+    .edu-date {
+      font-size: 0.7rem;
+      color: #5b6e8c;
+    }
+
+    .job-block {
+      margin-bottom: 1.4rem;
+      break-inside: avoid;
+    }
+
+    .job-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.2rem;
+    }
+
+    .job-company {
+      font-weight: 800;
+      font-size: 1rem;
+      color: #0c4e6e;
+    }
+
+    .job-period {
+      font-size: 0.7rem;
+      color: #4b6a8b;
+      font-weight: 500;
+    }
+
+    .job-role {
+      font-weight: 700;
+      font-size: 0.85rem;
+      color: #2c5f8a;
+      margin: 0.2rem 0 0.3rem 0;
+    }
+
+    .team-item {
+      margin-top: 0.6rem;
+      padding-left: 0.5rem;
+      border-left: 3px solid #cbdde9;
+      margin-bottom: 0.8rem;
+    }
+
+    .team-name {
+      font-weight: 800;
+      font-size: 0.85rem;
+      color: #1d4e70;
+      margin-bottom: 0.2rem;
+    }
+
+    .responsibilities {
+      padding-left: 1.2rem;
+      margin-top: 0.2rem;
+    }
+
+    .responsibilities li {
+      font-size: 0.75rem;
+      margin-bottom: 0.3rem;
+      line-height: 1.4;
+    }
+
+    .industry-note {
+      font-size: 0.7rem;
+      color: #6c86a3;
+      margin-top: -0.2rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .project-item {
+      margin-bottom: 1.2rem;
+      break-inside: avoid;
+    }
+
+    .project-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.2rem;
+    }
+
+    .project-name {
+      font-weight: 800;
+      font-size: 0.9rem;
+      color: #0c4e6e;
+    }
+
+    .project-period {
+      font-size: 0.7rem;
+      color: #5b6e8c;
+    }
+
+    .project-stack {
+      font-size: 0.7rem;
+      color: #476b8f;
+      margin: 0.2rem 0 0.2rem 0;
+      font-family: monospace;
+    }
+
+    .project-summary {
+      font-size: 0.78rem;
+      background: #f4f8fe;
+      padding: 0.4rem 0.6rem;
+      border-radius: 8px;
+      margin: 0.4rem 0;
+      color: #1f3a57;
+      line-height: 1.4;
+    }
+
+    .contrib-list {
+      padding-left: 1.2rem;
+      margin-top: 0.2rem;
+    }
+
+    .contrib-list li {
+      font-size: 0.73rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .other-projects {
+      background: #f8fafd;
+      padding: 0.6rem 1rem;
+      border-radius: 10px;
+      margin-top: 0.8rem;
+    }
+
+    .compact-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      font-size: 0.75rem;
+    }
+
+    .compact-item {
+      display: block;
+      line-height: 1.4;
+    }
+
+    .compact-item strong {
+      font-weight: 700;
+      color: #1d4e70;
+    }
+
+    hr {
+      margin: 0.5rem 0;
+      border: 0;
+      height: 1px;
+      background: #e2edf7;
+    }
+
+    .summary-text {
+      background: #ecf3f9;
+      padding: 0.7rem 1rem;
+      border-radius: 12px;
+      font-size: 0.8rem;
+      margin-bottom: 1.2rem;
+      line-height: 1.45;
+    }
+
+    .panel-markdown {
+      font-size: 0.8rem;
+      color: #1f3a57;
+      line-height: 1.45;
+      margin-bottom: 1.2rem;
+    }
+
+    .panel-markdown p {
+      margin: 0 0 0.4rem;
+    }
+
+    .panel-markdown ul,
+    .panel-markdown ol {
+      margin: 0.2rem 0 0.6rem 1.1rem;
+      padding-left: 0.8rem;
+    }
+
+    .panel-markdown li {
+      margin-bottom: 0.25rem;
+      font-size: 0.73rem;
+    }
+
+    .panel-markdown table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.3rem 0 0.8rem;
+      font-size: 0.7rem;
+    }
+
+    .panel-markdown th,
+    .panel-markdown td {
+      border: 1px solid #dce3ec;
+      padding: 0.28rem 0.35rem;
+      vertical-align: top;
+      text-align: left;
+    }
+
+    .panel-markdown th {
+      background: #f3f7fb;
+      font-weight: 700;
+      color: #1f4564;
+    }
+
+    .panel-markdown h3 {
+      font-size: 0.9rem;
+      color: #0c4e6e;
+      margin: 0.4rem 0 0.25rem;
+    }
+
+    @media (max-width: 700px) {
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+
+      .left-panel {
+        border-right: 0;
+      }
+
+      .name {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="resume">
+    <div class="grid-2">
+      <div class="left-panel">
+        <div class="photo-wrapper">
+          <img class="avatar" src="avatar.png" alt="Peng Zhang">
+        </div>
+        <div class="name">Peng Zhang</div>
+        <div class="title">IT Software Engineering Technical Leader</div>
+        <div class="contact-info">
+          <div class="contact-line"><strong>Phone</strong> +86 189-5519-9945</div>
+          <div class="contact-line"><strong>Email</strong> zpkx@qq.com</div>
+          <div class="contact-line"><strong>GitHub</strong> github.com/zpkx</div>
+          <div class="contact-line"><strong>Online Resume</strong> <a href="https://zpkx.github.io/peng-cv/" target="_blank" rel="noopener noreferrer">https://zpkx.github.io/peng-cv/</a></div>
+          <div class="contact-line"><strong>Location</strong> Hefei, China</div>
+          <div class="contact-line"><strong>Experience</strong> 20+ years</div>
+          <div class="contact-line"><strong>Date of Birth</strong> Aug 1980 · Married</div>
+        </div>
+        <div class="divider-light"></div>
+
+        <h2>Technical Expertise</h2>
+<div class="skill-category">
+  <h3>🤖 AI &amp; Intelligence</h3>
+  <div class="skill-tags"><span class="skill-tag">LangChain</span><span class="skill-tag">MCP</span><span class="skill-tag">RAG</span><span class="skill-tag">AI Agents</span></div>
+</div>
+<div class="skill-category">
+  <h3>☕ Backend</h3>
+  <div class="skill-tags"><span class="skill-tag">Java/Spring Boot/Cloud</span><span class="skill-tag">Python</span><span class="skill-tag">Node.js</span></div>
+</div>
+<div class="skill-category">
+  <h3>🎨 Frontend</h3>
+  <div class="skill-tags"><span class="skill-tag">Angular 21+</span><span class="skill-tag">React 19</span><span class="skill-tag">TypeScript</span></div>
+</div>
+<div class="skill-category">
+  <h3>🗄️ Data Storage</h3>
+  <div class="skill-tags"><span class="skill-tag">Oracle/MySQL/PostgreSQL</span><span class="skill-tag">Redis/MongoDB</span></div>
+</div>
+<div class="skill-category">
+  <h3>☁️ Architecture &amp; Cloud</h3>
+  <div class="skill-tags"><span class="skill-tag">Microservices</span><span class="skill-tag">Docker</span><span class="skill-tag">OpenShift/K8s</span><span class="skill-tag">Cloud Native</span></div>
+</div>
+<div class="skill-category">
+  <h3>⚙️ Engineering Productivity</h3>
+  <div class="skill-tags"><span class="skill-tag">DevSecOps</span><span class="skill-tag">Jenkins/SonarQube</span><span class="skill-tag">CI/CD</span></div>
+</div>
+
+
+<div class="divider-light"></div>
+<h2>Education</h2>
+<div class="edu-item">
+  <div class="edu-degree">Computer Applications, Bachelor's (Self-study Exam)</div>
+  <div>Hefei University of Technology</div>
+  <div class="edu-date">1999.09 – 2003.07</div>
+</div>
+<div class="edu-item">
+  <div>No.2 High School of Anqing, Anhui</div>
+  <div class="edu-date">1996.09 – 1999.07</div>
+</div>
+
+
+<div class="divider-light"></div>
+<h2>Languages &amp; Certifications</h2>
+<div class="lang-item"><strong>English</strong> · Fluent (CET-4)</div>
+<div class="cert-item">AWS Solutions Architect – Associate (2020)</div>
+<div class="cert-item">Certified Scrum Master (2015)</div>
+<div class="cert-item">Oracle WebLogic Server 11g OCA (2014)</div>
+
+      </div>
+
+      <div class="right-panel">
+        <div class="summary-text">
+          🔹 20+ years in IT software engineering & architecture | Self-driven senior engineer | Cross-border team leadership & cloud-native delivery<br>
+          🔹 Deep ownership of supply-chain core systems, GenAI platform build-out, and DevSecOps transformation; driving AI engineering and full-stack productivity.
+        </div>
+
+        <h2>Work Experience</h2>
+<div class="job-block">
+  <div class="job-header"><span class="job-company">Cisco Systems (China) R&amp;D Co., Ltd., Hefei Branch</span><span class="job-period">2008/7 — 2026/6</span></div>
+  <div class="job-role">IT Software Engineering Technical Leader</div>
+  <div class="team-item">
+  <div class="team-name">📌 Supply Chain IT Source &amp; Finance Team · Tech Lead</div>
+  <ul class="responsibilities"><li>Led a cross-border China/India team to deliver multiple cloud IT systems for Cisco Supply Chain.</li><li>Drove cloud-native architecture design and validation, and established microservice/cloud-native technical standards.</li><li>Built foundational frontend/backend frameworks and sample code as team reference implementations to improve delivery consistency.</li><li>Organized technical and business training, mentored engineers, and solved complex issues.</li><li>Participated in department-level technical decision-making and standardization, producing reusable solution patterns.</li><li>Promoted AI adoption in the team, using AI Harness, coding agents, and RAG to improve engineering productivity and code quality.</li></ul>
+</div>
+<div class="team-item">
+  <div class="team-name">📌 Cloud Software Team · Tech Lead</div>
+  <ul class="responsibilities"><li>Drove team transformation from Configuration Management (CM) to DevOps, growing from 3 members in 2009 to 15, and collaborated with the manager to achieve business goals.</li><li>Led architecture, setup, and implementation of the CI/CD platform; continuously optimized build/test/release workflow and significantly shortened delivery cycles; improved team productivity through training and mentoring.</li><li>Defined and governed the software development process.</li><li>Automated application environment provisioning and management, and supported developers in runtime troubleshooting.</li><li>Tracked emerging technologies and industry best practices and drove practical adoption.</li></ul>
+</div>
+
+</div>
+<div class="job-block">
+  <div class="job-header"><span class="job-company">Yahoo! China</span><span class="job-period">2006/2 — 2008/6</span></div>
+  <div class="job-role">Platform Technology Development · Senior Software Engineer</div>
+  <div class="industry-note">Internet / E-commerce</div>
+  <ul class="responsibilities"><li>Core contributor to Yahoo social product development, including the new product "Zhanzhang Tianxia" and new features/operation requirements for existing products such as Yahoo Photos.</li></ul>
+</div>
+<div class="job-block">
+  <div class="job-header"><span class="job-company">WebEx (China) Software Co., Ltd., Hefei Branch</span><span class="job-period">2004/2 — 2006/2</span></div>
+  <div class="job-role">QA Department · Software QA Engineer</div>
+  <ul class="responsibilities"><li>Participated in WebEx Meeting project testing, including test planning, test-case writing, and execution; collaborated with US PMs and developers from other sites.</li></ul>
+</div>
+<div class="job-block">
+  <div class="job-header"><span class="job-company">Anhui Baipeng Information Technology Co., Ltd.</span><span class="job-period">2003/2 — 2004/2</span></div>
+  <div class="job-role">Technology Department · Software Engineer</div>
+  <ul class="responsibilities"><li>Responsible for B/S architecture software development, testing, and maintenance, while also maintaining company network and server hardware.</li></ul>
+</div>
+
+
+<h2>Project Experience</h2>
+<div class="project-item">
+  <div class="project-header"><span class="project-name">SC GenAI Splunk — Supply Chain Alert Monitoring</span><span class="project-period">Jan 2026 — Apr 2026</span></div>
+  <div class="project-stack">Python/FastAPI · LangGraph/LangChain · Azure OpenAI · Webex Adaptive Card · Snowflake</div>
+  <div class="project-summary">A GenAI Splunk alert monitoring platform for supply chain, centrally operated by the platform team. It receives alerts through FastAPI Webhook, performs app identification, pattern matching, and LangGraph analysis, then sends intelligent notifications via email and Webex.</div>
+  <ul class="contrib-list">
+    <li>Upgraded Control-M and generic Splunk alerts to Webex Adaptive Card with structured details (job info, Oracle exceptions, etc.); integrated Confluence troubleshooting summaries into cards; fixed OAuth2 exact-match validation issues.</li>
+    <li>Built scheduled jobs to pull Run/Trace data from LangSmith and write into Snowflake, enabling observability and metrics analytics for the AI alert pipeline.</li>
+    <li>Added component-level YAML `custom_fields` support to dynamically extract namespace, pod, and other business fields from Splunk results and propagate them end-to-end to analyzer and notifications.</li>
+  </ul>
+</div>
+<div class="project-item">
+  <div class="project-header"><span class="project-name">GenAI Self Service Hub Service</span><span class="project-period">Feb 2026 — Apr 2026</span></div>
+  <div class="project-stack">Python/FastAPI · Alation API · PyYAML · S3 · Poetry</div>
+  <div class="project-summary">Backend microservice of Cisco GenAI platform's Self Service Hub, providing self-service capabilities such as knowledge base, docs, Agent workflow, and MCP registry. I was responsible for Semantic Layer: integrating Alation and auto-generating semantic model YAML for downstream GenAI consumption.</div>
+  <ul class="contrib-list">
+    <li>Implemented Alation Cloud REST client (token refresh, table lookup, column metadata retrieval), and mapped table/column descriptions, data types, and primary keys into YAML model specs.</li>
+    <li>Built semantic model assembly and validation with PyYAML (dimension/fact split, relations, verified queries), and delivered one-click YAML generation through FastAPI `/generate`.</li>
+    <li>Uploaded validated YAML files to S3 with component/app naming and versioning for multi-environment deployment and downstream pipelines.</li>
+    <li>Delivered REST APIs and Pydantic schemas, with pytest unit tests to ensure stability of metadata ingestion and YAML generation.</li>
+  </ul>
+</div>
+<div class="project-item">
+  <div class="project-header"><span class="project-name">Cisco IT Supply Chain GenAI Platform</span><span class="project-period">Jun 2025 — Jan 2026</span></div>
+  <div class="project-stack">Python/Streamlit · Duo SSO · GPU (CUDA) · Poetry/CI/CD · Ansible</div>
+  <div class="project-summary">An internal AI Q&amp;A and automation platform for Cisco Supply Chain based on RAG + LangGraph, integrating multiple enterprise systems. I took ownership of several foundational capabilities.</div>
+  <ul class="contrib-list">
+    <li>Integrated Duo SSO into Streamlit UI to close the unified-authentication gap and improve security compliance.</li>
+    <li>Installed and configured NVIDIA GPU drivers on production VMs to accelerate embedding vectorization and improve retrieval performance.</li>
+    <li>Configured HTTPS and TLS certificates for Dev/Stage/Prod on OpenStack, unifying transport security standards.</li>
+    <li>Migrated dependency management from pip to Poetry and built CI/CD pipeline for automated build, test, and deployment.</li>
+    <li>Completed Ansible setup on Dev hosts and established automation foundation for multi-VM operations.</li>
+  </ul>
+</div>
+<div class="project-item">
+  <div class="project-header"><span class="project-name">API Maestro — Cisco IT Hackathon 2025</span><span class="project-period">May 2025 — Jun 2025</span></div>
+  <div class="project-stack">Python/LangGraph · FastMCP · Streamlit/FastAPI · OpenAPI · Docker Compose</div>
+  <div class="project-summary">A solo hackathon project that enables users to drive any OpenAPI application using natural language. The system parses OpenAPI/Swagger specs and translates plain-language instructions into HTTP API calls, so non-technical users can operate API-driven systems without coding.</div>
+  <ul class="contrib-list">
+    <li>Independently completed architecture, core implementation, demo, and containerized deployment, delivering a fully demoable product in about two months.</li>
+    <li>Built NL-to-API orchestration based on LangGraph ReAct agent, dynamically mapping OpenAPI endpoints to LangChain tools and using internal LLM for parameter extraction and API execution.</li>
+    <li>Implemented OpenAPI parsing and endpoint tooling with runtime spec loading/switching support.</li>
+    <li>Refactored agent capability into FastMCP service to expose standardized tools and support integration with Cursor/IDE MCP clients.</li>
+    <li>Delivered Streamlit conversational UI + FastAPI bridge and one-command Docker Compose deployment.</li>
+  </ul>
+</div>
+<div class="project-item">
+  <div class="project-header"><span class="project-name">Supply Chain Finance Miscellaneous Tools</span><span class="project-period">Sep 2023 — Apr 2026</span></div>
+  <div class="project-stack">Java 21/Spring Boot 4 · Angular 21 · OAuth2/LDAP · Gradle · Jenkins/Spinnaker</div>
+  <div class="project-summary">A lightweight platform for Supply Chain Finance high-frequency tools, covering scenarios such as Excel/CSV bulk upload, cost-data download, and email notifications. Unified authentication and RBAC are implemented through Cisco LDAP.</div>
+  <ul class="contrib-list">
+    <li>Built Angular SPA + Spring Boot monorepo with unified Gradle (Kotlin DSL) build, producing a single executable JAR.</li>
+    <li>Implemented SSO + RBAC based on Spring Security + OAuth2 + Cisco LDAP; aligned frontend with Cisco design standards and delivered reusable components.</li>
+    <li>Maintained OpenAPI v3 and code generation (Spring interfaces + TypeScript SDK), reducing frontend-backend contract drift.</li>
+    <li>Drove multi-round upgrades via OpenRewrite (Spring Boot 2 → 4.0, Angular → 21), and established reusable upgrade patterns.</li>
+    <li>Built automated delivery chain with Jenkins + SonarQube Quality Gate + SAST + Spinnaker; migrated to Chainguard base image; integrated Conjur; maintained 8 environments; led credential rotation and vulnerability remediation.</li>
+  </ul>
+</div>
+<div class="project-item">
+  <div class="project-header"><span class="project-name">CART — Cost Analysis and Reconciliation Tool</span><span class="project-period">Sep 2020 — Apr 2026</span></div>
+  <div class="project-stack">Java 21/Spring Boot 4 · Angular 21 · Oracle/Redis · OAuth2/LDAP · OpenShift</div>
+  <div class="project-summary">A core supply-chain finance system that automates day-end cost variance analysis and three-source reconciliation (CG1/CFN/CBM), and pushes allocated/unallocated data to DFA/ICPM reporting systems. The backend contains 22 controllers and 43 services; frontend includes 17 business modules.</div>
+  <ul class="contrib-list">
+    <li>Led setup of frontend/backend-separated full-stack scaffold and evolved it into a reusable reference implementation.</li>
+    <li>Implemented SSO, RBAC, and service authorization using Spring Security + OAuth2 + Cisco LDAP; introduced OWASP ESAPI for input hardening.</li>
+    <li>Designed and implemented unified object storage integration for Cisco COS / AWS S3 to support upload, archival, and download.</li>
+    <li>Drove major upgrades (Spring Boot 4.0, Java 21, Angular 21) with OpenRewrite, and integrated Micrometer Tracing + Brave.</li>
+    <li>Built end-to-end DevSecOps chain (Jenkins, SonarQube Quality Gate, SAST, PMD, JaCoCo, Spinnaker) and OpenShift multi-DC runtime; integrated Conjur; maintained multiple environments and led production credential rotation/vulnerability fixes.</li>
+  </ul>
+</div>
+<div class="project-item">
+  <div class="project-header"><span class="project-name">RCE — Royalty Calculation Engine</span><span class="project-period">Jul 2018 — Apr 2026</span></div>
+  <div class="project-stack">Java 21/Spring Boot 4 · Angular 21/Nx Monorepo · OAuth2/JWT · OpenShift</div>
+  <div class="project-summary">Cisco's core system for outbound supplier royalty calculation, covering 30+ business modules and serving as one of the largest systems in the department.</div>
+  <ul class="contrib-list">
+    <li>Led a 9-member US/India/China team and owned end-to-end design, development, release, and operations; personally implemented platform architecture and key business modules.</li>
+    <li>Built frontend/backend-separated API-First architecture (OpenAPI v3); implemented SSO, RBAC, and stateless authorization using OAuth2 + LDAP + JWT; deployed to OpenShift private cloud with multi-DC load balancing, autoscaling, and self-healing.</li>
+    <li>Pioneered Blue-Green deployment, making it the first project in the Supply Chain IT department with this capability.</li>
+    <li>Built frontend shared library with Nx monorepo, standardizing components and services across Supply Chain Finance projects.</li>
+    <li>Drove upgrades to Spring Boot 4.0, Java 21, and Angular 21 with OpenRewrite; introduced TA JWT (RSA signing) to unblock automation testing under enterprise SSO.</li>
+  </ul>
+</div>
+<div class="other-projects">
+  <div class="compact-item" style="font-weight:700; margin-bottom:6px;">📁 Technical Evolution & Earlier Projects</div>
+  <div class="compact-list">
+    <div class="compact-item"><strong>Self Service Model</strong> — Built "build once, deploy many" capabilities and a delivery portal enabling Dev/QA self-service release.</div>
+    <div class="compact-item"><strong>Continuous Delivery Transformation</strong> — Cisco IT unified delivery platform, migrated Git/Jenkins/Artifactory and implemented automated deployment/release management.</div>
+    <div class="compact-item"><strong>Data Center Migration</strong> — Migrated applications from WebEx data center to Cisco standard data center with WLST automation.</div>
+    <div class="compact-item"><strong>Git Migration</strong> — Led full-team migration from CVS to Git, including POC, solution design, and English training sessions.</div>
+    <div class="compact-item"><strong>Continuous Integration</strong> — Refactored CruiseControl scripts and led migration to Hudson/Jenkins.</div>
+    <div class="compact-item"><strong>WebEx Elvis &amp; Myify</strong> — Maintained internal PHP systems and independently developed Zend/Dojo task tracking application.</div>
+    <div class="compact-item"><strong>Yahoo! Photos / Blog / NBS Platform</strong> — Led frontend architecture and implementation, helping Yahoo! Photos grow PV from under 1M to 20M+.</div>
+    <div class="compact-item"><strong>National Foreign Investment Annual Inspection System</strong> — .NET system jointly built with China's Ministry of Commerce and 7 ministries.</div>
+  </div>
+</div>
+
+
+<h2>Side Projects</h2>
+<div class="project-item">
+  <div class="project-header"><span class="project-name">RCE UI Rewrite in React</span><span class="project-period">Apr 2026 — May 2026</span></div>
+  <div class="project-stack">React 19 · TypeScript · Vite · TanStack Query · AG Grid · OIDC · pnpm</div>
+  <div class="project-summary">A personally led exploration project to validate Vibe Coding and AI Harness practices, and modernize UI/UX. I independently rewrote 22 business pages in about two months.</div>
+  <ul class="contrib-list">
+    <li>Built a modern frontend scaffold and reference implementation based on pnpm monorepo, React 19, Vite, Orval, and TanStack Query.</li>
+    <li>Implemented enterprise capabilities including OIDC SSO, AG Grid Enterprise, runtime multi-environment config injection, Dockerized deployment, and Playwright E2E tests.</li>
+    <li>Used Superpowers plugin and custom skills to harness AI coding agents and formed reusable agent workflows.</li>
+  </ul>
+</div>
+<div class="project-item">
+  <div class="project-header"><span class="project-name">Playwright Test Automation</span><span class="project-period">Feb 2025 — Sep 2025</span></div>
+  <div class="project-stack">Playwright · TypeScript · TA JWT · Docker · Jenkins</div>
+  <div class="project-summary">Introduced a modern, reusable, cross-project E2E automation framework for the team to replace long-term heavy manual regression.</div>
+  <ul class="contrib-list">
+    <li>Built the framework from scratch, covering CART and RCE test matrices, and delivered reusable capabilities such as AG Grid automation and direct Oracle DB validation.</li>
+    <li>Designed TA JWT (RSA-signed) test authentication with private keys managed by Conjur, solving the long-standing enterprise SSO automation login challenge.</li>
+    <li>Built Playwright Docker image and integrated Jenkins pipeline matrix execution, enabling automated regression on each PR/release.</li>
+    <li>Built a self-hosted Test Report Server to centrally manage historical reports, later adopted by multiple projects as a template.</li>
+  </ul>
+</div>
+<div class="project-item">
+  <div class="project-header"><span class="project-name">Video Downloader</span><span class="project-period">Jun 2025 — Jul 2025</span></div>
+  <div class="project-stack">Python/yt-dlp · PyYAML · Docker · GitHub Actions</div>
+  <div class="project-summary">An open-source side project that solves cross-platform bulk video download and archival for NAS/container environments with "configure and auto-download" workflow.</div>
+  <div class="project-summary" style="background: transparent; padding:0;">🔗 github.com/zpkx/video-downloader</div>
+</div>
+
+
+
+        <hr>
+        <div style="font-size:0.7rem; color:#3b5d8c; display:flex; flex-wrap:wrap; gap:1rem; justify-content:space-between;">
+          <span>🏆 Technical leadership · Cloud-native architecture · Global collaboration</span>
+          <span>🧠 AI engineering · DevSecOps practitioner</span>
+          <span>📄 Full-stack optimization · Continuous delivery</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

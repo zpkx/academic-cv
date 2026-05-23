@@ -8,9 +8,7 @@
     "dev": "hugo server --disableFastRender",
     "build": "hugo --minify && pnpm run pagefind",
     "pagefind": "pagefind --site public",
-    "resume:pdf": "bash ./scripts/build-resume-pdf.sh en",
-    "resume:pdf:en": "bash ./scripts/build-resume-pdf.sh en",
-    "resume:pdf:cn": "bash ./scripts/build-resume-pdf.sh cn"
+    "resume:pdf": "bash scripts/export-template-pdf.sh"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.12",

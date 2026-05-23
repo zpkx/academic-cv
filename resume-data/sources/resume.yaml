@@ -1,0 +1,119 @@
+schema_version: "1.0"
+metadata:
+  source: "split_from_full_yaml"
+  description: "Profile, summary, skills, education, certifications, languages"
+
+profile:
+  name: "张鹏"
+  title:
+    zh: "IT软件工程技术负责人"
+    en: "IT Software Engineering Technical Leader"
+  location:
+    zh: "合肥"
+    en: "Hefei, China"
+  years_of_experience: "20+"
+  contact:
+    phone: "18955199945"
+    email: "zpkx@qq.com"
+    github: "github.com/zpkx"
+  personal_info:
+    gender: "男"
+    residence: "合肥"
+    hukou: "合肥"
+    marital_status: "已婚"
+    date_of_birth: "1980-08-17"
+
+summary:
+  zh: |
+    我自我管理能力强，学习积极，动手能力出色。知识面广，分析能力强，能深入解决复杂技术难题。在IT和软件行业积累了丰富的跨领域经验。
+
+    在团队中担任技术骨干和带头人，带领团队完成目标。英语听说读写流利，擅长跨部门沟通。
+
+    我高度自驱，持续改进。主动钻研前沿技术，精益求精。自律且目标导向，持续交付高质量成果，同时推动团队创新与成长。
+  en: |
+    I have strong self-management, a proactive learning attitude, and excellent hands-on skills. With a broad knowledge base and strong analytical ability, I tackle complex technical problems effectively. Over 20 years in IT and software, I've built rich cross-domain experience.
+
+    I serve as a technical backbone and team leader, driving teams to achieve goals. Fluent in English, I excel at cross-functional communication.
+
+    Highly self-motivated and committed to continuous improvement, I proactively explore emerging technologies and strive for excellence. Disciplined and goal-oriented, I deliver high-quality results consistently while fostering team innovation and growth.
+
+skills:
+  categories:
+    - name:
+        zh: "AI 与智能化"
+        en: "AI & Intelligence"
+      technologies:
+        - "LangChain"
+        - "MCP"
+        - "RAG"
+        - "AI Agent"
+        - "AI Harness (Cursor, Claude Code, Copilot)"
+    - name:
+        zh: "后端开发"
+        en: "Backend Development"
+      technologies:
+        - "Java + Spring (Boot, Cloud)"
+        - "Python"
+        - "Node.js"
+    - name:
+        zh: "前端开发"
+        en: "Frontend Development"
+      technologies:
+        - "Angular"
+        - "React"
+    - name:
+        zh: "数据存储"
+        en: "Data Storage"
+      technologies:
+        - "SQL (Oracle, MySQL, PostgreSQL)"
+        - "NoSQL (Redis, MongoDB)"
+    - name:
+        zh: "架构与云"
+        en: "Architecture & Cloud"
+      technologies:
+        - "Monolithic"
+        - "Microservice"
+        - "Cloud Native (OpenShift, Docker, Kubernetes)"
+    - name:
+        zh: "研发效能"
+        en: "Engineering Productivity"
+      technologies:
+        - "DevSecOps (CI/CD, Jenkins, SonarQube, 安全扫描)"
+
+education:
+  - period: "1999/9 — 2003/7"
+    school:
+      zh: "合肥工业大学"
+      en: "Hefei University of Technology"
+    major:
+      zh: "计算机应用"
+      en: "Computer Applications"
+    degree:
+      zh: "本科"
+      en: "Bachelor's"
+  - period: "1996/9 — 1999/7"
+    school:
+      zh: "安徽省安庆市二中"
+      en: "No.2 High School of Anqing, Anhui"
+    major: ""
+    degree:
+      zh: "高中"
+      en: "High School"
+
+certifications:
+  - name: "AWS Certified Solutions Architect – Associate"
+    year: 2020
+  - name: "Certified Scrum Master"
+    year: 2015
+  - name: "Oracle WebLogic Server 11g System Administrator (OCA)"
+    year: 2014
+  - name: "CET-4"
+    year: 2003
+
+languages:
+  - language:
+      zh: "英语"
+      en: "English"
+    proficiency:
+      zh: "听说读写流利"
+      en: "Fluent in listening, speaking, reading, writing"

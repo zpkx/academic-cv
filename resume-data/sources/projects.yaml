@@ -1,0 +1,377 @@
+schema_version: "1.0"
+metadata:
+  source: "split_from_full_yaml"
+  description: "Professional projects and side projects"
+
+projects:
+  - name: "Supply Chain AI Alert Monitoring"
+    period: "2026/1 — 2026/4"
+    role:
+      zh: "贡献者"
+      en: "Contributor"
+    stack:
+      - "Python"
+      - "LangGraph/LangChain"
+      - "Azure OpenAI"
+      - "Webex Message API"
+      - "Snowflake"
+      - "Docker/Jenkins"
+    summary:
+      zh: "供应链告警监控平台（平台团队统一运维）。通过FastAPI Webhook接收Splunk告警，经应用识别、模式匹配和LangGraph AI Agent分析后，通过邮件和Webex双通道智能通知。"
+      en: "Supply Chain GenAI Splunk alert monitoring platform (operated by platform team). Receives Splunk alerts via FastAPI webhook, then uses app identification, pattern matching, and LangGraph AI Agent to analyze and send intelligent notifications via email and Webex."
+    contributions:
+      - zh: "将Control-M和通用Splunk告警升级为Webex Adaptive Card，结构化展示作业详情、Oracle异常等。集成Confluence Wiki故障排查摘要并渲染到卡片。修复OAuth2精确匹配校验问题。"
+        en: "Upgraded Control-M and generic Splunk alerts to Webex Adaptive Cards with structured job details, Oracle exceptions, etc. Integrated Confluence Wiki troubleshooting summaries into cards. Fixed OAuth2 exact-match validation."
+      - zh: "使用CronJob定时从LangSmith拉取Run/Trace数据，写入Snowflake，支撑AI告警链路的观测和指标分析。"
+        en: "Used CronJob to pull Run/Trace data from LangSmith into Snowflake, enabling observability and metrics for AI alert pipeline."
+      - zh: "在组件级YAML中支持custom_fields，从Splunk结果动态提取namespace、pod等业务字段，贯通Webhook到分析器再到通知的全链路展示。"
+        en: "Added custom_fields support in component YAML to dynamically extract business fields (namespace, pod) from Splunk results, propagating them from webhook to analyzer to notifications."
+
+  - name: "GenAI Self Service Hub — Semantic Layer Service"
+    period: "2026/2 — 2026/4"
+    role:
+      zh: "贡献者"
+      en: "Contributor"
+    stack:
+      - "Python"
+      - "Alation API"
+      - "PyYAML"
+      - "S3"
+      - "Poetry"
+    summary:
+      zh: "Cisco GenAI平台的Self Service Hub后端微服务，提供知识库、文档、Agent Workflow、MCP Registry等自助能力。我负责Semantic Layer建设：对接Alation数据目录，自动生成Semantic Model YAML，供下游GenAI消费。"
+      en: "Backend microservice of Cisco GenAI's Self Service Hub, offering knowledge base, docs, Agent Workflow, MCP Registry. I built the Semantic Layer: integrated Alation data catalog to auto-generate Semantic Model YAML for downstream GenAI."
+    contributions:
+      - zh: "实现Alation Cloud REST Client（Token刷新、表检索、列级元数据拉取），将表/列描述、数据类型、主键映射为YAML构建规格。"
+        en: "Implemented Alation Cloud REST client (token refresh, table search, column-level metadata fetch), mapping table/column descriptions, data types, and primary keys to YAML specs."
+      - zh: "基于PyYAML实现语义模型组装与校验（维度/事实拆分、关系、Verified Queries等），通过FastAPI `/generate`接口一键生成YAML。"
+        en: "Used PyYAML to assemble and validate semantic models (dimension/fact split, relations, Verified Queries). Exposed FastAPI `/generate` endpoint to one-click generate YAML."
+      - zh: "校验后将YAML上传至S3（按组件/应用命名和版本管理），支持多环境部署和下游流水线读取。"
+        en: "After validation, uploaded YAML to S3 with component/app naming and versioning, supporting multi-environment deployment and downstream pipelines."
+      - zh: "交付 `/generate`、`/validate`、`/save`等REST端点及Pydantic Schema，编写pytest单元测试，保证元数据拉取和YAML生成链路的稳定性。"
+        en: "Delivered REST endpoints (`/generate`, `/validate`, `/save`) with Pydantic schemas; wrote pytest unit tests to ensure stability of metadata ingestion and YAML generation."
+
+  - name: "Cisco IT Supply Chain GenAI Platform"
+    period: "2025/6 — 2026/1"
+    role:
+      zh: "贡献者"
+      en: "Contributor"
+    stack:
+      - "Python/Streamlit"
+      - "Duo SSO"
+      - "GPU (CUDA)"
+      - "OpenStack"
+      - "Poetry"
+      - "Ansible"
+    summary:
+      zh: "团队基于RAG+LangGraph为Cisco供应链构建内部AI问答与自动化平台，集成多个企业系统，实现智能问答和业务自动化。我负责多项基础能力建设。"
+      en: "Team built internal AI Q&A and automation platform for Cisco Supply Chain using RAG+LangGraph, integrating multiple enterprise systems. I contributed foundational capabilities."
+    contributions:
+      - zh: "集成Duo SSO到Streamlit UI，填补平台统一认证缺失，提升安全合规性。"
+        en: "Integrated Duo SSO into Streamlit UI, filling the authentication gap and improving security compliance."
+      - zh: "在生产VM上安装配置NVIDIA GPU驱动，为Embedding向量化加速，显著提升知识库检索性能。"
+        en: "Installed and configured NVIDIA GPU drivers on production VMs to accelerate embedding vectorization, significantly improving KB retrieval performance."
+      - zh: "在OpenStack上为Dev/Stage/Prod三套环境配置HTTPS和TLS证书，统一传输加密标准。"
+        en: "Configured HTTPS and TLS certificates for Dev/Stage/Prod on OpenStack, unifying encryption standards."
+      - zh: "将依赖管理从pip迁移到Poetry，搭建CI/CD流水线，实现自动构建、测试、部署，缩短交付周期。"
+        en: "Migrated from pip to Poetry, built CI/CD pipeline for automated build, test, deployment, shortening delivery cycles."
+      - zh: "在Dev主机上完成Ansible安装和配置，建立面向多VM的自动化运维基础，为后续批量运维铺路。"
+        en: "Installed and configured Ansible on dev hosts to establish multi-VM automation foundation, paving the way for batch operations."
+
+  - name: "API Maestro — Cisco IT Hackathon 2025"
+    period: "2025/5 — 2025/6"
+    role:
+      zh: "独立开发者 (Solo)"
+      en: "Solo Developer"
+    stack:
+      - "Python/LangGraph/LangChain"
+      - "FastMCP"
+      - "Streamlit/FastAPI"
+      - "OpenAPI/Swagger"
+      - "Docker Compose"
+    summary:
+      zh: "我Solo完成的Hackathon作品，实现用自然语言驱动任意OpenAPI应用。系统自动解析OpenAPI/Swagger规范，理解端点、参数和工作流，将口语化指令翻译为HTTP API调用并返回可读结果，让非技术用户无需编码即可操作API驱动的业务系统。"
+      en: "My solo Hackathon project that drives any OpenAPI application via natural language. Parses OpenAPI/Swagger specs, understands endpoints/parameters/workflows, translates spoken commands into HTTP API calls, and returns readable results—allowing non-technical users to operate API-driven systems without coding."
+    contributions:
+      - zh: "独立完成架构设计、核心编码、Demo和容器化部署，约2个月交付完整可演示作品。"
+        en: "Independently designed architecture, wrote core code, built demo, and containerized deployment; delivered fully demoable product in ~2 months."
+      - zh: "基于LangGraph ReAct Agent构建NL到API编排链路，动态将OpenAPI端点映射为LangChain Tools，利用BridgeIT内部LLM完成参数抽取和API执行。"
+        en: "Built NL-to-API orchestration using LangGraph ReAct Agent, dynamically mapping OpenAPI endpoints to LangChain tools, leveraging BridgeIT's internal LLM for parameter extraction and API execution."
+      - zh: "实现OpenAPI规范解析与端点工具化，支持运行时加载/切换API Spec，无需为每个接口编写调用代码。"
+        en: "Implemented OpenAPI parsing and endpoint tooling, supporting runtime loading/switching of API specs without writing glue code per endpoint."
+      - zh: "将Agent能力重构为FastMCP的Model Context Protocol服务，提供load_spec、execute_api、process_request等标准化Tool，支持Cursor/IDE等MCP客户端接入。"
+        en: "Refactored agent into a FastMCP-based Model Context Protocol service with standardized tools (load_spec, execute_api, process_request), enabling MCP clients like Cursor/IDE to connect."
+      - zh: "交付Streamlit对话式Web UI（上传Spec、会话管理、流式交互）和FastAPI HTTP Bridge，配套Mock API Server用于演示。"
+        en: "Delivered Streamlit conversational UI (spec upload, session management, streaming) and FastAPI HTTP bridge, plus a mock API server for demos."
+      - zh: "完成Docker Compose一键部署、环境变量安全管理（dotenv）、CLI入口及MCP stdio测试脚本，支持现场演示和后续扩展。"
+        en: "Completed Docker Compose one-command deployment, dotenv security, CLI entry points, and MCP stdio test scripts for live demo and future expansion."
+
+  - name: "Supply Chain Finance Miscellaneous Tools"
+    period: "2023/9 — 2026/4"
+    role:
+      zh: "Tech Lead / 主要贡献者"
+      en: "Tech Lead / Main Contributor"
+    stack:
+      - "Java 21/Spring Boot 4"
+      - "Angular 21"
+      - "OAuth2/LDAP"
+      - "Gradle/OpenRewrite"
+      - "Docker/K8s"
+      - "Jenkins/SonarQube/Spinnaker"
+    summary:
+      zh: "面向供应链财务团队的轻量级工具集平台，承载Item Cost Download、Cost Tag Upload等高频内部工具，覆盖Excel/CSV批量上传、成本数据下载、邮件通知等场景。通过Cisco LDAP实现统一身份接入和基于角色的访问控制（General User / Cost Manager等）。"
+      en: "Lightweight tools platform for Supply Chain Finance team, hosting high-frequency internal tools (Item Cost Download, Cost Tag Upload, etc.), covering Excel/CSV bulk uploads, cost data download, email notifications. Uses Cisco LDAP for unified authentication and RBAC (General User / Cost Manager)."
+    contributions:
+      - zh: "Angular SPA + Spring Boot同仓构建，Gradle (Kotlin DSL) 统一编排前后端，输出单一可执行Jar。"
+        en: "Co-located Angular SPA + Spring Boot in one repo, orchestrated by Gradle (Kotlin DSL) to produce a single executable Jar."
+      - zh: "基于Spring Security + OAuth2 + Cisco LDAP实现SSO和RBAC双重校验；前端对齐Cisco设计规范，交付文件上传器、Session过期弹窗等通用组件。"
+        en: "Implemented SSO and RBAC with Spring Security + OAuth2 + Cisco LDAP; aligned frontend with Cisco Design System and delivered common components (file uploader, session expiry modal)."
+      - zh: "维护OpenAPI v3规范并落地代码生成（Spring接口 + TypeScript SDK），消除前后端契约漂移。"
+        en: "Maintained OpenAPI v3 contracts and code generation (Spring interfaces + TypeScript SDK) to eliminate contract drift."
+      - zh: "通过OpenRewrite主导Spring Boot 2→4.0、Angular→21等多次大版本升级，沉淀可复用升级范式。"
+        en: "Led major version upgrades (Spring Boot 2→4.0, Angular→21) via OpenRewrite, codifying reusable upgrade patterns."
+      - zh: "搭建Jenkins + SonarQube Quality Gate + SAST + Spinnaker自动化交付链路；镜像迁移至Chainguard安全基础镜像；接入Conjur密钥托管；维护8套环境配置，主导生产凭证轮换与漏洞修复。"
+        en: "Built Jenkins + SonarQube Quality Gate + SAST + Spinnaker delivery pipeline; migrated images to Chainguard secure base; integrated Conjur secrets; maintained 8 environments; led production credential rotation and vulnerability fixes."
+
+  - name:
+      zh: "CART-Kafka — CBM数据接入微服务"
+      en: "CART-Kafka — CBM Data Ingestion Microservice"
+    period: "2024/7 — 2026/4"
+    role: "Tech Lead"
+    stack:
+      - "Java 21/Spring Boot 4"
+      - "Spring Kafka"
+      - "Oracle"
+      - "OAuth2"
+      - "OpenRewrite"
+    summary:
+      zh: "CART项目的上游数据接入微服务，独立部署。消费Oracle Cloud的CBM (Component Business Model) Kafka数据流，将组件业务数据近实时复制到企业ESM系统的XXCART接口表（GL、AP、PO、RCV、Material Transactions、XLA等十余张核心财务表），为CART的成本分析与对账提供原始数据底座。"
+      en: "Upstream data-ingestion microservice for CART, deployed separately. Consumes CBM Kafka streams from Oracle Cloud, near-real-time replicates component business data into ESM's XXCART interface tables (10+ core finance tables: GL, AP, PO, RCV, Material Transactions, XLA, etc.), providing raw data foundation for CART cost analysis and reconciliation."
+    contributions:
+      - zh: "从0到1设计架构：独立微服务 + 双Oracle数据源（ESM/CG1），将数据接入与业务计算解耦。"
+        en: "Designed architecture from scratch: independent microservice + dual Oracle data sources (ESM/CG1), decoupling ingestion from business logic."
+      - zh: "实现Kafka Consumer框架、双数据源自动配置、CBM实体模型及持久化层、处理日志等核心模块。"
+        en: "Implemented Kafka Consumer framework, dual-source auto-configuration, CBM entity model and persistence, processing logs, and other core modules."
+      - zh: "采用Hibernate批量写入优化（jdbc.batch_size + order_inserts/updates + batch切片saveAll），避免逐条flush，大幅提升Oracle写入吞吐。"
+        en: "Optimized Hibernate batch writes (jdbc.batch_size + order_inserts/updates + batch-sliced saveAll) to avoid row-by-row flush, dramatically increasing Oracle write throughput."
+      - zh: "通过OpenRewrite主导Spring Boot 2.x→3.2→3.5→4.0、Java→21多轮升级（适配Confluent Kafka 7.6），沉淀可复用升级范式。"
+        en: "Led multi-round upgrades (Spring Boot 2.x→3.2→3.5→4.0, Java→21) via OpenRewrite, adapting Confluent Kafka 7.6, codifying reusable patterns."
+      - zh: "完成Cert Auth→OAuth2迁移和Conjur密钥托管；落地SonarQube Quality Gate + SAST + Dependabot + PMD/CPD + JaCoCo多重质量门禁；构建迁移至Cisco IT Golden Pipeline，统一构建、扫描、镜像发布和Spinnaker部署。"
+        en: "Migrated Cert Auth to OAuth2 and integrated Conjur secrets; implemented quality gates (SonarQube, SAST, Dependabot, PMD/CPD, JaCoCo); migrated build to Cisco IT Golden Pipeline for unified build, scan, image publish, and Spinnaker deployment."
+      - zh: "维护9套环境配置，主导生产证书轮换和漏洞修复（Qwiet/Tomcat CVE等）；作为PR主Reviewer，指导团队成员完成大量功能开发。"
+        en: "Maintained 9 environment configs; led production certificate rotation and vulnerability fixes (Qwiet/Tomcat CVEs); acted as primary PR reviewer, mentoring team members on feature development."
+
+  - name:
+      zh: "CART — 成本分析与对账系统"
+      en: "CART — Cost Analysis and Reconciliation Tool"
+    period: "2020/9 — 2026/4"
+    role: "Tech Lead"
+    stack:
+      - "Java 21/Spring Boot 4"
+      - "Angular 21"
+      - "Oracle/Redis"
+      - "OAuth2/LDAP"
+      - "OpenShift"
+      - "Jenkins/Spinnaker"
+    summary:
+      zh: "供应链财务核心业务系统，自动化日结成本差异分析与子账(CG1)/总账(CFN)/Cloud(CBM)三源对账，将分配/未分配数据推送至DFA/ICPM管理报表系统。前后端独立部署（cart-api + cart-ui双Repo），后端22个Controller/43个Service，前端17个业务模块，是部门内较大的真实业务系统。"
+      en: "Core Supply Chain Finance system automating day-end cost variance analysis and three-source reconciliation (Sub-Ledger CG1 / General Ledger CFN / Cloud CBM), pushing allocated/unallocated data to DFA/ICPM reporting systems. Frontend/backend separate repos (cart-api + cart-ui), backend has 22 controllers/43 services, frontend 17 business modules—a large real-world system in the department."
+    contributions:
+      - zh: "基于此前项目经验，主导搭建前后端分离的全栈脚手架，并演进为多团队共享的参考实现。"
+        en: "Based on previous project experience, led the creation of a full-stack scaffold and evolved it into a shared reference implementation for multiple teams."
+      - zh: "基于Spring Security + OAuth2 Client + Resource Server + Cisco LDAP实现SSO、RBAC和服务间鉴权，引入OWASP ESAPI进行输入安全防护。"
+        en: "Implemented SSO, RBAC, and service-to-service auth with Spring Security + OAuth2 Client + Resource Server + Cisco LDAP; used OWASP ESAPI for input security."
+      - zh: "设计并实现Cisco COS / AWS S3集成，统一抽象对象存储能力（含bucket生命周期策略），覆盖大文件上传、归档和下载。"
+        en: "Designed and implemented Cisco COS / AWS S3 integration with unified object storage abstraction (including bucket lifecycle policies), covering large file upload, archive, and download."
+      - zh: "通过OpenRewrite主导Spring Boot升级至4.0、Java 21、Angular 21等大版本演进；接入Micrometer Tracing + Brave分布式追踪。"
+        en: "Led major version upgrades (Spring Boot 4.0, Java 21, Angular 21) via OpenRewrite; integrated Micrometer Tracing + Brave for distributed tracing."
+      - zh: "搭建Jenkins + SonarQube Quality Gate + SAST + PMD + JaCoCo + Spinnaker自动化交付链路和OpenShift多DC运行环境；集成Conjur密钥托管；维护多套环境配置，主导生产凭证轮换与漏洞修复。"
+        en: "Built Jenkins + SonarQube Quality Gate + SAST + PMD + JaCoCo + Spinnaker delivery pipeline and OpenShift multi-DC runtime; integrated Conjur secrets; maintained multiple environment configs; led production credential rotation and vulnerability fixes."
+
+  - name: "RCE — Royalty Calculation Engine"
+    period: "2018/7 — 2026/4"
+    role: "Tech Lead"
+    stack:
+      - "Java 21/Spring Boot 4"
+      - "Angular 21/Nx Monorepo"
+      - "OAuth2/JWT/LDAP"
+      - "Oracle/Redis"
+      - "OpenShift"
+      - "Jenkins/SonarQube/Spinnaker"
+    summary:
+      zh: "Cisco全公司用于计算外付供应商专利税的核心业务系统，与Supply Chain、PLM、Finance、Data Warehouse等系统集成。前后端独立部署（rcecloud-api + rcecloud-ui Nx Monorepo），覆盖30+业务模块，是部门内体量最大的系统。"
+      en: "Cisco's enterprise-wide system for calculating outbound royalty payments to suppliers, integrated with Supply Chain, PLM, Finance, Data Warehouse. Frontend/backend separate (rcecloud-api + rcecloud-ui Nx Monorepo), covering 30+ business modules—the largest system in the department."
+    contributions:
+      - zh: "带领US/India/China共9人团队，端到端负责Web应用的设计、开发、上线与运维；亲自完成基础架构、程序框架和大量业务模块代码，持续指导团队。"
+        en: "Led 9-person team across US/India/China, owning end-to-end design, development, release, and operations; personally built foundation, framework, and large parts of business modules; continuously mentored the team."
+      - zh: "前后端完全分离 + API-First (OpenAPI v3) 代码生成；OAuth2 Client + Resource Server + LDAP + JWT实现SSO、RBAC和Stateless鉴权；部署于OpenShift私有云，实现多DC负载均衡、自动伸缩与自愈。"
+        en: "Full frontend/backend separation + API-First (OpenAPI v3) code generation; OAuth2 Client + Resource Server + LDAP + JWT for SSO, RBAC, stateless auth; deployed on OpenShift private cloud with multi-DC load balancing, auto-scaling, self-healing."
+      - zh: "率先落地Blue-Green部署——供应链IT部门首个具备此能力的项目。"
+        en: "Pioneered Blue-Green deployment—the first project in Supply Chain IT to have this capability."
+      - zh: "前端基于Nx Monorepo，孵化可发布的跨团队共享库 @scf/common-lib（通过Cisco Artifactory发布），统一供应链财务前端组件与服务。"
+        en: "Frontend on Nx Monorepo, incubated a publishable cross-team shared library @scf/common-lib (distributed via Cisco Artifactory), unifying frontend components and services across Supply Chain Finance."
+      - zh: "通过OpenRewrite主导Spring Boot升级至4.0、Java 21、Angular 21；接入Micrometer Tracing + Brave分布式追踪；引入TA JWT (RSA签名)测试认证机制，解决SSO阻塞自动化测试的痛点。"
+        en: "Led Spring Boot→4.0, Java→21, Angular→21 upgrades via OpenRewrite; integrated Micrometer Tracing + Brave; introduced TA JWT (RSA-signed) test auth to solve SSO blocking automated tests."
+      - zh: "搭建Jenkins + SonarQube Quality Gate + SAST + SCA + PMD + JaCoCo + Dependabot + Spinnaker交付链路；推动镜像迁移至Chainguard安全基础镜像；集成Conjur密钥托管。"
+        en: "Built Jenkins + SonarQube Quality Gate + SAST + SCA + PMD + JaCoCo + Dependabot + Spinnaker delivery pipeline; migrated images to Chainguard secure base; integrated Conjur secrets."
+
+  - name: "Self Service Model"
+    period: "2014/11 — 2018/1"
+    stack: ["RedHat", "Java", "Shell"]
+    summary:
+      zh: "优化构建和部署流程，让Dev/QA团队可以自助上线，实现一次构建、多次部署。开发Continuous Delivery Portal，提供各阶段的实时数据和统计报表。"
+      en: "Optimized build and deployment workflows to enable Dev/QA self-service releases with Build-Once / Deploy-Many. Developed a Continuous Delivery Portal providing real-time data and statistics for each stage."
+    contributions:
+      zh: "制定新流程，负责架构设计和技术选型，完成POC验证可行性。制定项目计划并跟踪实施，培训Dev/QA团队使用新流程和Portal。"
+      en: "Defined the new process; led architecture design and technology selection; completed POC. Planned and tracked rollout; trained Dev/QA teams on new process and Portal."
+
+  - name: "Continuous Delivery Transformation"
+    period: "2013/11 — 2014/10"
+    stack: ["Stash", "Jenkins", "Artifactory", "SonarQube", "UrbanCode Deploy/Release"]
+    summary:
+      zh: "Cisco IT部门的CDT项目，提供统一平台。将旧有的Git、Jenkins、Artifactory迁移到新平台，使用uDeploy和uRelease实现自动化部署和上线管理。"
+      en: "Cisco IT's CDT initiative providing a unified platform. Migrated legacy Git, Jenkins, Artifactory to the new platform; used uDeploy and uRelease for automated deployment and release management."
+    contributions:
+      zh: "了解新平台特性，制定项目计划，指导团队成员完成迁移。研究uDeploy和uRelease，给出可行性方案。与美国、印度平台团队协作沟通。"
+      en: "Learned new platform features, created project plan, mentored team through migration. Studied uDeploy/uRelease and provided feasibility assessment. Collaborated with platform teams in US and India."
+
+  - name: "Data Center Migration"
+    period: "2012/7 — 2013/10"
+    stack: ["RedHat", "WebLogic", "Oracle HTTP Server"]
+    summary:
+      zh: "将部分应用从旧WebEx数据中心迁移到标准Cisco数据中心。"
+      en: "Migrated some applications from legacy WebEx Data Center to standard Cisco Data Center."
+    contributions:
+      zh: "赴美参与前期架构讨论并完成POC。编写整套WLST自动化脚本，加速新环境搭建，提高重用性和效率，节省时间和成本。"
+      en: "Traveled to US for early architecture discussions and delivered POC. Wrote a full suite of WLST automation scripts to accelerate environment setup, improving reusability, efficiency, and saving time/cost."
+
+  - name: "Git Migration"
+    period: "2011/7 — 2012/6"
+    stack: ["RedHat", "Tomcat", "CVS", "Git", "Gitblit", "gitolite"]
+    summary:
+      zh: "从CVS迁移到Git。"
+      en: "Migrated from CVS to Git."
+    contributions:
+      zh: "完成POC，制定技术方案和计划。用英语培训开发人员Git技能，解决日常问题。带领DevOps成员按计划完成迁移。"
+      en: "Completed POC, defined tech strategy and plan. Trained developers (in English) on Git, answered daily questions. Led DevOps team to complete migration on schedule."
+
+  - name: "Continuous Integration"
+    period: "2009/9 — 2010/10"
+    stack: ["CruiseControl", "Jenkins"]
+    summary:
+      zh: "重构CruiseControl脚本，主导从CruiseControl迁移到Hudson/Jenkins。"
+      en: "Refactored CruiseControl scripts; led migration from CruiseControl to Hudson/Jenkins."
+
+  - name: "WebEx Elvis"
+    period: "2008/8 — 2009/8"
+    stack: ["PHP", "MySQL"]
+    summary:
+      zh: "维护内部生命周期管理系统，完成Bug修复和功能开发。"
+      en: "Maintained internal lifecycle management system (PHP + MySQL); fixed bugs and developed features."
+
+  - name: "Myify"
+    period: "2008/7 — 2009/8"
+    stack: ["PHP", "Zend", "Dojo"]
+    summary:
+      zh: "任务跟踪Web应用主开发，完成90%以上代码。"
+      en: "Lead developer of a task-tracking web app (PHP/Zend/Dojo); delivered 90%+ of the code."
+
+  - name: "Y!China NBS Platform"
+    period: "2007/10 — 2008/5"
+    stack: ["PHP", "Symfony"]
+    summary:
+      zh: "雅虎站长天下建站平台前端主开发，主导Symfony框架落地与后台管理模块。"
+      en: "Lead frontend engineer for Yahoo's site-builder platform; drove Symfony adoption and backend admin modules."
+
+  - name: "Y!China Blog UGC"
+    period: "2007/5 — 2007/7"
+    stack: ["PHP", "PostgreSQL"]
+    summary:
+      zh: "雅虎博客聚合前端架构设计与开发。"
+      en: "Frontend architecture and development for Yahoo's blog aggregation (PHP + PostgreSQL)."
+
+  - name: "Y!China Photo Service"
+    period: "2006/2 — 2007/5"
+    stack: ["PHP"]
+    summary:
+      zh: "雅虎相册前端主开发，配合运营将PV从<100万提升至2000万+。"
+      en: "Lead frontend engineer for Yahoo Photos; worked with operations to grow PV from <1M to 20M+."
+
+  - name:
+      zh: "国家外资年检系统"
+      en: "National Foreign Investment Annual Inspection System"
+    period: "2003/10 — 2004/2"
+    stack: [".NET"]
+    summary:
+      zh: "商务部联合7部委的.NET系统。"
+      en: ".NET system jointly launched by China's Ministry of Commerce and 7 ministries."
+
+side_projects:
+  - name:
+      zh: "RCE UI 重写为 React"
+      en: "RCE UI Rewrite in React"
+    period: "2026/4 — 2026/5"
+    stack:
+      - "React 19/TypeScript/Vite"
+      - "TanStack Query"
+      - "AG Grid Enterprise"
+      - "OIDC"
+      - "pnpm Monorepo"
+      - "AI Harness (Cursor/Claude Code)"
+    summary:
+      zh: "个人主导的探索项目：验证Vibe Coding和AI Harness实践，完成UI/UX现代化升级，利用React 19新特性优化性能。约2个月独立完成22个业务页面的全量重写。"
+      en: "Personal exploratory project: validated Vibe Coding and AI Harness practices, modernized UI/UX, leveraged React 19 for performance. Completed full rewrite of 22 business pages in ~2 months."
+    impact:
+      - zh: "沉淀pnpm Monorepo + React 19 + Vite + Orval + TanStack Query现代前端脚手架和参考实现；输出React vs Angular差异分析、分支策略、发布checklist等文档。"
+        en: "Produced modern frontend scaffold and reference implementation (pnpm Monorepo + React 19 + Vite + Orval + TanStack Query); authored docs on React vs Angular, branching strategy, release checklist."
+      - zh: "完成OIDC SSO、AG Grid Enterprise、多环境运行时配置注入、Docker容器化部署、Playwright E2E测试等企业级能力适配，达到生产可用水平。"
+        en: "Implemented OIDC SSO, AG Grid Enterprise, runtime multi-env config injection, Dockerized deployment, Playwright E2E tests, making the rewrite production-ready."
+      - zh: "综合运用Superpowers插件和自建Skills对AI Coding Agent进行Harness，形成可复用的Agent工作流（TDD、系统化调试、代码审查、计划执行），提升AI在复杂任务中的可控性和产出质量。"
+        en: "Combined Superpowers plugin and custom skills to harness AI Coding Agents into reusable workflows (TDD, systematic debugging, code review, plan execution), improving controllability and output quality."
+
+  - name:
+      zh: "Playwright 跨项目自动化测试框架"
+      en: "Playwright Cross-Project Test Automation"
+    period: "2025/2 — 2025/9"
+    stack:
+      - "Playwright/TypeScript"
+      - "Page Object Model"
+      - "TA JWT (RSA)"
+      - "DUO OIDC"
+      - "Express/Multer"
+      - "Docker/Jenkins"
+    summary:
+      zh: "为团队引入现代化、可复用、跨项目的E2E自动化测试体系，解决长期缺乏自动化、依赖手工回归的问题。"
+      en: "Introduced a modern, reusable, cross-project E2E automation system to solve the long-standing lack of automation and heavy reliance on manual regression."
+    impact:
+      - zh: "从0搭建通用测试框架，覆盖CART（E2E+API）和RCE（E2E/Regression/Smoke）多套测试矩阵，沉淀AG Grid自动化、Oracle DB直连校验、邮件通知等能力。"
+        en: "Built a general test framework from scratch, covering CART (E2E+API) and RCE (E2E/Regression/Smoke) matrices; delivered reusable utilities for AG Grid automation, direct Oracle DB validation, email notifications."
+      - zh: "设计TA JWT (RSA签名)测试认证方案，私钥经Conjur托管、CI中安全注入，彻底解决SSO无法自动化登录的难题。"
+        en: "Designed TA JWT (RSA-signed) test authentication; private key hosted in Conjur and securely injected in CI, solving SSO login blockers in unattended automation."
+      - zh: "自建并维护专用Playwright Docker镜像（含Oracle Instant Client），通过Jenkins Pipeline + 矩阵参数调度，每次PR/发布自动运行回归套件。"
+        en: "Built and maintained custom Playwright Docker images (including Oracle Instant Client); orchestrated with Jenkins pipeline + matrix parameters to auto-run regression on every PR/release."
+      - zh: "自建Test Report Server（Express + Multer），DUO OIDC保护浏览、OAuth2 JWT保护上传，Docker化部署，集中管理历史报告。"
+        en: "Built a Test Report Server (Express + Multer) with DUO OIDC for browsing and OAuth2 JWT for uploads; Dockerized and centralized historical reports."
+      - zh: "作为可复用模板被多个项目采纳，统一了团队的E2E测试标准。"
+        en: "Adopted as a reusable template by multiple projects, standardizing E2E testing practices."
+
+  - name: "NAS Video Downloader"
+    period: "2025/6 — 2025/7"
+    stack:
+      - "Python/yt-dlp"
+      - "PyYAML"
+      - "Docker Compose"
+      - "GitHub Actions"
+    repository: "github.com/zpkx/video-downloader"
+    summary:
+      zh: "个人开源项目，解决多平台视频批量下载与归档痛点：手工维护URL列表、按类别分目录保存、避免触发限流，支持NAS/容器环境中改配置即自动下载。"
+      en: "Open-source side project solving multi-platform bulk video download and archival: manually maintained URL lists, categorized directory saving, rate-limit avoidance, and auto-download on config change in NAS/container environments."
+    impact:
+      - zh: "封装VideoDownloader类，支持单URL、多URL、按类别批量下载，以及info-only/dry-run等非破坏性模式。"
+        en: "Encapsulated VideoDownloader class (yt-dlp) supporting single URL, multiple URLs, category-based bulk download, and non-destructive modes (info-only/dry-run)."
+      - zh: "使用urls.yaml定义分类目录、画质、延迟和URL列表；config.yaml集中管理yt-dlp选项，支持config目录自动探测加载。"
+        en: "Used urls.yaml for category folders, quality, delays, and URL lists; config.yaml for centralized yt-dlp options, with auto-discovery loading."
+      - zh: "提供Dockerfile + docker-compose（watcher/oneshot/manual多模式），监控urls.yaml变化自动触发下载；支持配置UID/GID避免权限问题。"
+        en: "Provided Dockerfile + docker-compose with watcher/oneshot/manual modes; monitors urls.yaml changes to trigger downloads; supports configurable UID/GID to avoid permission issues."
+      - zh: "配套docker-run.sh等脚本，分级日志、Cookie自动探测；通过GitHub Actions构建并发布镜像至GHCR，方便NAS长期拉取运行。"
+        en: "Included helper scripts (docker-run.sh), layered logging, auto cookie detection; built and published images to GHCR via GitHub Actions for long-term NAS deployment."
