@@ -6,15 +6,16 @@
   "description": "Academic CV starter template for Hugo Blox with Tailwind CSS v4",
   "scripts": {
     "dev": "hugo server --disableFastRender",
-    "build": "hugo --minify && pnpm run pagefind",
+    "build": "pnpm run resume:pdf && hugo --minify && pnpm run pagefind",
     "pagefind": "pagefind --site public",
-    "resume:pdf": "bash scripts/export-template-pdf.sh"
+    "resume:pdf": "node scripts/export-template-pdf.mjs"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.12",
     "@tailwindcss/typography": "^0.5.10",
     "pagefind": "^1.4.0",
     "preact": "^10.27.2",
+    "puppeteer": "^25.0.4",
     "tailwindcss": "^4.1.12"
   }
 }

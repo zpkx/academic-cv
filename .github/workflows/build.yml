@@ -85,6 +85,13 @@ jobs:
           pnpm install --no-frozen-lockfile || npm install
         fi
 
+    - name: Install Puppeteer browser
+      if: hashFiles('package.json') != ''
+      run: |
+        if grep -q "\"puppeteer\"" package.json; then
+          npx puppeteer browsers install chrome
+        fi
+
     - name: Verify Tailwind CSS dependency
       if: hashFiles('package.json') != ''
       run: |
@@ -125,6 +132,16 @@ jobs:
     - name: Setup Pages
       id: pages
       uses: actions/configure-pages@v5
+
+    - name: Generate resume PDFs
+      if: hashFiles('package.json') != ''
+      env:
+        CI: 'true'
+        PUPPETEER_NO_SANDBOX: '1'
+      run: |
+        if grep -q "\"resume:pdf\"" package.json; then
+          pnpm run resume:pdf
+        fi
 
     - name: Build with Hugo
       env:
