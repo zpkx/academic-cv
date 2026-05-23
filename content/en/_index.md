@@ -11,7 +11,7 @@ sections:
       text: ''
       button:
         text: Download CV
-        url: uploads/Peng_Zhang_resume_en_2026.pdf
+        url: ../uploads/Peng_Zhang_resume_en_2026.pdf
       headings:
         about: ''
         education: ''
