@@ -29,6 +29,9 @@ links:
   - icon: at-symbol
     url: mailto:zpkx@qq.com
     label: 电子邮件
+  - icon: "brands/github"
+    url: "https://github.com/zpkx"
+    label: "GitHub"
 
 interests:
   - AI应用与工程化
@@ -52,6 +55,7 @@ experience:
   - role: IT 软件工程技术负责人
     org: 思科系统（中国）研发有限公司 合肥分公司
     start: 2008-07-01
+    end: 2026-06-15
     summary: |
       **供应链 IT Source & Finance 团队 · Tech Lead**
 
