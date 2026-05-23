@@ -13,9 +13,10 @@ sections:
       subtitle: ''
       text: |
 
-        ### SC GenAI Splunk — Supply Chain Alert Monitoring `Jan 2026 — Apr 2026`
+        ### SC GenAI Splunk — Supply Chain Alert Monitoring
+        - 📅 **Period**: Jan 2026 — Apr 2026
 
-        > **Stack**: Python · FastAPI · LangGraph · LangChain · Azure OpenAI · LangSmith · PyYAML · OAuth2 · Webex Adaptive Card · Snowflake · SMTP · pytest · Docker · Jenkins · Conjur
+        - **Stack**: Python · FastAPI · LangGraph · LangChain · Azure OpenAI · LangSmith · PyYAML · OAuth2 · Webex Adaptive Card · Snowflake · SMTP · pytest · Docker · Jenkins · Conjur
 
         Supply Chain GenAI Splunk alert monitoring platform. Receives Splunk alerts via **FastAPI Webhook**,
         applies app identification, pattern matching, and **LangGraph AI Agent** analysis, then sends intelligent
@@ -28,9 +29,10 @@ sections:
 
         ---
 
-        ### GenAI Self Service Hub Service `Feb 2026 — Apr 2026`
+        ### GenAI Self Service Hub Service
+        - 📅 **Period**: Feb 2026 — Apr 2026
 
-        > **Stack**: Python 3.11+ · FastAPI · Pydantic · PyYAML · Alation REST API · boto3 · S3 · Poetry · pytest
+        - **Stack**: Python 3.11+ · FastAPI · Pydantic · PyYAML · Alation REST API · boto3 · S3 · Poetry · pytest
 
         Backend microservice for Cisco GenAI's **Self Service Hub**, providing business teams with self-service
         capabilities for knowledge bases, documents, Agent Workflows, and MCP Registry. Owned the **Semantic Layer** build-out.
@@ -42,9 +44,10 @@ sections:
 
         ---
 
-        ### Cisco IT Supply Chain GenAI Platform `Jun 2025 — Jan 2026`
+        ### Cisco IT Supply Chain GenAI Platform
+        - 📅 **Period**: Jun 2025 — Jan 2026
 
-        > **Stack**: Python · Streamlit · Duo SSO · GPU (CUDA) · OpenStack · HTTPS/TLS · Poetry · CI/CD · Ansible
+        - **Stack**: Python · Streamlit · Duo SSO · GPU (CUDA) · OpenStack · HTTPS/TLS · Poetry · CI/CD · Ansible
 
         Internal AI Q&A and automation platform for Cisco Supply Chain based on **RAG + LangGraph**,
         integrated with multiple enterprise systems.
@@ -57,9 +60,10 @@ sections:
 
         ---
 
-        ### API Maestro — Cisco IT Hackathon 2025 `May 2025 — Jun 2025`
+        ### API Maestro — Cisco IT Hackathon 2025
+        - 📅 **Period**: May 2025 — Jun 2025
 
-        > **Stack**: Python 3.12 · LangChain · LangGraph · FastMCP · Streamlit · FastAPI · OpenAPI/Swagger · BridgeIT · Docker Compose · PyYAML · Requests · ReAct Agent
+        - **Stack**: Python 3.12 · LangChain · LangGraph · FastMCP · Streamlit · FastAPI · OpenAPI/Swagger · BridgeIT · Docker Compose · PyYAML · Requests · ReAct Agent
 
         **Solo project** for Cisco IT Hackathon 2025. Drives any OpenAPI application with natural language:
         automatically parses OpenAPI/Swagger specs, understands endpoints and workflows, and translates
@@ -73,9 +77,10 @@ sections:
 
         ---
 
-        ### Supply Chain Finance Miscellaneous Tools `Sep 2023 — Present`
+        ### Supply Chain Finance Miscellaneous Tools
+        - 📅 **Period**: Sep 2023 — Present
 
-        > **Stack**: Java 21 · Spring Boot 4.0 · Spring Security · OAuth2 · Angular 21 · Gradle (Kotlin DSL) · Docker · Jenkins · Spinnaker · Conjur
+        - **Stack**: Java 21 · Spring Boot 4.0 · Spring Security · OAuth2 · Angular 21 · Gradle (Kotlin DSL) · Docker · Jenkins · Spinnaker · Conjur
 
         Lightweight tools platform for the Supply Chain Finance team, hosting multiple high-frequency
         internal business tools with Excel/CSV uploads, cost-data downloads, and email notifications.
@@ -88,9 +93,10 @@ sections:
 
         ---
 
-        ### CART-Kafka — CBM Data Ingestion Microservice `Jul 2024 — Present`
+        ### CART-Kafka — CBM Data Ingestion Microservice
+        - 📅 **Period**: Jul 2024 — Present
 
-        > **Stack**: Java 21 · Spring Boot 4.0 · Spring Kafka · Oracle · OAuth2 · Conjur · Docker · Jenkins · Spinnaker · OpenShift
+        - **Stack**: Java 21 · Spring Boot 4.0 · Spring Kafka · Oracle · OAuth2 · Conjur · Docker · Jenkins · Spinnaker · OpenShift
 
         Upstream data-ingestion microservice consuming the CBM Kafka stream from Oracle Cloud,
         replicating component business data into enterprise ESM interface tables.
@@ -103,9 +109,10 @@ sections:
 
         ---
 
-        ### CART — Cost Analysis and Reconciliation Tool `Sep 2020 — Present`
+        ### CART — Cost Analysis and Reconciliation Tool
+        - 📅 **Period**: Sep 2020 — Present
 
-        > **Stack**: Java 21 · Spring Boot 4.0 · Spring Security · OAuth2 · Oracle · Redis · OpenAPI v3 · AWS S3 · Angular 21 · AG Grid · Docker · Jenkins · Spinnaker · OpenShift
+        - **Stack**: Java 21 · Spring Boot 4.0 · Spring Security · OAuth2 · Oracle · Redis · OpenAPI v3 · AWS S3 · Angular 21 · AG Grid · Docker · Jenkins · Spinnaker · OpenShift
 
         Core Supply Chain Finance system automating day-end close — cost variance analysis and
         three-source reconciliation across Sub-Ledger / General Ledger / Cloud.
@@ -140,9 +147,10 @@ sections:
       subtitle: ''
       text: |
 
-        ### RCE UI Rewrite in React `Apr 2026 — May 2026`
+        ### RCE UI Rewrite in React
+        - 📅 **Period**: Apr 2026 — May 2026
 
-        > **Stack**: React 19 · TypeScript 6 · Vite 8 · Vitest · Playwright · React Router 7 · TanStack Query v5 · AG Grid Enterprise · Orval · OIDC · Cisco Atmosphere v4 · Tailwind CSS · pnpm Monorepo · Docker
+        - **Stack**: React 19 · TypeScript 6 · Vite 8 · Vitest · Playwright · React Router 7 · TanStack Query v5 · AG Grid Enterprise · Orval · OIDC · Cisco Atmosphere v4 · Tailwind CSS · pnpm Monorepo · Docker
 
         A personal exploration initiative pursuing multiple compounding goals: validate the
         **Vibe Coding** paradigm with AI Harness methodology, align UI/UX with the latest
@@ -155,9 +163,10 @@ sections:
 
         ---
 
-        ### Playwright Test Automation `2025 — 2026`
+        ### Playwright Test Automation
+        - 📅 **Period**: 2025 — 2026
 
-        > **Stack**: Playwright · TypeScript · Page Object Model · oracledb · TA JWT (RSA) · DUO OIDC · OAuth2 JWT · Express · Docker · Jenkins · Conjur
+        - **Stack**: Playwright · TypeScript · Page Object Model · oracledb · TA JWT (RSA) · DUO OIDC · OAuth2 JWT · Express · Docker · Jenkins · Conjur
 
         Cross-project E2E automation initiative introducing a modern, reusable testing framework for the team.
 
@@ -169,10 +178,11 @@ sections:
 
         ---
 
-        ### Video Downloader `Jun 2025 — Jul 2025`
+        ### Video Downloader
+        - 📅 **Period**: Jun 2025 — Jul 2025
 
-        > **Stack**: Python 3.12 · yt-dlp · PyYAML · Docker · Docker Compose · GitHub Actions · GHCR · Bash
-        > **Open Source**: [github.com/zpkx/video-downloader](https://github.com/zpkx/video-downloader)
+        - **Stack**: Python 3.12 · yt-dlp · PyYAML · Docker · Docker Compose · GitHub Actions · GHCR · Bash
+        - **Open Source**: [github.com/zpkx/video-downloader](https://github.com/zpkx/video-downloader)
 
         Personal open-source project for multi-platform batch video downloading and archiving.
         Supports YAML-driven URL management, category-based directory organization, rate-limit avoidance,

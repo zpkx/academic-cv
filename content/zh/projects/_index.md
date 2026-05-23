@@ -13,9 +13,10 @@ sections:
       subtitle: ''
       text: |
 
-        ### SC GenAI Splunk — Supply Chain Alert Monitoring `2026/1 — 2026/4`
+        ### SC GenAI Splunk — Supply Chain Alert Monitoring
+        - 📅 **项目周期**：2026/1 — 2026/4
 
-        > **技术栈**: Python · FastAPI · LangGraph · LangChain · Azure OpenAI · LangSmith · PyYAML · OAuth2 · Webex Adaptive Card · Snowflake · SMTP · pytest · Docker · Jenkins · Conjur
+        - **技术栈**: Python · FastAPI · LangGraph · LangChain · Azure OpenAI · LangSmith · PyYAML · OAuth2 · Webex Adaptive Card · Snowflake · SMTP · pytest · Docker · Jenkins · Conjur
 
         供应链 GenAI Splunk 告警监控平台，基于 **FastAPI Webhook** 接收 Splunk 告警，
         经应用识别、模式匹配与 **LangGraph AI Agent** 分析后，通过邮件 + Webex 双通道智能通知。
@@ -27,9 +28,10 @@ sections:
 
         ---
 
-        ### GenAI Self Service Hub Service `2026/2 — 2026/4`
+        ### GenAI Self Service Hub Service
+        - 📅 **项目周期**：2026/2 — 2026/4
 
-        > **技术栈**: Python 3.11+ · FastAPI · Pydantic · PyYAML · Alation REST API · boto3 · S3 · Poetry · pytest
+        - **技术栈**: Python 3.11+ · FastAPI · Pydantic · PyYAML · Alation REST API · boto3 · S3 · Poetry · pytest
 
         Cisco GenAI 平台的 **Self Service Hub** 后端微服务，为业务团队提供知识库、文档、Agent Workflow、MCP Registry 等自助能力。
         本人负责 **Semantic Layer（语义层）** 能力建设。
@@ -41,9 +43,10 @@ sections:
 
         ---
 
-        ### Cisco IT Supply Chain GenAI Platform `2025/6 — 2026/1`
+        ### Cisco IT Supply Chain GenAI Platform
+        - 📅 **项目周期**：2025/6 — 2026/1
 
-        > **技术栈**: Python · Streamlit · Duo SSO · GPU (CUDA) · OpenStack · HTTPS/TLS · Poetry · CI/CD · Ansible
+        - **技术栈**: Python · Streamlit · Duo SSO · GPU (CUDA) · OpenStack · HTTPS/TLS · Poetry · CI/CD · Ansible
 
         基于 **RAG + LangGraph** 为 Cisco 供应链构建的企业内部 AI 问答与自动化平台，集成多个企业系统，
         实现智能问答与业务自动化。
@@ -56,9 +59,10 @@ sections:
 
         ---
 
-        ### API Maestro — Cisco IT Hackathon 2025 `2025/5 — 2025/6`
+        ### API Maestro — Cisco IT Hackathon 2025
+        - 📅 **项目周期**：2025/5 — 2025/6
 
-        > **技术栈**: Python 3.12 · LangChain · LangGraph · FastMCP · Streamlit · FastAPI · OpenAPI/Swagger · BridgeIT · Docker Compose · PyYAML · Requests · ReAct Agent
+        - **技术栈**: Python 3.12 · LangChain · LangGraph · FastMCP · Streamlit · FastAPI · OpenAPI/Swagger · BridgeIT · Docker Compose · PyYAML · Requests · ReAct Agent
 
         **Solo 独立完成** 的 Cisco IT Hackathon 2025 参赛作品，用自然语言驱动任意 OpenAPI 应用：
         系统自动解析 OpenAPI/Swagger 规范，将用户的口语化指令翻译为精准的 HTTP API 调用。
@@ -71,9 +75,10 @@ sections:
 
         ---
 
-        ### Supply Chain Finance Miscellaneous Tools `2023/9 — 至今`
+        ### Supply Chain Finance Miscellaneous Tools
+        - 📅 **项目周期**：2023/9 — 至今
 
-        > **技术栈**: Java 21 · Spring Boot 4.0 · Spring Security · OAuth2 · Angular 21 · Gradle (Kotlin DSL) · Docker · Jenkins · Spinnaker · Conjur
+        - **技术栈**: Java 21 · Spring Boot 4.0 · Spring Security · OAuth2 · Angular 21 · Gradle (Kotlin DSL) · Docker · Jenkins · Spinnaker · Conjur
 
         面向供应链财务团队的轻量级工具集平台，承载多个高频内部业务工具，
         覆盖 Excel/CSV 批量上传、成本数据下载、邮件通知等场景。
@@ -86,9 +91,10 @@ sections:
 
         ---
 
-        ### CART-Kafka — CBM 数据接入微服务 `2024/7 — 至今`
+        ### CART-Kafka — CBM 数据接入微服务
+        - 📅 **项目周期**：2024/7 — 至今
 
-        > **技术栈**: Java 21 · Spring Boot 4.0 · Spring Kafka · Oracle · OAuth2 · Conjur · Docker · Jenkins · Spinnaker · OpenShift
+        - **技术栈**: Java 21 · Spring Boot 4.0 · Spring Kafka · Oracle · OAuth2 · Conjur · Docker · Jenkins · Spinnaker · OpenShift
 
         CART 项目的上游数据接入微服务，消费 Oracle Cloud 的 CBM Kafka 数据流，
         将组件业务数据近实时复制到企业 ESM 系统的 XXCART schema 接口表中。
@@ -101,9 +107,10 @@ sections:
 
         ---
 
-        ### CART — Cost Analysis and Reconciliation Tool `2020/9 — 至今`
+        ### CART — Cost Analysis and Reconciliation Tool
+        - 📅 **项目周期**：2020/9 — 至今
 
-        > **技术栈**: Java 21 · Spring Boot 4.0 · Spring Security · OAuth2 · Oracle · Redis · OpenAPI v3 · AWS S3 · Angular 21 · AG Grid · Docker · Jenkins · Spinnaker · OpenShift
+        - **技术栈**: Java 21 · Spring Boot 4.0 · Spring Security · OAuth2 · Oracle · Redis · OpenAPI v3 · AWS S3 · Angular 21 · AG Grid · Docker · Jenkins · Spinnaker · OpenShift
 
         供应链财务核心业务系统，自动化日结流程中的成本差异分析与子账/总账/Cloud 三源对账，
         后端 22 个 Controller/43 个 Service，前端 17 个业务模块。
@@ -138,9 +145,10 @@ sections:
       subtitle: ''
       text: |
 
-        ### RCE UI 重写为 React `2026/4 — 2026/5`
+        ### RCE UI 重写为 React
+        - 📅 **项目周期**：2026/4 — 2026/5
 
-        > **技术栈**: React 19 · TypeScript 6 · Vite 8 · Vitest · Playwright · React Router 7 · TanStack Query v5 · AG Grid Enterprise · Orval · OIDC · Cisco Atmosphere v4 · Tailwind CSS · pnpm Monorepo · Docker
+        - **技术栈**: React 19 · TypeScript 6 · Vite 8 · Vitest · Playwright · React Router 7 · TanStack Query v5 · AG Grid Enterprise · Orval · OIDC · Cisco Atmosphere v4 · Tailwind CSS · pnpm Monorepo · Docker
 
         个人主导的探索性 Initiative，验证 **Vibe Coding** 模式与 AI Harness 实践，
         对齐最新 Cisco Design System (Atmosphere v4)，提升代码质量与性能。
@@ -152,9 +160,10 @@ sections:
 
         ---
 
-        ### Playwright Test Automation `2025 — 2026`
+        ### Playwright Test Automation
+        - 📅 **项目周期**：2025 — 2026
 
-        > **技术栈**: Playwright · TypeScript · Page Object Model · oracledb · TA JWT (RSA) · DUO OIDC · OAuth2 JWT · Express · Docker · Jenkins · Conjur
+        - **技术栈**: Playwright · TypeScript · Page Object Model · oracledb · TA JWT (RSA) · DUO OIDC · OAuth2 JWT · Express · Docker · Jenkins · Conjur
 
         为团队引入现代化、可复用、跨项目通用的端到端自动化测试体系。
 
@@ -166,10 +175,11 @@ sections:
 
         ---
 
-        ### Video Downloader `2025/6 — 2025/7`
+        ### Video Downloader
+        - 📅 **项目周期**：2025/6 — 2025/7
 
-        > **技术栈**: Python 3.12 · yt-dlp · PyYAML · Docker · Docker Compose · GitHub Actions · GHCR · Bash
-        > **开源仓库**: [github.com/zpkx/video-downloader](https://github.com/zpkx/video-downloader)
+        - **技术栈**: Python 3.12 · yt-dlp · PyYAML · Docker · Docker Compose · GitHub Actions · GHCR · Bash
+        - **开源仓库**: [github.com/zpkx/video-downloader](https://github.com/zpkx/video-downloader)
 
         个人业余开源项目，解决多平台视频批量下载与归档痛点：手工维护 URL 列表、按类别分目录保存、避免触发限流，支持 NAS/容器环境改配置即自动下载。
 
