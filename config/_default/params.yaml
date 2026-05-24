@@ -26,6 +26,7 @@ hugoblox:
     align: center
     search: true
     theme_toggle: true
+    theme_picker: true
   footer:
     style: minimal
     language_switcher: true
