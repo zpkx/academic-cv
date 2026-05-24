@@ -5,13 +5,11 @@
 # Default language
 en:
   locale: en-us
-  contentDir: content/en
   title: Peng Zhang
 
 # Chinese language
 zh:
   locale: zh-Hans
-  contentDir: content/zh
   title: 张鹏
   params:
     hugoblox:
@@ -30,5 +28,5 @@ zh:
         url: projects/
         weight: 30
       - name: 博客
-        url: post/
+        url: blog/
         weight: 40

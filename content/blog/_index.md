@@ -2,6 +2,7 @@
 title: 技术博客
 date: 2026-05-24
 type: landing
+aliases: [/post/]
 
 sections:
   - block: collection
@@ -12,8 +13,5 @@ sections:
       count: 10
       filters:
         folders:
-          - post
-    design:
-      view: compact
-      columns: '1'
+          - blog
 ---

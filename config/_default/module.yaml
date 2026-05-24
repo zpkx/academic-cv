@@ -27,3 +27,18 @@ mounts:
     target: layouts
   - source: assets
     target: assets
+  - source: content/zh
+    target: content
+    sites:
+      matrix:
+        languages: [zh]
+  - source: content/en
+    target: content
+    sites:
+      matrix:
+        languages: [en]
+  - source: content/blog
+    target: content/blog
+    sites:
+      matrix:
+        languages: [zh, en]
