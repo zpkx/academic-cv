@@ -9,6 +9,9 @@
 # Generated site output
 public/
 
+# Generated static assets
+static/
+
 # Hugo resources (processed assets)
 resources/
 
