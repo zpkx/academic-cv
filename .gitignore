@@ -44,6 +44,8 @@ node_modules/
 # Generated Content
 # ============================================================================
 
+docs/
+
 # Pagefind search index
 pagefind/
 static/pagefind/
