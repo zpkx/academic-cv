@@ -4,6 +4,8 @@ date: 2026-05-24
 authors: [me]
 summary: 深入剖析一个在线简历系统的技术实现——Hugo 静态站点生成、Puppeteer PDF 导出流水线、YAML 驱动的双语数据架构，以及 GitHub Actions 自动化部署。前后花了一天时间，从想法到上线。
 tags: [architecture, hugo, pdf-generation, puppeteer, github-actions]
+image:
+  filename: featured.jpeg
 ---
 
 ## 前言
