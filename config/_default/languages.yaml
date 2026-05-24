@@ -29,3 +29,6 @@ zh:
       - name: 项目
         url: projects/
         weight: 30
+      - name: 博客
+        url: post/
+        weight: 40
